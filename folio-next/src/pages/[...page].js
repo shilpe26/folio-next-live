@@ -1,4 +1,3 @@
-// pages/[...page].tsx
 import { BuilderComponent, builder, useIsPreviewing } from "@builder.io/react";
 import DefaultErrorPage from "next/error";
 import Head from "next/head";
