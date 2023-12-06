@@ -42,17 +42,17 @@ export async function getStaticProps({ params, locale }) {
 // Define a function that generates the
 // static paths for all pages in Builder
 export async function getStaticPaths() {
-	// Get a list of all pages in Builder
 	const pages = await builder.getAll("page", {
-		// We only need the URL field
 		fields: "data.url",
 		options: { noTargeting: true },
 	});
-	// Generate the static paths for all pages in Builder
+
+	const uniquePaths = Array.from(
+		new Set(pages.map((page) => `${page.data?.url}`.trim()))
+	).filter((url) => url !== "/");
+
 	return {
-		paths: pages
-			.map((page) => `${page.data?.url}`)
-			.filter((url) => url !== "/"),
+		paths: uniquePaths,
 		fallback: "blocking",
 	};
 }
