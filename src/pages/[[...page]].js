@@ -52,7 +52,7 @@ export async function getStaticPaths() {
 	// Generate the static paths for all pages in Builder
 	return {
 		paths: pages.map((page) => ({
-			params: { page: page.data?.url?.slice(1).split("/") }, // Remove the leading slash and split the URL into an array of strings
+			params: { page: page.data?.url?.slice(1).split("/")[0] || "" }, // Use the first segment of the array
 		})),
 		fallback: true,
 	};
