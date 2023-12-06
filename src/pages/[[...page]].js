@@ -42,21 +42,21 @@ export async function getStaticProps({ params, locale }) {
 // Define a function that generates the
 // static paths for all pages in Builder
 export async function getStaticPaths() {
-	// Get a list of all pages in Builder
 	const pages = await builder.getAll("page", {
-		// We only need the URL field
 		fields: "data.url",
 		options: { noTargeting: true },
 	});
 
-	// Generate the static paths for all pages in Builder
+	const paths = pages.map((page) => ({
+		params: { page: [page.data?.url?.slice(1).split("/")[0] || ""] },
+	}));
+
 	return {
-		paths: pages.map((page) => ({
-			params: { page: page.data?.url?.slice(1).split("/")[0] || "" }, // Use the first segment of the array
-		})),
+		paths,
 		fallback: true,
 	};
 }
+
 Builder?.registerComponent(
 	dynamic(() => import("../sections/landing1/Hero.js")),
 	{
