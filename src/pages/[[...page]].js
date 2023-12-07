@@ -64,22 +64,27 @@ Builder?.registerComponent(
 		image: "https://tabler-icons.io/static/tabler-icons/icons-png/id-badge.png",
 		inputs: [
 			{
-				name: "title",
+				name: "dynamicText",
 				type: "string",
 				required: true,
-				defaultValue: "I am a React + Tailwind component!",
+				defaultValue: "ILLUSTRATOR, GRAPHIC DESIGNER, TRAVELER",
 			},
 			{
-				name: "description",
+				name: "descriptionText",
 				type: "text",
-				defaultValue:
-					"You can find my source code at: https://github.com/BuilderIO/blog-example/blob/main/components/Card.js",
+				defaultValue: "I design digital crafts for clients.",
 				required: true,
 			},
 			{
+				name: "buttonText",
+				type: "text",
+				defaultValue: "Explore works",
+				required: true,
+			},
+
+			{
 				name: "imgSrc",
-				defaultValue:
-					"https://cdn.builder.io/api/v1/image/assets%2Fccda6c7abf4c4b8195aa67d47de420dd%2F784e7fa828bd440391e222589df3968c",
+				defaultValue: "../assets/image/png/portrait-1.png",
 				friendlyName: "image",
 				type: "file",
 				allowedFileTypes: ["png", "jpg", "webp"],
@@ -137,13 +142,18 @@ Builder?.registerComponent(
 				name: "title",
 				type: "string",
 				required: true,
-				defaultValue: "I am a React + Tailwind component!",
+				defaultValue: "AVAILABLE FOR FREELANCE PROJECTS",
 			},
 			{
 				name: "description",
 				type: "text",
-				defaultValue:
-					"You can find my source code at: https://github.com/BuilderIO/blog-example/blob/main/components/Card.js",
+				defaultValue: "Do you have illustration project? Let's talk.",
+				required: true,
+			},
+			{
+				name: "buttonText",
+				type: "text",
+				defaultValue: "Let's Talk Now",
 				required: true,
 			},
 			{
@@ -172,19 +182,23 @@ Builder?.registerComponent(
 				name: "title",
 				type: "string",
 				required: true,
-				defaultValue: "I am a React + Tailwind component!",
+				defaultValue: "HI, I AM BRUCE RYAN",
 			},
 			{
-				name: "description",
+				name: "description1",
 				type: "text",
-				defaultValue:
-					"You can find my source code at: https://github.com/BuilderIO/blog-example/blob/main/components/Card.js",
+				defaultValue: "Full Stack UX Designer",
+				required: true,
+			},
+			{
+				name: "description2",
+				type: "text",
+				defaultValue: "who loves nature!",
 				required: true,
 			},
 			{
 				name: "imgSrc",
-				defaultValue:
-					"https://cdn.builder.io/api/v1/image/assets%2Fccda6c7abf4c4b8195aa67d47de420dd%2F784e7fa828bd440391e222589df3968c",
+				defaultValue: "../assets/image/jpg/portfolio-about-2.jpg",
 				friendlyName: "image",
 				type: "file",
 				allowedFileTypes: ["png", "jpg", "webp"],
@@ -217,6 +231,12 @@ Builder?.registerComponent(
 				required: true,
 			},
 			{
+				name: "buttonText",
+				type: "text",
+				defaultValue: "Load more works",
+				required: true,
+			},
+			{
 				name: "imgSrc",
 				defaultValue:
 					"https://cdn.builder.io/api/v1/image/assets%2Fccda6c7abf4c4b8195aa67d47de420dd%2F784e7fa828bd440391e222589df3968c",
@@ -242,7 +262,8 @@ Builder?.registerComponent(
 				name: "title",
 				type: "string",
 				required: true,
-				defaultValue: "I am a React + Tailwind component!",
+				defaultValue:
+					"I am taking new projects. Waiting to hearing about new projects, so if you'd like to chat please get in touch.",
 			},
 			{
 				name: "description",
@@ -260,7 +281,14 @@ Builder?.registerComponent(
 				allowedFileTypes: ["png", "jpg", "webp"],
 			},
 			{
-				name: "href",
+				name: "href1",
+				defaultValue: "contact@folio.design",
+				friendlyName: "link",
+				type: "url",
+			},
+			{
+				name: "href2",
+				defaultValue: "linkedin.com/folio",
 				friendlyName: "link",
 				type: "url",
 			},
@@ -277,7 +305,13 @@ Builder?.registerComponent(
 				name: "title",
 				type: "string",
 				required: true,
-				defaultValue: "I am a React + Tailwind component!",
+				defaultValue: "Complete Solution for SaaS Business.",
+			},
+			{
+				name: "buttonText",
+				type: "string",
+				required: true,
+				defaultValue: "Let's Talk Now",
 			},
 			{
 				name: "description",
@@ -288,8 +322,7 @@ Builder?.registerComponent(
 			},
 			{
 				name: "imgSrc",
-				defaultValue:
-					"https://cdn.builder.io/api/v1/image/assets%2Fccda6c7abf4c4b8195aa67d47de420dd%2F784e7fa828bd440391e222589df3968c",
+				defaultValue: "../assets/image/jpg/portfolio-about-3.jpg",
 				friendlyName: "image",
 				type: "file",
 				allowedFileTypes: ["png", "jpg", "webp"],
@@ -347,8 +380,15 @@ Builder?.registerComponent(
 				name: "title",
 				type: "string",
 				required: true,
-				defaultValue: "I am a React + Tailwind component!",
+				defaultValue: "Ready to talk?",
 			},
+			{
+				name: "buttonText",
+				type: "string",
+				required: true,
+				defaultValue: "Let's Talk Now",
+			},
+			,
 			{
 				name: "description",
 				type: "text",
@@ -382,13 +422,25 @@ Builder?.registerComponent(
 				name: "title",
 				type: "string",
 				required: true,
-				defaultValue: "I am a React + Tailwind component!",
+				defaultValue: "Code. Eat. Sleep.",
 			},
 			{
-				name: "description",
+				name: "description1",
 				type: "text",
 				defaultValue:
-					"You can find my source code at: https://github.com/BuilderIO/blog-example/blob/main/components/Card.js",
+					"I create meaningful solutions for your brands and products.",
+				required: true,
+			},
+			{
+				name: "description2",
+				type: "text",
+				defaultValue: "Give your customers the best experience possible.",
+				required: true,
+			},
+			{
+				name: "buttonText",
+				type: "text",
+				defaultValue: "Check latest works",
 				required: true,
 			},
 			{
@@ -427,6 +479,12 @@ Builder?.registerComponent(
 				required: true,
 			},
 			{
+				name: "buttonText",
+				type: "text",
+				defaultValue: "Load more works",
+				required: true,
+			},
+			{
 				name: "imgSrc",
 				defaultValue:
 					"https://cdn.builder.io/api/v1/image/assets%2Fccda6c7abf4c4b8195aa67d47de420dd%2F784e7fa828bd440391e222589df3968c",
@@ -452,7 +510,13 @@ Builder?.registerComponent(
 				name: "title",
 				type: "string",
 				required: true,
-				defaultValue: "I am a React + Tailwind component!",
+				defaultValue: "Give your product a shape",
+			},
+			{
+				name: "buttonText",
+				type: "string",
+				required: true,
+				defaultValue: "Let's Talk Now",
 			},
 			{
 				name: "description",
@@ -487,14 +551,25 @@ Builder?.registerComponent(
 				name: "title",
 				type: "string",
 				required: true,
-				defaultValue: "I am a React + Tailwind component!",
+				defaultValue: "Best digital design agency in New York",
 			},
 			{
-				name: "description",
+				name: "description1",
 				type: "text",
-				defaultValue:
-					"You can find my source code at: https://github.com/BuilderIO/blog-example/blob/main/components/Card.js",
+				defaultValue: "We create solutions",
 				required: true,
+			},
+			{
+				name: "description2",
+				type: "text",
+				defaultValue: "for your brands",
+				required: true,
+			},
+			{
+				name: "buttonText",
+				type: "string",
+				required: true,
+				defaultValue: "Explore works",
 			},
 			{
 				name: "imgSrc",
@@ -523,6 +598,12 @@ Builder?.registerComponent(
 				type: "string",
 				required: true,
 				defaultValue: "I am a React + Tailwind component!",
+			},
+			{
+				name: "buttonText",
+				type: "string",
+				required: true,
+				defaultValue: "Load more works",
 			},
 			{
 				name: "description",
@@ -557,13 +638,13 @@ Builder?.registerComponent(
 				name: "title",
 				type: "string",
 				required: true,
-				defaultValue: "I am a React + Tailwind component!",
+				defaultValue:
+					"We are taking new projects. Waiting to hearing from you, so if you'd like to chat please get in touch.",
 			},
 			{
-				name: "description",
+				name: "buttonText",
 				type: "text",
-				defaultValue:
-					"You can find my source code at: https://github.com/BuilderIO/blog-example/blob/main/components/Card.js",
+				defaultValue: "Let's Talk Now",
 				required: true,
 			},
 			{
@@ -592,19 +673,30 @@ Builder?.registerComponent(
 				name: "title",
 				type: "string",
 				required: true,
-				defaultValue: "I am a React + Tailwind component!",
+				defaultValue: "A full-service innovative agency",
 			},
 			{
-				name: "description",
+				name: "description1",
 				type: "text",
 				defaultValue:
-					"You can find my source code at: https://github.com/BuilderIO/blog-example/blob/main/components/Card.js",
+					"I create meaningful solutions for your brands and products.",
+				required: true,
+			},
+			{
+				name: "description2",
+				type: "text",
+				defaultValue: "Give your customers the best experience possible.",
+				required: true,
+			},
+			{
+				name: "buttonText",
+				type: "text",
+				defaultValue: "Check Latest Works",
 				required: true,
 			},
 			{
 				name: "imgSrc",
-				defaultValue:
-					"https://cdn.builder.io/api/v1/image/assets%2Fccda6c7abf4c4b8195aa67d47de420dd%2F784e7fa828bd440391e222589df3968c",
+				defaultValue: "../assets/image/png/portrait-2.png",
 				friendlyName: "image",
 				type: "file",
 				allowedFileTypes: ["png", "jpg", "webp"],
@@ -637,6 +729,12 @@ Builder?.registerComponent(
 				required: true,
 			},
 			{
+				name: "buttonText",
+				type: "text",
+				defaultValue: "Load more works",
+				required: true,
+			},
+			{
 				name: "imgSrc",
 				defaultValue:
 					"https://cdn.builder.io/api/v1/image/assets%2Fccda6c7abf4c4b8195aa67d47de420dd%2F784e7fa828bd440391e222589df3968c",
@@ -662,7 +760,14 @@ Builder?.registerComponent(
 				name: "title",
 				type: "string",
 				required: true,
-				defaultValue: "I am a React + Tailwind component!",
+				defaultValue:
+					"Looking for a team to start? You are at the right place.",
+			},
+			{
+				name: "buttonText",
+				type: "string",
+				required: true,
+				defaultValue: "Let's Talk Now",
 			},
 			{
 				name: "description",
@@ -697,13 +802,18 @@ Builder?.registerComponent(
 				name: "title",
 				type: "string",
 				required: true,
-				defaultValue: "I am a React + Tailwind component!",
+				defaultValue: "FROM CALIFORNIA",
 			},
 			{
-				name: "description",
+				name: "description1",
 				type: "text",
-				defaultValue:
-					"You can find my source code at: https://github.com/BuilderIO/blog-example/blob/main/components/Card.js",
+				defaultValue: "Professional photography",
+				required: true,
+			},
+			{
+				name: "description2",
+				type: "text",
+				defaultValue: "for your products.",
 				required: true,
 			},
 			{
@@ -742,6 +852,12 @@ Builder?.registerComponent(
 				required: true,
 			},
 			{
+				name: "buttonText",
+				type: "text",
+				defaultValue: "Load more works",
+				required: true,
+			},
+			{
 				name: "imgSrc",
 				defaultValue:
 					"https://cdn.builder.io/api/v1/image/assets%2Fccda6c7abf4c4b8195aa67d47de420dd%2F784e7fa828bd440391e222589df3968c",
@@ -764,10 +880,28 @@ Builder?.registerComponent(
 		image: "https://tabler-icons.io/static/tabler-icons/icons-png/id-badge.png",
 		inputs: [
 			{
-				name: "title",
+				name: "title1",
 				type: "string",
 				required: true,
-				defaultValue: "I am a React + Tailwind component!",
+				defaultValue: "Looking for a photographer?",
+			},
+			{
+				name: "title2",
+				type: "string",
+				required: true,
+				defaultValue: "Get in touch and let's chat!",
+			},
+			{
+				name: "href1",
+				defaultValue: "contact@folio.design",
+				friendlyName: "link",
+				type: "url",
+			},
+			{
+				name: "href2",
+				defaultValue: "linkedin.com/folio",
+				friendlyName: "link",
+				type: "url",
 			},
 			{
 				name: "description",
@@ -802,7 +936,13 @@ Builder?.registerComponent(
 				name: "title",
 				type: "string",
 				required: true,
-				defaultValue: "I am a React + Tailwind component!",
+				defaultValue: "Let's solve your design problems.",
+			},
+			{
+				name: "buttonText",
+				type: "text",
+				defaultValue: "Explore works",
+				required: true,
 			},
 			{
 				name: "description",
@@ -834,10 +974,10 @@ Builder?.registerComponent(
 		image: "https://tabler-icons.io/static/tabler-icons/icons-png/id-badge.png",
 		inputs: [
 			{
-				name: "title",
-				type: "string",
+				name: "buttonText",
+				type: "text",
+				defaultValue: "Load more works",
 				required: true,
-				defaultValue: "I am a React + Tailwind component!",
 			},
 			{
 				name: "description",
@@ -872,7 +1012,13 @@ Builder?.registerComponent(
 				name: "title",
 				type: "string",
 				required: true,
-				defaultValue: "I am a React + Tailwind component!",
+				defaultValue: "Do you have illustration project? Let's talk.",
+			},
+			{
+				name: "buttonText",
+				type: "text",
+				defaultValue: "Let's Talk Now",
+				required: true,
 			},
 			{
 				name: "description",
@@ -900,26 +1046,30 @@ Builder?.registerComponent(
 Builder?.registerComponent(
 	dynamic(() => import("../sections/masonry-3-column/Hero.js")),
 	{
-		name: "masonry-2-column/Hero",
+		name: "masonry-3-column/Hero",
 		image: "https://tabler-icons.io/static/tabler-icons/icons-png/id-badge.png",
 		inputs: [
 			{
 				name: "title",
 				type: "string",
 				required: true,
-				defaultValue: "I am a React + Tailwind component!",
+				defaultValue: "HI, I AM BRUCE RYAN",
 			},
 			{
-				name: "description",
+				name: "description1",
 				type: "text",
-				defaultValue:
-					"You can find my source code at: https://github.com/BuilderIO/blog-example/blob/main/components/Card.js",
+				defaultValue: "Full stack web developer",
+				required: true,
+			},
+			{
+				name: "description2",
+				type: "text",
+				defaultValue: "for your next project",
 				required: true,
 			},
 			{
 				name: "imgSrc",
-				defaultValue:
-					"https://cdn.builder.io/api/v1/image/assets%2Fccda6c7abf4c4b8195aa67d47de420dd%2F784e7fa828bd440391e222589df3968c",
+				defaultValue: "../assets/image/jpg/portfolio-about-2.jpg",
 				friendlyName: "image",
 				type: "file",
 				allowedFileTypes: ["png", "jpg", "webp"],
@@ -935,7 +1085,7 @@ Builder?.registerComponent(
 Builder?.registerComponent(
 	dynamic(() => import("../sections/masonry-3-column/Works.js")),
 	{
-		name: "masonry-2-column/Works",
+		name: "masonry-3-column/Works",
 		image: "https://tabler-icons.io/static/tabler-icons/icons-png/id-badge.png",
 		inputs: [
 			{
@@ -949,6 +1099,12 @@ Builder?.registerComponent(
 				type: "text",
 				defaultValue:
 					"You can find my source code at: https://github.com/BuilderIO/blog-example/blob/main/components/Card.js",
+				required: true,
+			},
+			{
+				name: "buttonText",
+				type: "text",
+				defaultValue: "Load more works",
 				required: true,
 			},
 			{
@@ -970,14 +1126,20 @@ Builder?.registerComponent(
 Builder?.registerComponent(
 	dynamic(() => import("../sections/masonry-3-column/Contact.js")),
 	{
-		name: "masonry-2-column/Contact",
+		name: "masonry-3-column/Contact",
 		image: "https://tabler-icons.io/static/tabler-icons/icons-png/id-badge.png",
 		inputs: [
 			{
 				name: "title",
 				type: "string",
 				required: true,
-				defaultValue: "I am a React + Tailwind component!",
+				defaultValue: "Do you have illustration project? Let's talk.",
+			},
+			{
+				name: "buttonText",
+				type: "text",
+				defaultValue: "Let's Talk Now",
+				required: true,
 			},
 			{
 				name: "description",
@@ -1012,13 +1174,25 @@ Builder?.registerComponent(
 				name: "title",
 				type: "string",
 				required: true,
-				defaultValue: "I am a React + Tailwind component!",
+				defaultValue: "We solve your digital photography problem.",
 			},
 			{
-				name: "description",
+				name: "description1",
 				type: "text",
 				defaultValue:
-					"You can find my source code at: https://github.com/BuilderIO/blog-example/blob/main/components/Card.js",
+					"Looking for a group of photographers for your product promotion?",
+				required: true,
+			},
+			{
+				name: "description2",
+				type: "text",
+				defaultValue: "Our professional photographers are here to solve it.",
+				required: true,
+			},
+			{
+				name: "buttonText",
+				type: "text",
+				defaultValue: "Lets talk",
 				required: true,
 			},
 			{
@@ -1048,6 +1222,12 @@ Builder?.registerComponent(
 				type: "string",
 				required: true,
 				defaultValue: "I am a React + Tailwind component!",
+			},
+			{
+				name: "buttonText",
+				type: "text",
+				defaultValue: "Load more works",
+				required: true,
 			},
 			{
 				name: "description",
@@ -1082,7 +1262,13 @@ Builder?.registerComponent(
 				name: "title",
 				type: "string",
 				required: true,
-				defaultValue: "I am a React + Tailwind component!",
+				defaultValue: "Do you have illustration project? Let's talk.",
+			},
+			{
+				name: "buttonText",
+				type: "text",
+				defaultValue: "Let's Talk Now",
+				required: true,
 			},
 			{
 				name: "description",
@@ -1117,13 +1303,12 @@ Builder?.registerComponent(
 				name: "title",
 				type: "string",
 				required: true,
-				defaultValue: "I am a React + Tailwind component!",
+				defaultValue: "I design digital crafts for my clients",
 			},
 			{
-				name: "description",
+				name: "buttonText",
 				type: "text",
-				defaultValue:
-					"You can find my source code at: https://github.com/BuilderIO/blog-example/blob/main/components/Card.js",
+				defaultValue: "See My works",
 				required: true,
 			},
 			{
@@ -1149,10 +1334,10 @@ Builder?.registerComponent(
 		image: "https://tabler-icons.io/static/tabler-icons/icons-png/id-badge.png",
 		inputs: [
 			{
-				name: "title",
-				type: "string",
+				name: "buttonText",
+				type: "text",
+				defaultValue: "Load more works",
 				required: true,
-				defaultValue: "I am a React + Tailwind component!",
 			},
 			{
 				name: "description",
@@ -1180,14 +1365,20 @@ Builder?.registerComponent(
 Builder?.registerComponent(
 	dynamic(() => import("../sections/masonry-4-column/Contact.js")),
 	{
-		name: "masonry-3-column-fluid/Contact",
+		name: "masonry-4-column/Contact",
 		image: "https://tabler-icons.io/static/tabler-icons/icons-png/id-badge.png",
 		inputs: [
 			{
 				name: "title",
 				type: "string",
 				required: true,
-				defaultValue: "I am a React + Tailwind component!",
+				defaultValue: "Do you have illustration project? Let's talk.",
+			},
+			{
+				name: "buttonText",
+				type: "text",
+				defaultValue: "Let's Talk Now",
+				required: true,
 			},
 			{
 				name: "description",
@@ -1222,13 +1413,24 @@ Builder?.registerComponent(
 				name: "title",
 				type: "string",
 				required: true,
-				defaultValue: "I am a React + Tailwind component!",
+				defaultValue: "DEVELOPER FROM CALIFORNIA",
 			},
 			{
-				name: "description",
+				name: "description1",
 				type: "text",
-				defaultValue:
-					"You can find my source code at: https://github.com/BuilderIO/blog-example/blob/main/components/Card.js",
+				defaultValue: "Full stack web developer",
+				required: true,
+			},
+			{
+				name: "description2",
+				type: "text",
+				defaultValue: "for your next project",
+				required: true,
+			},
+			{
+				name: "buttonText",
+				type: "text",
+				defaultValue: "Explore works",
 				required: true,
 			},
 			{
@@ -1254,10 +1456,10 @@ Builder?.registerComponent(
 		image: "https://tabler-icons.io/static/tabler-icons/icons-png/id-badge.png",
 		inputs: [
 			{
-				name: "title",
-				type: "string",
+				name: "buttonText",
+				type: "text",
+				defaultValue: "Load more works",
 				required: true,
-				defaultValue: "I am a React + Tailwind component!",
 			},
 			{
 				name: "description",
@@ -1292,13 +1494,12 @@ Builder?.registerComponent(
 				name: "title",
 				type: "string",
 				required: true,
-				defaultValue: "I am a React + Tailwind component!",
+				defaultValue: "Do you have illustration project? Let's talk.",
 			},
 			{
-				name: "description",
+				name: "buttonText",
 				type: "text",
-				defaultValue:
-					"You can find my source code at: https://github.com/BuilderIO/blog-example/blob/main/components/Card.js",
+				defaultValue: "Let's Talk Now",
 				required: true,
 			},
 			{
@@ -1317,6 +1518,358 @@ Builder?.registerComponent(
 		],
 	}
 );
+Builder?.registerComponent(
+	dynamic(() => import("../sections/grid-2/Hero.js")),
+	{
+		name: "grid-2/Hero.js",
+		image: "https://tabler-icons.io/static/tabler-icons/icons-png/id-badge.png",
+		inputs: [
+			{
+				name: "title",
+				type: "string",
+				required: true,
+				defaultValue: "ONE STEP AHEAD TOWARDS SOLUTIONS",
+			},
+			{
+				name: "description",
+				type: "text",
+				defaultValue: "DESIGN. CODE. LIVE!",
+				required: true,
+			},
+			{
+				name: "buttonText",
+				type: "text",
+				defaultValue: "Let's Discuss",
+				required: true,
+			},
+			{
+				name: "imgSrc",
+				defaultValue:
+					"https://cdn.builder.io/api/v1/image/assets%2Fccda6c7abf4c4b8195aa67d47de420dd%2F784e7fa828bd440391e222589df3968c",
+				friendlyName: "image",
+				type: "file",
+				allowedFileTypes: ["png", "jpg", "webp"],
+			},
+			{
+				name: "href",
+				friendlyName: "link",
+				type: "url",
+			},
+		],
+	}
+);
+Builder?.registerComponent(
+	dynamic(() => import("../sections/grid-2/Works.js")),
+	{
+		name: "grid-2/Works",
+		image: "https://tabler-icons.io/static/tabler-icons/icons-png/id-badge.png",
+		inputs: [
+			{
+				name: "buttonText",
+				type: "text",
+				defaultValue: "Load more works",
+				required: true,
+			},
+
+			{
+				name: "imgSrc",
+				defaultValue:
+					"https://cdn.builder.io/api/v1/image/assets%2Fccda6c7abf4c4b8195aa67d47de420dd%2F784e7fa828bd440391e222589df3968c",
+				friendlyName: "image",
+				type: "file",
+				allowedFileTypes: ["png", "jpg", "webp"],
+			},
+			{
+				name: "href",
+				friendlyName: "link",
+				type: "url",
+			},
+		],
+	}
+);
+
+Builder?.registerComponent(
+	dynamic(() => import("../sections/grid-3/Hero.js")),
+	{
+		name: "grid-3/Hero.js",
+		image: "https://tabler-icons.io/static/tabler-icons/icons-png/id-badge.png",
+		inputs: [
+			{
+				name: "title",
+				type: "string",
+				required: true,
+				defaultValue: "HI, I AM BRIAN DEAN, FULL STACK DEVELOPER",
+			},
+			{
+				name: "description",
+				type: "text",
+				defaultValue: "Let’s create thoughtful experiences for your brand.",
+				required: true,
+			},
+			{
+				name: "buttonText",
+				type: "text",
+				defaultValue: "Check my works",
+				required: true,
+			},
+			{
+				name: "imgSrc",
+				defaultValue:
+					"https://cdn.builder.io/api/v1/image/assets%2Fccda6c7abf4c4b8195aa67d47de420dd%2F784e7fa828bd440391e222589df3968c",
+				friendlyName: "image",
+				type: "file",
+				allowedFileTypes: ["png", "jpg", "webp"],
+			},
+			{
+				name: "href",
+				friendlyName: "link",
+				type: "url",
+			},
+		],
+	}
+);
+Builder?.registerComponent(
+	dynamic(() => import("../sections/grid-3/Works.js")),
+	{
+		name: "grid-3/Works",
+		image: "https://tabler-icons.io/static/tabler-icons/icons-png/id-badge.png",
+		inputs: [
+			{
+				name: "buttonText",
+				type: "text",
+				defaultValue: "Load more works",
+				required: true,
+			},
+
+			{
+				name: "imgSrc",
+				defaultValue:
+					"https://cdn.builder.io/api/v1/image/assets%2Fccda6c7abf4c4b8195aa67d47de420dd%2F784e7fa828bd440391e222589df3968c",
+				friendlyName: "image",
+				type: "file",
+				allowedFileTypes: ["png", "jpg", "webp"],
+			},
+			{
+				name: "href",
+				friendlyName: "link",
+				type: "url",
+			},
+		],
+	}
+);
+
+Builder?.registerComponent(
+	dynamic(() => import("../sections/grid-3-fluid/Hero.js")),
+	{
+		name: "grid-3-fluid/Hero.js",
+		image: "https://tabler-icons.io/static/tabler-icons/icons-png/id-badge.png",
+		inputs: [
+			{
+				name: "title",
+				type: "string",
+				required: true,
+				defaultValue: "Design solutions",
+			},
+			{
+				name: "description1",
+				type: "text",
+				defaultValue:
+					"I create meaningful solutions for your brands and products.",
+				required: true,
+			},
+			{
+				name: "description2",
+				type: "text",
+				defaultValue: "Give your customers the best experience possible.",
+				required: true,
+			},
+			{
+				name: "buttonText",
+				type: "text",
+				defaultValue: "Explore works",
+				required: true,
+			},
+			{
+				name: "imgSrc",
+				defaultValue:
+					"https://cdn.builder.io/api/v1/image/assets%2Fccda6c7abf4c4b8195aa67d47de420dd%2F784e7fa828bd440391e222589df3968c",
+				friendlyName: "image",
+				type: "file",
+				allowedFileTypes: ["png", "jpg", "webp"],
+			},
+			{
+				name: "href",
+				friendlyName: "link",
+				type: "url",
+			},
+		],
+	}
+);
+Builder?.registerComponent(
+	dynamic(() => import("../sections/grid-3-fluid/Works.js")),
+	{
+		name: "grid-3-fluid/Works",
+		image: "https://tabler-icons.io/static/tabler-icons/icons-png/id-badge.png",
+		inputs: [
+			{
+				name: "buttonText",
+				type: "text",
+				defaultValue: "Load more works",
+				required: true,
+			},
+
+			{
+				name: "imgSrc",
+				defaultValue:
+					"https://cdn.builder.io/api/v1/image/assets%2Fccda6c7abf4c4b8195aa67d47de420dd%2F784e7fa828bd440391e222589df3968c",
+				friendlyName: "image",
+				type: "file",
+				allowedFileTypes: ["png", "jpg", "webp"],
+			},
+			{
+				name: "href",
+				friendlyName: "link",
+				type: "url",
+			},
+		],
+	}
+);
+
+Builder?.registerComponent(
+	dynamic(() => import("../sections/grid-4/Hero.js")),
+	{
+		name: "grid-4/Hero.js",
+		image: "https://tabler-icons.io/static/tabler-icons/icons-png/id-badge.png",
+		inputs: [
+			{
+				name: "title",
+				type: "string",
+				required: true,
+				defaultValue: "TEAM THAT SOLVES YOUR PROBLEMS",
+			},
+			{
+				name: "description",
+				type: "text",
+				defaultValue: "Get designs for your digital products",
+				required: true,
+			},
+
+			{
+				name: "buttonText",
+				type: "text",
+				defaultValue: "Explore works",
+				required: true,
+			},
+			{
+				name: "imgSrc",
+				defaultValue:
+					"https://cdn.builder.io/api/v1/image/assets%2Fccda6c7abf4c4b8195aa67d47de420dd%2F784e7fa828bd440391e222589df3968c",
+				friendlyName: "image",
+				type: "file",
+				allowedFileTypes: ["png", "jpg", "webp"],
+			},
+			{
+				name: "href",
+				friendlyName: "link",
+				type: "url",
+			},
+		],
+	}
+);
+Builder?.registerComponent(
+	dynamic(() => import("../sections/grid-4/Works.js")),
+	{
+		name: "grid-4/Works",
+		image: "https://tabler-icons.io/static/tabler-icons/icons-png/id-badge.png",
+		inputs: [
+			{
+				name: "buttonText",
+				type: "text",
+				defaultValue: "Load more works",
+				required: true,
+			},
+
+			{
+				name: "imgSrc",
+				defaultValue:
+					"https://cdn.builder.io/api/v1/image/assets%2Fccda6c7abf4c4b8195aa67d47de420dd%2F784e7fa828bd440391e222589df3968c",
+				friendlyName: "image",
+				type: "file",
+				allowedFileTypes: ["png", "jpg", "webp"],
+			},
+			{
+				name: "href",
+				friendlyName: "link",
+				type: "url",
+			},
+		],
+	}
+);
+
+Builder?.registerComponent(
+	dynamic(() => import("../sections/grid-4-fluid/Hero.js")),
+	{
+		name: "grid-4-fluid/Hero.js",
+		image: "https://tabler-icons.io/static/tabler-icons/icons-png/id-badge.png",
+		inputs: [
+			{
+				name: "title",
+				type: "string",
+				required: true,
+				defaultValue: "I design digital crafts for clients.",
+			},
+
+			{
+				name: "buttonText",
+				type: "text",
+				defaultValue: "Explore works",
+				required: true,
+			},
+			{
+				name: "imgSrc",
+				defaultValue:
+					"https://cdn.builder.io/api/v1/image/assets%2Fccda6c7abf4c4b8195aa67d47de420dd%2F784e7fa828bd440391e222589df3968c",
+				friendlyName: "image",
+				type: "file",
+				allowedFileTypes: ["png", "jpg", "webp"],
+			},
+			{
+				name: "href",
+				friendlyName: "link",
+				type: "url",
+			},
+		],
+	}
+);
+Builder?.registerComponent(
+	dynamic(() => import("../sections/grid-4-fluid/Works.js")),
+	{
+		name: "grid-4-fluid/Works",
+		image: "https://tabler-icons.io/static/tabler-icons/icons-png/id-badge.png",
+		inputs: [
+			{
+				name: "buttonText",
+				type: "text",
+				defaultValue: "Load more works",
+				required: true,
+			},
+
+			{
+				name: "imgSrc",
+				defaultValue: "../assets/image/jpg/portfolio-about-2.jpg",
+				friendlyName: "image",
+				type: "file",
+				allowedFileTypes: ["png", "jpg", "webp"],
+			},
+			{
+				name: "href",
+				friendlyName: "link",
+				type: "url",
+			},
+		],
+	}
+);
+//components starts here
 Builder?.registerComponent(
 	dynamic(() => import("../components/builder/grid-3.js")),
 	{
