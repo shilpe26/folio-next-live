@@ -97,34 +97,32 @@ Builder?.registerComponent(
 	{
 		name: "landing1/Works",
 		image: "https://tabler-icons.io/static/tabler-icons/icons-png/home.png",
-		// inputs: [
-		// 	{
-		// 		name: "title",
-		// 		type: "string",
-		// 		required: true,
-		// 		defaultValue: "I am a React + Tailwind component!",
-		// 	},
-		// 	{
-		// 		name: "description",
-		// 		type: "text",
-		// 		defaultValue:
-		// 			"You can find my source code at: https://github.com/BuilderIO/blog-example/blob/main/components/Card.js",
-		// 		required: true,
-		// 	},
-		// 	{
-		// 		name: "imgSrc",
-		// 		defaultValue:
-		// 			"https://cdn.builder.io/api/v1/image/assets%2Fccda6c7abf4c4b8195aa67d47de420dd%2F784e7fa828bd440391e222589df3968c",
-		// 		friendlyName: "image",
-		// 		type: "file",
-		// 		allowedFileTypes: ["png", "jpg", "webp"],
-		// 	},
-		// 	{
-		// 		name: "href",
-		// 		friendlyName: "link",
-		// 		type: "url",
-		// 	},
-		// ],
+		inputs: [
+			{
+				name: "label1",
+				type: "string",
+				required: true,
+				defaultValue: "All works",
+			},
+			{
+				name: "label2",
+				type: "string",
+				required: true,
+				defaultValue: "Branding",
+			},
+			{
+				name: "label3",
+				type: "string",
+				required: true,
+				defaultValue: "UX Design",
+			},
+			{
+				name: "label4",
+				type: "string",
+				required: true,
+				defaultValue: "Photography",
+			},
+		],
 	}
 );
 Builder?.registerComponent(
@@ -320,34 +318,32 @@ Builder?.registerComponent(
 	{
 		name: "landing3/Works",
 		image: "https://tabler-icons.io/static/tabler-icons/icons-png/home-eco.png",
-		// inputs: [
-		// 	{
-		// 		name: "title",
-		// 		type: "string",
-		// 		required: true,
-		// 		defaultValue: "I am a React + Tailwind component!",
-		// 	},
-		// 	{
-		// 		name: "description",
-		// 		type: "text",
-		// 		defaultValue:
-		// 			"You can find my source code at: https://github.com/BuilderIO/blog-example/blob/main/components/Card.js",
-		// 		required: true,
-		// 	},
-		// 	{
-		// 		name: "imgSrc",
-		// 		defaultValue:
-		// 			"https://cdn.builder.io/api/v1/image/assets%2Fccda6c7abf4c4b8195aa67d47de420dd%2F784e7fa828bd440391e222589df3968c",
-		// 		friendlyName: "image",
-		// 		type: "file",
-		// 		allowedFileTypes: ["png", "jpg", "webp"],
-		// 	},
-		// 	{
-		// 		name: "href",
-		// 		friendlyName: "link",
-		// 		type: "url",
-		// 	},
-		// ],
+		inputs: [
+			{
+				name: "label1",
+				type: "string",
+				required: true,
+				defaultValue: "All works",
+			},
+			{
+				name: "label2",
+				type: "string",
+				required: true,
+				defaultValue: "UI Design",
+			},
+			{
+				name: "label3",
+				type: "string",
+				required: true,
+				defaultValue: "App Developement",
+			},
+			{
+				name: "label4",
+				type: "string",
+				required: true,
+				defaultValue: "Web Developement",
+			},
+		],
 	}
 );
 Builder?.registerComponent(
@@ -702,39 +698,38 @@ Builder?.registerComponent(
 		name: "landing6/Works",
 		image:
 			"https://tabler-icons.io/static/tabler-icons/icons-png/home-question.png",
+
 		inputs: [
-			// {
-			// 	name: "title",
-			// 	type: "string",
-			// 	required: true,
-			// 	defaultValue: "I am a React + Tailwind component!",
-			// },
-			// {
-			// 	name: "description",
-			// 	type: "text",
-			// 	defaultValue:
-			// 		"You can find my source code at: https://github.com/BuilderIO/blog-example/blob/main/components/Card.js",
-			// 	required: true,
-			// },
+			{
+				name: "label1",
+				type: "string",
+				required: true,
+				defaultValue: "All works",
+			},
+			{
+				name: "label2",
+				type: "string",
+				required: true,
+				defaultValue: "Branding",
+			},
+			{
+				name: "label3",
+				type: "string",
+				required: true,
+				defaultValue: "UX Design",
+			},
+			{
+				name: "label4",
+				type: "string",
+				required: true,
+				defaultValue: "Photography",
+			},
 			{
 				name: "buttonText",
 				type: "text",
 				defaultValue: "Load more works",
 				required: true,
 			},
-			// {
-			// 	name: "imgSrc",
-			// 	defaultValue:
-			// 		"https://cdn.builder.io/api/v1/image/assets%2Fccda6c7abf4c4b8195aa67d47de420dd%2F784e7fa828bd440391e222589df3968c",
-			// 	friendlyName: "image",
-			// 	type: "file",
-			// 	allowedFileTypes: ["png", "jpg", "webp"],
-			// },
-			// {
-			// 	name: "href",
-			// 	friendlyName: "link",
-			// 	type: "url",
-			// },
 		],
 	}
 );
@@ -829,38 +824,36 @@ Builder?.registerComponent(
 		image:
 			"https://tabler-icons.io/static/tabler-icons/icons-png/home-edit.png",
 		inputs: [
-			// {
-			// 	name: "title",
-			// 	type: "string",
-			// 	required: true,
-			// 	defaultValue: "I am a React + Tailwind component!",
-			// },
-			// {
-			// 	name: "description",
-			// 	type: "text",
-			// 	defaultValue:
-			// 		"You can find my source code at: https://github.com/BuilderIO/blog-example/blob/main/components/Card.js",
-			// 	required: true,
-			// },
+			{
+				name: "label1",
+				type: "string",
+				required: true,
+				defaultValue: "All works",
+			},
+			{
+				name: "label2",
+				type: "string",
+				required: true,
+				defaultValue: "Branding",
+			},
+			{
+				name: "label3",
+				type: "string",
+				required: true,
+				defaultValue: "UX Design",
+			},
+			{
+				name: "label4",
+				type: "string",
+				required: true,
+				defaultValue: "Photography",
+			},
 			{
 				name: "buttonText",
 				type: "text",
 				defaultValue: "Load more works",
 				required: true,
 			},
-			// {
-			// 	name: "imgSrc",
-			// 	defaultValue:
-			// 		"https://cdn.builder.io/api/v1/image/assets%2Fccda6c7abf4c4b8195aa67d47de420dd%2F784e7fa828bd440391e222589df3968c",
-			// 	friendlyName: "image",
-			// 	type: "file",
-			// 	allowedFileTypes: ["png", "jpg", "webp"],
-			// },
-			// {
-			// 	name: "href",
-			// 	friendlyName: "link",
-			// 	type: "url",
-			// },
 		],
 	}
 );
@@ -966,31 +959,35 @@ Builder?.registerComponent(
 		image: "https://tabler-icons.io/static/tabler-icons/icons-png/template.png",
 		inputs: [
 			{
+				name: "label1",
+				type: "string",
+				required: true,
+				defaultValue: "All works",
+			},
+			{
+				name: "label2",
+				type: "string",
+				required: true,
+				defaultValue: "Branding",
+			},
+			{
+				name: "label3",
+				type: "string",
+				required: true,
+				defaultValue: "UX Design",
+			},
+			{
+				name: "label4",
+				type: "string",
+				required: true,
+				defaultValue: "Photography",
+			},
+			{
 				name: "buttonText",
 				type: "text",
 				defaultValue: "Load more works",
 				required: true,
 			},
-			// {
-			// 	name: "description",
-			// 	type: "text",
-			// 	defaultValue:
-			// 		"You can find my source code at: https://github.com/BuilderIO/blog-example/blob/main/components/Card.js",
-			// 	required: true,
-			// },
-			// {
-			// 	name: "imgSrc",
-			// 	defaultValue:
-			// 		"https://cdn.builder.io/api/v1/image/assets%2Fccda6c7abf4c4b8195aa67d47de420dd%2F784e7fa828bd440391e222589df3968c",
-			// 	friendlyName: "image",
-			// 	type: "file",
-			// 	allowedFileTypes: ["png", "jpg", "webp"],
-			// },
-			// {
-			// 	name: "href",
-			// 	friendlyName: "link",
-			// 	type: "url",
-			// },
 		],
 	}
 );
@@ -1082,19 +1079,30 @@ Builder?.registerComponent(
 		image:
 			"https://tabler-icons.io/static/tabler-icons/icons-png/layout-rows.png",
 		inputs: [
-			// {
-			// 	name: "title",
-			// 	type: "string",
-			// 	required: true,
-			// 	defaultValue: "I am a React + Tailwind component!",
-			// },
-			// {
-			// 	name: "description",
-			// 	type: "text",
-			// 	defaultValue:
-			// 		"You can find my source code at: https://github.com/BuilderIO/blog-example/blob/main/components/Card.js",
-			// 	required: true,
-			// },
+			{
+				name: "label1",
+				type: "string",
+				required: true,
+				defaultValue: "All works",
+			},
+			{
+				name: "label2",
+				type: "string",
+				required: true,
+				defaultValue: "Branding",
+			},
+			{
+				name: "label3",
+				type: "string",
+				required: true,
+				defaultValue: "UX Design",
+			},
+			{
+				name: "label4",
+				type: "string",
+				required: true,
+				defaultValue: "Photography",
+			},
 			{
 				name: "buttonText",
 				type: "text",
@@ -1212,38 +1220,36 @@ Builder?.registerComponent(
 		name: "masonry-3-column-fluid/Works",
 		image: "https://tabler-icons.io/static/tabler-icons/icons-png/triangle.png",
 		inputs: [
-			// {
-			// 	name: "title",
-			// 	type: "string",
-			// 	required: true,
-			// 	defaultValue: "I am a React + Tailwind component!",
-			// },
+			{
+				name: "label1",
+				type: "string",
+				required: true,
+				defaultValue: "All works",
+			},
+			{
+				name: "label2",
+				type: "string",
+				required: true,
+				defaultValue: "Branding",
+			},
+			{
+				name: "label3",
+				type: "string",
+				required: true,
+				defaultValue: "UX Design",
+			},
+			{
+				name: "label4",
+				type: "string",
+				required: true,
+				defaultValue: "Photography",
+			},
 			{
 				name: "buttonText",
 				type: "text",
 				defaultValue: "Load more works",
 				required: true,
 			},
-			// {
-			// 	name: "description",
-			// 	type: "text",
-			// 	defaultValue:
-			// 		"You can find my source code at: https://github.com/BuilderIO/blog-example/blob/main/components/Card.js",
-			// 	required: true,
-			// },
-			// {
-			// 	name: "imgSrc",
-			// 	defaultValue:
-			// 		"https://cdn.builder.io/api/v1/image/assets%2Fccda6c7abf4c4b8195aa67d47de420dd%2F784e7fa828bd440391e222589df3968c",
-			// 	friendlyName: "image",
-			// 	type: "file",
-			// 	allowedFileTypes: ["png", "jpg", "webp"],
-			// },
-			// {
-			// 	name: "href",
-			// 	friendlyName: "link",
-			// 	type: "url",
-			// },
 		],
 	}
 );
@@ -1330,6 +1336,30 @@ Builder?.registerComponent(
 		image:
 			"https://tabler-icons.io/static/tabler-icons/icons-png/triangle-filled.png",
 		inputs: [
+			{
+				name: "label1",
+				type: "string",
+				required: true,
+				defaultValue: "All works",
+			},
+			{
+				name: "label2",
+				type: "string",
+				required: true,
+				defaultValue: "Branding",
+			},
+			{
+				name: "label3",
+				type: "string",
+				required: true,
+				defaultValue: "UX Design",
+			},
+			{
+				name: "label4",
+				type: "string",
+				required: true,
+				defaultValue: "Photography",
+			},
 			{
 				name: "buttonText",
 				type: "text",
@@ -1456,6 +1486,30 @@ Builder?.registerComponent(
 			"https://tabler-icons.io/static/tabler-icons/icons-png/brand-flipboard.png",
 		inputs: [
 			{
+				name: "label1",
+				type: "string",
+				required: true,
+				defaultValue: "All works",
+			},
+			{
+				name: "label2",
+				type: "string",
+				required: true,
+				defaultValue: "Branding",
+			},
+			{
+				name: "label3",
+				type: "string",
+				required: true,
+				defaultValue: "UX Design",
+			},
+			{
+				name: "label4",
+				type: "string",
+				required: true,
+				defaultValue: "Photography",
+			},
+			{
 				name: "buttonText",
 				type: "text",
 				defaultValue: "Load more works",
@@ -1568,6 +1622,30 @@ Builder?.registerComponent(
 			"https://tabler-icons.io/static/tabler-icons/icons-png/grid-goldenratio.png",
 		inputs: [
 			{
+				name: "label1",
+				type: "string",
+				required: true,
+				defaultValue: "All works",
+			},
+			{
+				name: "label2",
+				type: "string",
+				required: true,
+				defaultValue: "Branding",
+			},
+			{
+				name: "label3",
+				type: "string",
+				required: true,
+				defaultValue: "UX Design",
+			},
+			{
+				name: "label4",
+				type: "string",
+				required: true,
+				defaultValue: "Photography",
+			},
+			{
 				name: "buttonText",
 				type: "text",
 				defaultValue: "Load more works",
@@ -1637,6 +1715,30 @@ Builder?.registerComponent(
 		name: "grid-3/Works",
 		image: "https://tabler-icons.io/static/tabler-icons/icons-png/grid-3x3.png",
 		inputs: [
+			{
+				name: "label1",
+				type: "string",
+				required: true,
+				defaultValue: "All works",
+			},
+			{
+				name: "label2",
+				type: "string",
+				required: true,
+				defaultValue: "Branding",
+			},
+			{
+				name: "label3",
+				type: "string",
+				required: true,
+				defaultValue: "UX Design",
+			},
+			{
+				name: "label4",
+				type: "string",
+				required: true,
+				defaultValue: "Photography",
+			},
 			{
 				name: "buttonText",
 				type: "text",
@@ -1715,6 +1817,30 @@ Builder?.registerComponent(
 		image: "https://tabler-icons.io/static/tabler-icons/icons-png/grid-4x4.png",
 		inputs: [
 			{
+				name: "label1",
+				type: "string",
+				required: true,
+				defaultValue: "All works",
+			},
+			{
+				name: "label2",
+				type: "string",
+				required: true,
+				defaultValue: "Branding",
+			},
+			{
+				name: "label3",
+				type: "string",
+				required: true,
+				defaultValue: "UX Design",
+			},
+			{
+				name: "label4",
+				type: "string",
+				required: true,
+				defaultValue: "Photography",
+			},
+			{
 				name: "buttonText",
 				type: "text",
 				defaultValue: "Load more works",
@@ -1788,6 +1914,30 @@ Builder?.registerComponent(
 			"https://tabler-icons.io/static/tabler-icons/icons-png/grid-dots.png",
 		inputs: [
 			{
+				name: "label1",
+				type: "string",
+				required: true,
+				defaultValue: "All works",
+			},
+			{
+				name: "label2",
+				type: "string",
+				required: true,
+				defaultValue: "Branding",
+			},
+			{
+				name: "label3",
+				type: "string",
+				required: true,
+				defaultValue: "UX Design",
+			},
+			{
+				name: "label4",
+				type: "string",
+				required: true,
+				defaultValue: "Photography",
+			},
+			{
 				name: "buttonText",
 				type: "text",
 				defaultValue: "Load more works",
@@ -1854,6 +2004,30 @@ Builder?.registerComponent(
 		image:
 			"https://tabler-icons.io/static/tabler-icons/icons-png/layout-grid.png",
 		inputs: [
+			{
+				name: "label1",
+				type: "string",
+				required: true,
+				defaultValue: "All works",
+			},
+			{
+				name: "label2",
+				type: "string",
+				required: true,
+				defaultValue: "Branding",
+			},
+			{
+				name: "label3",
+				type: "string",
+				required: true,
+				defaultValue: "UX Design",
+			},
+			{
+				name: "label4",
+				type: "string",
+				required: true,
+				defaultValue: "Photography",
+			},
 			{
 				name: "buttonText",
 				type: "text",

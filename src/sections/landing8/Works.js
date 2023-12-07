@@ -6,7 +6,7 @@ import { Box, ButtonOutline, ListNav, Section } from "../../components/Core";
 import WorkCard from "../../components/WorkCard";
 import { works2 } from "../../data";
 
-const Works = ({ buttonText }) => {
+const Works = ({ label1, label2, label3, label4, buttonText }) => {
 	const [items, setItems] = useState([]);
 	const [activeLink, setActiveLink] = useState("*");
 
@@ -48,7 +48,7 @@ const Works = ({ buttonText }) => {
 										filterBy("*");
 									}}
 								>
-									All works
+									{label1}
 								</a>
 							</li>
 							<li className="nav-item">
@@ -61,7 +61,7 @@ const Works = ({ buttonText }) => {
 										filterBy("branding");
 									}}
 								>
-									Branding
+									{label2}
 								</a>
 							</li>
 							<li className="nav-item">
@@ -74,7 +74,7 @@ const Works = ({ buttonText }) => {
 										filterBy("ux-design");
 									}}
 								>
-									UX Design
+									{label3}
 								</a>
 							</li>
 							<li className="nav-item">
@@ -87,7 +87,7 @@ const Works = ({ buttonText }) => {
 										filterBy("photography");
 									}}
 								>
-									Photography
+									{label4}
 								</a>
 							</li>
 						</ListNav>
