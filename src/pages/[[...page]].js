@@ -89,11 +89,6 @@ Builder?.registerComponent(
 				type: "file",
 				allowedFileTypes: ["png", "jpg", "webp"],
 			},
-			{
-				name: "href",
-				friendlyName: "link",
-				type: "url",
-			},
 		],
 	}
 );
@@ -102,34 +97,34 @@ Builder?.registerComponent(
 	{
 		name: "landing1/Works",
 		image: "https://tabler-icons.io/static/tabler-icons/icons-png/home.png",
-		inputs: [
-			{
-				name: "title",
-				type: "string",
-				required: true,
-				defaultValue: "I am a React + Tailwind component!",
-			},
-			{
-				name: "description",
-				type: "text",
-				defaultValue:
-					"You can find my source code at: https://github.com/BuilderIO/blog-example/blob/main/components/Card.js",
-				required: true,
-			},
-			{
-				name: "imgSrc",
-				defaultValue:
-					"https://cdn.builder.io/api/v1/image/assets%2Fccda6c7abf4c4b8195aa67d47de420dd%2F784e7fa828bd440391e222589df3968c",
-				friendlyName: "image",
-				type: "file",
-				allowedFileTypes: ["png", "jpg", "webp"],
-			},
-			{
-				name: "href",
-				friendlyName: "link",
-				type: "url",
-			},
-		],
+		// inputs: [
+		// 	{
+		// 		name: "title",
+		// 		type: "string",
+		// 		required: true,
+		// 		defaultValue: "I am a React + Tailwind component!",
+		// 	},
+		// 	{
+		// 		name: "description",
+		// 		type: "text",
+		// 		defaultValue:
+		// 			"You can find my source code at: https://github.com/BuilderIO/blog-example/blob/main/components/Card.js",
+		// 		required: true,
+		// 	},
+		// 	{
+		// 		name: "imgSrc",
+		// 		defaultValue:
+		// 			"https://cdn.builder.io/api/v1/image/assets%2Fccda6c7abf4c4b8195aa67d47de420dd%2F784e7fa828bd440391e222589df3968c",
+		// 		friendlyName: "image",
+		// 		type: "file",
+		// 		allowedFileTypes: ["png", "jpg", "webp"],
+		// 	},
+		// 	{
+		// 		name: "href",
+		// 		friendlyName: "link",
+		// 		type: "url",
+		// 	},
+		// ],
 	}
 );
 Builder?.registerComponent(
@@ -155,19 +150,6 @@ Builder?.registerComponent(
 				type: "text",
 				defaultValue: "Let's Talk Now",
 				required: true,
-			},
-			{
-				name: "imgSrc",
-				defaultValue:
-					"https://cdn.builder.io/api/v1/image/assets%2Fccda6c7abf4c4b8195aa67d47de420dd%2F784e7fa828bd440391e222589df3968c",
-				friendlyName: "image",
-				type: "file",
-				allowedFileTypes: ["png", "jpg", "webp"],
-			},
-			{
-				name: "href",
-				friendlyName: "link",
-				type: "url",
 			},
 		],
 	}
@@ -204,11 +186,6 @@ Builder?.registerComponent(
 				type: "file",
 				allowedFileTypes: ["png", "jpg", "webp"],
 			},
-			{
-				name: "href",
-				friendlyName: "link",
-				type: "url",
-			},
 		],
 	}
 );
@@ -219,38 +196,38 @@ Builder?.registerComponent(
 		image:
 			"https://tabler-icons.io/static/tabler-icons/icons-png/home-check.png",
 		inputs: [
-			{
-				name: "title",
-				type: "string",
-				required: true,
-				defaultValue: "I am a React + Tailwind component!",
-			},
-			{
-				name: "description",
-				type: "text",
-				defaultValue:
-					"You can find my source code at: https://github.com/BuilderIO/blog-example/blob/main/components/Card.js",
-				required: true,
-			},
+			// {
+			// 	name: "title",
+			// 	type: "string",
+			// 	required: true,
+			// 	defaultValue: "I am a React + Tailwind component!",
+			// },
+			// {
+			// 	name: "description",
+			// 	type: "text",
+			// 	defaultValue:
+			// 		"You can find my source code at: https://github.com/BuilderIO/blog-example/blob/main/components/Card.js",
+			// 	required: true,
+			// },
 			{
 				name: "buttonText",
 				type: "text",
 				defaultValue: "Load more works",
 				required: true,
 			},
-			{
-				name: "imgSrc",
-				defaultValue:
-					"https://cdn.builder.io/api/v1/image/assets%2Fccda6c7abf4c4b8195aa67d47de420dd%2F784e7fa828bd440391e222589df3968c",
-				friendlyName: "image",
-				type: "file",
-				allowedFileTypes: ["png", "jpg", "webp"],
-			},
-			{
-				name: "href",
-				friendlyName: "link",
-				type: "url",
-			},
+			// {
+			// 	name: "imgSrc",
+			// 	defaultValue:
+			// 		"https://cdn.builder.io/api/v1/image/assets%2Fccda6c7abf4c4b8195aa67d47de420dd%2F784e7fa828bd440391e222589df3968c",
+			// 	friendlyName: "image",
+			// 	type: "file",
+			// 	allowedFileTypes: ["png", "jpg", "webp"],
+			// },
+			// {
+			// 	name: "href",
+			// 	friendlyName: "link",
+			// 	type: "url",
+			// },
 		],
 	}
 );
@@ -275,14 +252,14 @@ Builder?.registerComponent(
 					"You can find my source code at: https://github.com/BuilderIO/blog-example/blob/main/components/Card.js",
 				required: true,
 			},
-			{
-				name: "imgSrc",
-				defaultValue:
-					"https://cdn.builder.io/api/v1/image/assets%2Fccda6c7abf4c4b8195aa67d47de420dd%2F784e7fa828bd440391e222589df3968c",
-				friendlyName: "image",
-				type: "file",
-				allowedFileTypes: ["png", "jpg", "webp"],
-			},
+			// {
+			// 	name: "imgSrc",
+			// 	defaultValue:
+			// 		"https://cdn.builder.io/api/v1/image/assets%2Fccda6c7abf4c4b8195aa67d47de420dd%2F784e7fa828bd440391e222589df3968c",
+			// 	friendlyName: "image",
+			// 	type: "file",
+			// 	allowedFileTypes: ["png", "jpg", "webp"],
+			// },
 			{
 				name: "href1",
 				defaultValue: "contact@folio.design",
@@ -316,13 +293,13 @@ Builder?.registerComponent(
 				required: true,
 				defaultValue: "Let's Talk Now",
 			},
-			{
-				name: "description",
-				type: "text",
-				defaultValue:
-					"You can find my source code at: https://github.com/BuilderIO/blog-example/blob/main/components/Card.js",
-				required: true,
-			},
+			// {
+			// 	name: "description",
+			// 	type: "text",
+			// 	defaultValue:
+			// 		"You can find my source code at: https://github.com/BuilderIO/blog-example/blob/main/components/Card.js",
+			// 	required: true,
+			// },
 			{
 				name: "imgSrc",
 				defaultValue: "../assets/image/jpg/portfolio-about-3.jpg",
@@ -330,11 +307,11 @@ Builder?.registerComponent(
 				type: "file",
 				allowedFileTypes: ["png", "jpg", "webp"],
 			},
-			{
-				name: "href",
-				friendlyName: "link",
-				type: "url",
-			},
+			// {
+			// 	name: "href",
+			// 	friendlyName: "link",
+			// 	type: "url",
+			// },
 		],
 	}
 );
@@ -343,34 +320,34 @@ Builder?.registerComponent(
 	{
 		name: "landing3/Works",
 		image: "https://tabler-icons.io/static/tabler-icons/icons-png/home-eco.png",
-		inputs: [
-			{
-				name: "title",
-				type: "string",
-				required: true,
-				defaultValue: "I am a React + Tailwind component!",
-			},
-			{
-				name: "description",
-				type: "text",
-				defaultValue:
-					"You can find my source code at: https://github.com/BuilderIO/blog-example/blob/main/components/Card.js",
-				required: true,
-			},
-			{
-				name: "imgSrc",
-				defaultValue:
-					"https://cdn.builder.io/api/v1/image/assets%2Fccda6c7abf4c4b8195aa67d47de420dd%2F784e7fa828bd440391e222589df3968c",
-				friendlyName: "image",
-				type: "file",
-				allowedFileTypes: ["png", "jpg", "webp"],
-			},
-			{
-				name: "href",
-				friendlyName: "link",
-				type: "url",
-			},
-		],
+		// inputs: [
+		// 	{
+		// 		name: "title",
+		// 		type: "string",
+		// 		required: true,
+		// 		defaultValue: "I am a React + Tailwind component!",
+		// 	},
+		// 	{
+		// 		name: "description",
+		// 		type: "text",
+		// 		defaultValue:
+		// 			"You can find my source code at: https://github.com/BuilderIO/blog-example/blob/main/components/Card.js",
+		// 		required: true,
+		// 	},
+		// 	{
+		// 		name: "imgSrc",
+		// 		defaultValue:
+		// 			"https://cdn.builder.io/api/v1/image/assets%2Fccda6c7abf4c4b8195aa67d47de420dd%2F784e7fa828bd440391e222589df3968c",
+		// 		friendlyName: "image",
+		// 		type: "file",
+		// 		allowedFileTypes: ["png", "jpg", "webp"],
+		// 	},
+		// 	{
+		// 		name: "href",
+		// 		friendlyName: "link",
+		// 		type: "url",
+		// 	},
+		// ],
 	}
 );
 Builder?.registerComponent(
@@ -391,27 +368,27 @@ Builder?.registerComponent(
 				required: true,
 				defaultValue: "Let's Talk Now",
 			},
+			// {
+			// 	name: "description",
+			// 	type: "text",
+			// 	defaultValue:
+			// 		"You can find my source code at: https://github.com/BuilderIO/blog-example/blob/main/components/Card.js",
+			// 	required: true,
+			// },
+			// {
+			// 	name: "imgSrc",
+			// 	defaultValue:
+			// 		"https://cdn.builder.io/api/v1/image/assets%2Fccda6c7abf4c4b8195aa67d47de420dd%2F784e7fa828bd440391e222589df3968c",
+			// 	friendlyName: "image",
+			// 	type: "file",
+			// 	allowedFileTypes: ["png", "jpg", "webp"],
+			// },
+			// {
+			// 	name: "href",
+			// 	friendlyName: "link",
+			// 	type: "url",
+			// },
 			,
-			{
-				name: "description",
-				type: "text",
-				defaultValue:
-					"You can find my source code at: https://github.com/BuilderIO/blog-example/blob/main/components/Card.js",
-				required: true,
-			},
-			{
-				name: "imgSrc",
-				defaultValue:
-					"https://cdn.builder.io/api/v1/image/assets%2Fccda6c7abf4c4b8195aa67d47de420dd%2F784e7fa828bd440391e222589df3968c",
-				friendlyName: "image",
-				type: "file",
-				allowedFileTypes: ["png", "jpg", "webp"],
-			},
-			{
-				name: "href",
-				friendlyName: "link",
-				type: "url",
-			},
 		],
 	}
 );
@@ -447,19 +424,19 @@ Builder?.registerComponent(
 				defaultValue: "Check latest works",
 				required: true,
 			},
-			{
-				name: "imgSrc",
-				defaultValue:
-					"https://cdn.builder.io/api/v1/image/assets%2Fccda6c7abf4c4b8195aa67d47de420dd%2F784e7fa828bd440391e222589df3968c",
-				friendlyName: "image",
-				type: "file",
-				allowedFileTypes: ["png", "jpg", "webp"],
-			},
-			{
-				name: "href",
-				friendlyName: "link",
-				type: "url",
-			},
+			// {
+			// 	name: "imgSrc",
+			// 	defaultValue:
+			// 		"https://cdn.builder.io/api/v1/image/assets%2Fccda6c7abf4c4b8195aa67d47de420dd%2F784e7fa828bd440391e222589df3968c",
+			// 	friendlyName: "image",
+			// 	type: "file",
+			// 	allowedFileTypes: ["png", "jpg", "webp"],
+			// },
+			// {
+			// 	name: "href",
+			// 	friendlyName: "link",
+			// 	type: "url",
+			// },
 		],
 	}
 );
@@ -470,38 +447,38 @@ Builder?.registerComponent(
 		image:
 			"https://tabler-icons.io/static/tabler-icons/icons-png/home-heart.png",
 		inputs: [
-			{
-				name: "title",
-				type: "string",
-				required: true,
-				defaultValue: "I am a React + Tailwind component!",
-			},
-			{
-				name: "description",
-				type: "text",
-				defaultValue:
-					"You can find my source code at: https://github.com/BuilderIO/blog-example/blob/main/components/Card.js",
-				required: true,
-			},
+			// {
+			// 	name: "title",
+			// 	type: "string",
+			// 	required: true,
+			// 	defaultValue: "I am a React + Tailwind component!",
+			// },
+			// {
+			// 	name: "description",
+			// 	type: "text",
+			// 	defaultValue:
+			// 		"You can find my source code at: https://github.com/BuilderIO/blog-example/blob/main/components/Card.js",
+			// 	required: true,
+			// },
 			{
 				name: "buttonText",
 				type: "text",
 				defaultValue: "Load more works",
 				required: true,
 			},
-			{
-				name: "imgSrc",
-				defaultValue:
-					"https://cdn.builder.io/api/v1/image/assets%2Fccda6c7abf4c4b8195aa67d47de420dd%2F784e7fa828bd440391e222589df3968c",
-				friendlyName: "image",
-				type: "file",
-				allowedFileTypes: ["png", "jpg", "webp"],
-			},
-			{
-				name: "href",
-				friendlyName: "link",
-				type: "url",
-			},
+			// {
+			// 	name: "imgSrc",
+			// 	defaultValue:
+			// 		"https://cdn.builder.io/api/v1/image/assets%2Fccda6c7abf4c4b8195aa67d47de420dd%2F784e7fa828bd440391e222589df3968c",
+			// 	friendlyName: "image",
+			// 	type: "file",
+			// 	allowedFileTypes: ["png", "jpg", "webp"],
+			// },
+			// {
+			// 	name: "href",
+			// 	friendlyName: "link",
+			// 	type: "url",
+			// },
 		],
 	}
 );
@@ -524,26 +501,26 @@ Builder?.registerComponent(
 				required: true,
 				defaultValue: "Let's Talk Now",
 			},
-			{
-				name: "description",
-				type: "text",
-				defaultValue:
-					"You can find my source code at: https://github.com/BuilderIO/blog-example/blob/main/components/Card.js",
-				required: true,
-			},
-			{
-				name: "imgSrc",
-				defaultValue:
-					"https://cdn.builder.io/api/v1/image/assets%2Fccda6c7abf4c4b8195aa67d47de420dd%2F784e7fa828bd440391e222589df3968c",
-				friendlyName: "image",
-				type: "file",
-				allowedFileTypes: ["png", "jpg", "webp"],
-			},
-			{
-				name: "href",
-				friendlyName: "link",
-				type: "url",
-			},
+			// {
+			// 	name: "description",
+			// 	type: "text",
+			// 	defaultValue:
+			// 		"You can find my source code at: https://github.com/BuilderIO/blog-example/blob/main/components/Card.js",
+			// 	required: true,
+			// },
+			// {
+			// 	name: "imgSrc",
+			// 	defaultValue:
+			// 		"https://cdn.builder.io/api/v1/image/assets%2Fccda6c7abf4c4b8195aa67d47de420dd%2F784e7fa828bd440391e222589df3968c",
+			// 	friendlyName: "image",
+			// 	type: "file",
+			// 	allowedFileTypes: ["png", "jpg", "webp"],
+			// },
+			// {
+			// 	name: "href",
+			// 	friendlyName: "link",
+			// 	type: "url",
+			// },
 		],
 	}
 );
@@ -578,19 +555,19 @@ Builder?.registerComponent(
 				required: true,
 				defaultValue: "Explore works",
 			},
-			{
-				name: "imgSrc",
-				defaultValue:
-					"https://cdn.builder.io/api/v1/image/assets%2Fccda6c7abf4c4b8195aa67d47de420dd%2F784e7fa828bd440391e222589df3968c",
-				friendlyName: "image",
-				type: "file",
-				allowedFileTypes: ["png", "jpg", "webp"],
-			},
-			{
-				name: "href",
-				friendlyName: "link",
-				type: "url",
-			},
+			// {
+			// 	name: "imgSrc",
+			// 	defaultValue:
+			// 		"https://cdn.builder.io/api/v1/image/assets%2Fccda6c7abf4c4b8195aa67d47de420dd%2F784e7fa828bd440391e222589df3968c",
+			// 	friendlyName: "image",
+			// 	type: "file",
+			// 	allowedFileTypes: ["png", "jpg", "webp"],
+			// },
+			// {
+			// 	name: "href",
+			// 	friendlyName: "link",
+			// 	type: "url",
+			// },
 		],
 	}
 );
@@ -601,38 +578,38 @@ Builder?.registerComponent(
 		image:
 			"https://tabler-icons.io/static/tabler-icons/icons-png/home-search.png",
 		inputs: [
-			{
-				name: "title",
-				type: "string",
-				required: true,
-				defaultValue: "I am a React + Tailwind component!",
-			},
+			// {
+			// 	name: "title",
+			// 	type: "string",
+			// 	required: true,
+			// 	defaultValue: "I am a React + Tailwind component!",
+			// },
 			{
 				name: "buttonText",
 				type: "string",
 				required: true,
 				defaultValue: "Load more works",
 			},
-			{
-				name: "description",
-				type: "text",
-				defaultValue:
-					"You can find my source code at: https://github.com/BuilderIO/blog-example/blob/main/components/Card.js",
-				required: true,
-			},
-			{
-				name: "imgSrc",
-				defaultValue:
-					"https://cdn.builder.io/api/v1/image/assets%2Fccda6c7abf4c4b8195aa67d47de420dd%2F784e7fa828bd440391e222589df3968c",
-				friendlyName: "image",
-				type: "file",
-				allowedFileTypes: ["png", "jpg", "webp"],
-			},
-			{
-				name: "href",
-				friendlyName: "link",
-				type: "url",
-			},
+			// {
+			// 	name: "description",
+			// 	type: "text",
+			// 	defaultValue:
+			// 		"You can find my source code at: https://github.com/BuilderIO/blog-example/blob/main/components/Card.js",
+			// 	required: true,
+			// },
+			// {
+			// 	name: "imgSrc",
+			// 	defaultValue:
+			// 		"https://cdn.builder.io/api/v1/image/assets%2Fccda6c7abf4c4b8195aa67d47de420dd%2F784e7fa828bd440391e222589df3968c",
+			// 	friendlyName: "image",
+			// 	type: "file",
+			// 	allowedFileTypes: ["png", "jpg", "webp"],
+			// },
+			// {
+			// 	name: "href",
+			// 	friendlyName: "link",
+			// 	type: "url",
+			// },
 		],
 	}
 );
@@ -656,19 +633,19 @@ Builder?.registerComponent(
 				defaultValue: "Let's Talk Now",
 				required: true,
 			},
-			{
-				name: "imgSrc",
-				defaultValue:
-					"https://cdn.builder.io/api/v1/image/assets%2Fccda6c7abf4c4b8195aa67d47de420dd%2F784e7fa828bd440391e222589df3968c",
-				friendlyName: "image",
-				type: "file",
-				allowedFileTypes: ["png", "jpg", "webp"],
-			},
-			{
-				name: "href",
-				friendlyName: "link",
-				type: "url",
-			},
+			// {
+			// 	name: "imgSrc",
+			// 	defaultValue:
+			// 		"https://cdn.builder.io/api/v1/image/assets%2Fccda6c7abf4c4b8195aa67d47de420dd%2F784e7fa828bd440391e222589df3968c",
+			// 	friendlyName: "image",
+			// 	type: "file",
+			// 	allowedFileTypes: ["png", "jpg", "webp"],
+			// },
+			// {
+			// 	name: "href",
+			// 	friendlyName: "link",
+			// 	type: "url",
+			// },
 		],
 	}
 );
@@ -711,11 +688,11 @@ Builder?.registerComponent(
 				type: "file",
 				allowedFileTypes: ["png", "jpg", "webp"],
 			},
-			{
-				name: "href",
-				friendlyName: "link",
-				type: "url",
-			},
+			// {
+			// 	name: "href",
+			// 	friendlyName: "link",
+			// 	type: "url",
+			// },
 		],
 	}
 );
@@ -726,38 +703,38 @@ Builder?.registerComponent(
 		image:
 			"https://tabler-icons.io/static/tabler-icons/icons-png/home-question.png",
 		inputs: [
-			{
-				name: "title",
-				type: "string",
-				required: true,
-				defaultValue: "I am a React + Tailwind component!",
-			},
-			{
-				name: "description",
-				type: "text",
-				defaultValue:
-					"You can find my source code at: https://github.com/BuilderIO/blog-example/blob/main/components/Card.js",
-				required: true,
-			},
+			// {
+			// 	name: "title",
+			// 	type: "string",
+			// 	required: true,
+			// 	defaultValue: "I am a React + Tailwind component!",
+			// },
+			// {
+			// 	name: "description",
+			// 	type: "text",
+			// 	defaultValue:
+			// 		"You can find my source code at: https://github.com/BuilderIO/blog-example/blob/main/components/Card.js",
+			// 	required: true,
+			// },
 			{
 				name: "buttonText",
 				type: "text",
 				defaultValue: "Load more works",
 				required: true,
 			},
-			{
-				name: "imgSrc",
-				defaultValue:
-					"https://cdn.builder.io/api/v1/image/assets%2Fccda6c7abf4c4b8195aa67d47de420dd%2F784e7fa828bd440391e222589df3968c",
-				friendlyName: "image",
-				type: "file",
-				allowedFileTypes: ["png", "jpg", "webp"],
-			},
-			{
-				name: "href",
-				friendlyName: "link",
-				type: "url",
-			},
+			// {
+			// 	name: "imgSrc",
+			// 	defaultValue:
+			// 		"https://cdn.builder.io/api/v1/image/assets%2Fccda6c7abf4c4b8195aa67d47de420dd%2F784e7fa828bd440391e222589df3968c",
+			// 	friendlyName: "image",
+			// 	type: "file",
+			// 	allowedFileTypes: ["png", "jpg", "webp"],
+			// },
+			// {
+			// 	name: "href",
+			// 	friendlyName: "link",
+			// 	type: "url",
+			// },
 		],
 	}
 );
@@ -781,26 +758,26 @@ Builder?.registerComponent(
 				required: true,
 				defaultValue: "Let's Talk Now",
 			},
-			{
-				name: "description",
-				type: "text",
-				defaultValue:
-					"You can find my source code at: https://github.com/BuilderIO/blog-example/blob/main/components/Card.js",
-				required: true,
-			},
-			{
-				name: "imgSrc",
-				defaultValue:
-					"https://cdn.builder.io/api/v1/image/assets%2Fccda6c7abf4c4b8195aa67d47de420dd%2F784e7fa828bd440391e222589df3968c",
-				friendlyName: "image",
-				type: "file",
-				allowedFileTypes: ["png", "jpg", "webp"],
-			},
-			{
-				name: "href",
-				friendlyName: "link",
-				type: "url",
-			},
+			// {
+			// 	name: "description",
+			// 	type: "text",
+			// 	defaultValue:
+			// 		"You can find my source code at: https://github.com/BuilderIO/blog-example/blob/main/components/Card.js",
+			// 	required: true,
+			// },
+			// {
+			// 	name: "imgSrc",
+			// 	defaultValue:
+			// 		"https://cdn.builder.io/api/v1/image/assets%2Fccda6c7abf4c4b8195aa67d47de420dd%2F784e7fa828bd440391e222589df3968c",
+			// 	friendlyName: "image",
+			// 	type: "file",
+			// 	allowedFileTypes: ["png", "jpg", "webp"],
+			// },
+			// {
+			// 	name: "href",
+			// 	friendlyName: "link",
+			// 	type: "url",
+			// },
 		],
 	}
 );
@@ -829,19 +806,19 @@ Builder?.registerComponent(
 				defaultValue: "for your products.",
 				required: true,
 			},
-			{
-				name: "imgSrc",
-				defaultValue:
-					"https://cdn.builder.io/api/v1/image/assets%2Fccda6c7abf4c4b8195aa67d47de420dd%2F784e7fa828bd440391e222589df3968c",
-				friendlyName: "image",
-				type: "file",
-				allowedFileTypes: ["png", "jpg", "webp"],
-			},
-			{
-				name: "href",
-				friendlyName: "link",
-				type: "url",
-			},
+			// {
+			// 	name: "imgSrc",
+			// 	defaultValue:
+			// 		"https://cdn.builder.io/api/v1/image/assets%2Fccda6c7abf4c4b8195aa67d47de420dd%2F784e7fa828bd440391e222589df3968c",
+			// 	friendlyName: "image",
+			// 	type: "file",
+			// 	allowedFileTypes: ["png", "jpg", "webp"],
+			// },
+			// {
+			// 	name: "href",
+			// 	friendlyName: "link",
+			// 	type: "url",
+			// },
 		],
 	}
 );
@@ -852,38 +829,38 @@ Builder?.registerComponent(
 		image:
 			"https://tabler-icons.io/static/tabler-icons/icons-png/home-edit.png",
 		inputs: [
-			{
-				name: "title",
-				type: "string",
-				required: true,
-				defaultValue: "I am a React + Tailwind component!",
-			},
-			{
-				name: "description",
-				type: "text",
-				defaultValue:
-					"You can find my source code at: https://github.com/BuilderIO/blog-example/blob/main/components/Card.js",
-				required: true,
-			},
+			// {
+			// 	name: "title",
+			// 	type: "string",
+			// 	required: true,
+			// 	defaultValue: "I am a React + Tailwind component!",
+			// },
+			// {
+			// 	name: "description",
+			// 	type: "text",
+			// 	defaultValue:
+			// 		"You can find my source code at: https://github.com/BuilderIO/blog-example/blob/main/components/Card.js",
+			// 	required: true,
+			// },
 			{
 				name: "buttonText",
 				type: "text",
 				defaultValue: "Load more works",
 				required: true,
 			},
-			{
-				name: "imgSrc",
-				defaultValue:
-					"https://cdn.builder.io/api/v1/image/assets%2Fccda6c7abf4c4b8195aa67d47de420dd%2F784e7fa828bd440391e222589df3968c",
-				friendlyName: "image",
-				type: "file",
-				allowedFileTypes: ["png", "jpg", "webp"],
-			},
-			{
-				name: "href",
-				friendlyName: "link",
-				type: "url",
-			},
+			// {
+			// 	name: "imgSrc",
+			// 	defaultValue:
+			// 		"https://cdn.builder.io/api/v1/image/assets%2Fccda6c7abf4c4b8195aa67d47de420dd%2F784e7fa828bd440391e222589df3968c",
+			// 	friendlyName: "image",
+			// 	type: "file",
+			// 	allowedFileTypes: ["png", "jpg", "webp"],
+			// },
+			// {
+			// 	name: "href",
+			// 	friendlyName: "link",
+			// 	type: "url",
+			// },
 		],
 	}
 );
@@ -918,26 +895,26 @@ Builder?.registerComponent(
 				friendlyName: "link",
 				type: "url",
 			},
-			{
-				name: "description",
-				type: "text",
-				defaultValue:
-					"You can find my source code at: https://github.com/BuilderIO/blog-example/blob/main/components/Card.js",
-				required: true,
-			},
-			{
-				name: "imgSrc",
-				defaultValue:
-					"https://cdn.builder.io/api/v1/image/assets%2Fccda6c7abf4c4b8195aa67d47de420dd%2F784e7fa828bd440391e222589df3968c",
-				friendlyName: "image",
-				type: "file",
-				allowedFileTypes: ["png", "jpg", "webp"],
-			},
-			{
-				name: "href",
-				friendlyName: "link",
-				type: "url",
-			},
+			// {
+			// 	name: "description",
+			// 	type: "text",
+			// 	defaultValue:
+			// 		"You can find my source code at: https://github.com/BuilderIO/blog-example/blob/main/components/Card.js",
+			// 	required: true,
+			// },
+			// {
+			// 	name: "imgSrc",
+			// 	defaultValue:
+			// 		"https://cdn.builder.io/api/v1/image/assets%2Fccda6c7abf4c4b8195aa67d47de420dd%2F784e7fa828bd440391e222589df3968c",
+			// 	friendlyName: "image",
+			// 	type: "file",
+			// 	allowedFileTypes: ["png", "jpg", "webp"],
+			// },
+			// {
+			// 	name: "href",
+			// 	friendlyName: "link",
+			// 	type: "url",
+			// },
 		],
 	}
 );
@@ -959,26 +936,26 @@ Builder?.registerComponent(
 				defaultValue: "Explore works",
 				required: true,
 			},
-			{
-				name: "description",
-				type: "text",
-				defaultValue:
-					"You can find my source code at: https://github.com/BuilderIO/blog-example/blob/main/components/Card.js",
-				required: true,
-			},
-			{
-				name: "imgSrc",
-				defaultValue:
-					"https://cdn.builder.io/api/v1/image/assets%2Fccda6c7abf4c4b8195aa67d47de420dd%2F784e7fa828bd440391e222589df3968c",
-				friendlyName: "image",
-				type: "file",
-				allowedFileTypes: ["png", "jpg", "webp"],
-			},
-			{
-				name: "href",
-				friendlyName: "link",
-				type: "url",
-			},
+			// {
+			// 	name: "description",
+			// 	type: "text",
+			// 	defaultValue:
+			// 		"You can find my source code at: https://github.com/BuilderIO/blog-example/blob/main/components/Card.js",
+			// 	required: true,
+			// },
+			// {
+			// 	name: "imgSrc",
+			// 	defaultValue:
+			// 		"https://cdn.builder.io/api/v1/image/assets%2Fccda6c7abf4c4b8195aa67d47de420dd%2F784e7fa828bd440391e222589df3968c",
+			// 	friendlyName: "image",
+			// 	type: "file",
+			// 	allowedFileTypes: ["png", "jpg", "webp"],
+			// },
+			// {
+			// 	name: "href",
+			// 	friendlyName: "link",
+			// 	type: "url",
+			// },
 		],
 	}
 );
@@ -994,26 +971,26 @@ Builder?.registerComponent(
 				defaultValue: "Load more works",
 				required: true,
 			},
-			{
-				name: "description",
-				type: "text",
-				defaultValue:
-					"You can find my source code at: https://github.com/BuilderIO/blog-example/blob/main/components/Card.js",
-				required: true,
-			},
-			{
-				name: "imgSrc",
-				defaultValue:
-					"https://cdn.builder.io/api/v1/image/assets%2Fccda6c7abf4c4b8195aa67d47de420dd%2F784e7fa828bd440391e222589df3968c",
-				friendlyName: "image",
-				type: "file",
-				allowedFileTypes: ["png", "jpg", "webp"],
-			},
-			{
-				name: "href",
-				friendlyName: "link",
-				type: "url",
-			},
+			// {
+			// 	name: "description",
+			// 	type: "text",
+			// 	defaultValue:
+			// 		"You can find my source code at: https://github.com/BuilderIO/blog-example/blob/main/components/Card.js",
+			// 	required: true,
+			// },
+			// {
+			// 	name: "imgSrc",
+			// 	defaultValue:
+			// 		"https://cdn.builder.io/api/v1/image/assets%2Fccda6c7abf4c4b8195aa67d47de420dd%2F784e7fa828bd440391e222589df3968c",
+			// 	friendlyName: "image",
+			// 	type: "file",
+			// 	allowedFileTypes: ["png", "jpg", "webp"],
+			// },
+			// {
+			// 	name: "href",
+			// 	friendlyName: "link",
+			// 	type: "url",
+			// },
 		],
 	}
 );
@@ -1035,26 +1012,26 @@ Builder?.registerComponent(
 				defaultValue: "Let's Talk Now",
 				required: true,
 			},
-			{
-				name: "description",
-				type: "text",
-				defaultValue:
-					"You can find my source code at: https://github.com/BuilderIO/blog-example/blob/main/components/Card.js",
-				required: true,
-			},
-			{
-				name: "imgSrc",
-				defaultValue:
-					"https://cdn.builder.io/api/v1/image/assets%2Fccda6c7abf4c4b8195aa67d47de420dd%2F784e7fa828bd440391e222589df3968c",
-				friendlyName: "image",
-				type: "file",
-				allowedFileTypes: ["png", "jpg", "webp"],
-			},
-			{
-				name: "href",
-				friendlyName: "link",
-				type: "url",
-			},
+			// {
+			// 	name: "description",
+			// 	type: "text",
+			// 	defaultValue:
+			// 		"You can find my source code at: https://github.com/BuilderIO/blog-example/blob/main/components/Card.js",
+			// 	required: true,
+			// },
+			// {
+			// 	name: "imgSrc",
+			// 	defaultValue:
+			// 		"https://cdn.builder.io/api/v1/image/assets%2Fccda6c7abf4c4b8195aa67d47de420dd%2F784e7fa828bd440391e222589df3968c",
+			// 	friendlyName: "image",
+			// 	type: "file",
+			// 	allowedFileTypes: ["png", "jpg", "webp"],
+			// },
+			// {
+			// 	name: "href",
+			// 	friendlyName: "link",
+			// 	type: "url",
+			// },
 		],
 	}
 );
@@ -1090,11 +1067,11 @@ Builder?.registerComponent(
 				type: "file",
 				allowedFileTypes: ["png", "jpg", "webp"],
 			},
-			{
-				name: "href",
-				friendlyName: "link",
-				type: "url",
-			},
+			// {
+			// 	name: "href",
+			// 	friendlyName: "link",
+			// 	type: "url",
+			// },
 		],
 	}
 );
@@ -1105,38 +1082,38 @@ Builder?.registerComponent(
 		image:
 			"https://tabler-icons.io/static/tabler-icons/icons-png/layout-rows.png",
 		inputs: [
-			{
-				name: "title",
-				type: "string",
-				required: true,
-				defaultValue: "I am a React + Tailwind component!",
-			},
-			{
-				name: "description",
-				type: "text",
-				defaultValue:
-					"You can find my source code at: https://github.com/BuilderIO/blog-example/blob/main/components/Card.js",
-				required: true,
-			},
+			// {
+			// 	name: "title",
+			// 	type: "string",
+			// 	required: true,
+			// 	defaultValue: "I am a React + Tailwind component!",
+			// },
+			// {
+			// 	name: "description",
+			// 	type: "text",
+			// 	defaultValue:
+			// 		"You can find my source code at: https://github.com/BuilderIO/blog-example/blob/main/components/Card.js",
+			// 	required: true,
+			// },
 			{
 				name: "buttonText",
 				type: "text",
 				defaultValue: "Load more works",
 				required: true,
 			},
-			{
-				name: "imgSrc",
-				defaultValue:
-					"https://cdn.builder.io/api/v1/image/assets%2Fccda6c7abf4c4b8195aa67d47de420dd%2F784e7fa828bd440391e222589df3968c",
-				friendlyName: "image",
-				type: "file",
-				allowedFileTypes: ["png", "jpg", "webp"],
-			},
-			{
-				name: "href",
-				friendlyName: "link",
-				type: "url",
-			},
+			// {
+			// 	name: "imgSrc",
+			// 	defaultValue:
+			// 		"https://cdn.builder.io/api/v1/image/assets%2Fccda6c7abf4c4b8195aa67d47de420dd%2F784e7fa828bd440391e222589df3968c",
+			// 	friendlyName: "image",
+			// 	type: "file",
+			// 	allowedFileTypes: ["png", "jpg", "webp"],
+			// },
+			// {
+			// 	name: "href",
+			// 	friendlyName: "link",
+			// 	type: "url",
+			// },
 		],
 	}
 );
@@ -1159,26 +1136,26 @@ Builder?.registerComponent(
 				defaultValue: "Let's Talk Now",
 				required: true,
 			},
-			{
-				name: "description",
-				type: "text",
-				defaultValue:
-					"You can find my source code at: https://github.com/BuilderIO/blog-example/blob/main/components/Card.js",
-				required: true,
-			},
-			{
-				name: "imgSrc",
-				defaultValue:
-					"https://cdn.builder.io/api/v1/image/assets%2Fccda6c7abf4c4b8195aa67d47de420dd%2F784e7fa828bd440391e222589df3968c",
-				friendlyName: "image",
-				type: "file",
-				allowedFileTypes: ["png", "jpg", "webp"],
-			},
-			{
-				name: "href",
-				friendlyName: "link",
-				type: "url",
-			},
+			// {
+			// 	name: "description",
+			// 	type: "text",
+			// 	defaultValue:
+			// 		"You can find my source code at: https://github.com/BuilderIO/blog-example/blob/main/components/Card.js",
+			// 	required: true,
+			// },
+			// {
+			// 	name: "imgSrc",
+			// 	defaultValue:
+			// 		"https://cdn.builder.io/api/v1/image/assets%2Fccda6c7abf4c4b8195aa67d47de420dd%2F784e7fa828bd440391e222589df3968c",
+			// 	friendlyName: "image",
+			// 	type: "file",
+			// 	allowedFileTypes: ["png", "jpg", "webp"],
+			// },
+			// {
+			// 	name: "href",
+			// 	friendlyName: "link",
+			// 	type: "url",
+			// },
 		],
 	}
 );
@@ -1213,19 +1190,19 @@ Builder?.registerComponent(
 				defaultValue: "Lets talk",
 				required: true,
 			},
-			{
-				name: "imgSrc",
-				defaultValue:
-					"https://cdn.builder.io/api/v1/image/assets%2Fccda6c7abf4c4b8195aa67d47de420dd%2F784e7fa828bd440391e222589df3968c",
-				friendlyName: "image",
-				type: "file",
-				allowedFileTypes: ["png", "jpg", "webp"],
-			},
-			{
-				name: "href",
-				friendlyName: "link",
-				type: "url",
-			},
+			// {
+			// 	name: "imgSrc",
+			// 	defaultValue:
+			// 		"https://cdn.builder.io/api/v1/image/assets%2Fccda6c7abf4c4b8195aa67d47de420dd%2F784e7fa828bd440391e222589df3968c",
+			// 	friendlyName: "image",
+			// 	type: "file",
+			// 	allowedFileTypes: ["png", "jpg", "webp"],
+			// },
+			// {
+			// 	name: "href",
+			// 	friendlyName: "link",
+			// 	type: "url",
+			// },
 		],
 	}
 );
@@ -1235,38 +1212,38 @@ Builder?.registerComponent(
 		name: "masonry-3-column-fluid/Works",
 		image: "https://tabler-icons.io/static/tabler-icons/icons-png/triangle.png",
 		inputs: [
-			{
-				name: "title",
-				type: "string",
-				required: true,
-				defaultValue: "I am a React + Tailwind component!",
-			},
+			// {
+			// 	name: "title",
+			// 	type: "string",
+			// 	required: true,
+			// 	defaultValue: "I am a React + Tailwind component!",
+			// },
 			{
 				name: "buttonText",
 				type: "text",
 				defaultValue: "Load more works",
 				required: true,
 			},
-			{
-				name: "description",
-				type: "text",
-				defaultValue:
-					"You can find my source code at: https://github.com/BuilderIO/blog-example/blob/main/components/Card.js",
-				required: true,
-			},
-			{
-				name: "imgSrc",
-				defaultValue:
-					"https://cdn.builder.io/api/v1/image/assets%2Fccda6c7abf4c4b8195aa67d47de420dd%2F784e7fa828bd440391e222589df3968c",
-				friendlyName: "image",
-				type: "file",
-				allowedFileTypes: ["png", "jpg", "webp"],
-			},
-			{
-				name: "href",
-				friendlyName: "link",
-				type: "url",
-			},
+			// {
+			// 	name: "description",
+			// 	type: "text",
+			// 	defaultValue:
+			// 		"You can find my source code at: https://github.com/BuilderIO/blog-example/blob/main/components/Card.js",
+			// 	required: true,
+			// },
+			// {
+			// 	name: "imgSrc",
+			// 	defaultValue:
+			// 		"https://cdn.builder.io/api/v1/image/assets%2Fccda6c7abf4c4b8195aa67d47de420dd%2F784e7fa828bd440391e222589df3968c",
+			// 	friendlyName: "image",
+			// 	type: "file",
+			// 	allowedFileTypes: ["png", "jpg", "webp"],
+			// },
+			// {
+			// 	name: "href",
+			// 	friendlyName: "link",
+			// 	type: "url",
+			// },
 		],
 	}
 );
@@ -1288,26 +1265,26 @@ Builder?.registerComponent(
 				defaultValue: "Let's Talk Now",
 				required: true,
 			},
-			{
-				name: "description",
-				type: "text",
-				defaultValue:
-					"You can find my source code at: https://github.com/BuilderIO/blog-example/blob/main/components/Card.js",
-				required: true,
-			},
-			{
-				name: "imgSrc",
-				defaultValue:
-					"https://cdn.builder.io/api/v1/image/assets%2Fccda6c7abf4c4b8195aa67d47de420dd%2F784e7fa828bd440391e222589df3968c",
-				friendlyName: "image",
-				type: "file",
-				allowedFileTypes: ["png", "jpg", "webp"],
-			},
-			{
-				name: "href",
-				friendlyName: "link",
-				type: "url",
-			},
+			// {
+			// 	name: "description",
+			// 	type: "text",
+			// 	defaultValue:
+			// 		"You can find my source code at: https://github.com/BuilderIO/blog-example/blob/main/components/Card.js",
+			// 	required: true,
+			// },
+			// {
+			// 	name: "imgSrc",
+			// 	defaultValue:
+			// 		"https://cdn.builder.io/api/v1/image/assets%2Fccda6c7abf4c4b8195aa67d47de420dd%2F784e7fa828bd440391e222589df3968c",
+			// 	friendlyName: "image",
+			// 	type: "file",
+			// 	allowedFileTypes: ["png", "jpg", "webp"],
+			// },
+			// {
+			// 	name: "href",
+			// 	friendlyName: "link",
+			// 	type: "url",
+			// },
 		],
 	}
 );
@@ -1330,19 +1307,19 @@ Builder?.registerComponent(
 				defaultValue: "See My works",
 				required: true,
 			},
-			{
-				name: "imgSrc",
-				defaultValue:
-					"https://cdn.builder.io/api/v1/image/assets%2Fccda6c7abf4c4b8195aa67d47de420dd%2F784e7fa828bd440391e222589df3968c",
-				friendlyName: "image",
-				type: "file",
-				allowedFileTypes: ["png", "jpg", "webp"],
-			},
-			{
-				name: "href",
-				friendlyName: "link",
-				type: "url",
-			},
+			// {
+			// 	name: "imgSrc",
+			// 	defaultValue:
+			// 		"https://cdn.builder.io/api/v1/image/assets%2Fccda6c7abf4c4b8195aa67d47de420dd%2F784e7fa828bd440391e222589df3968c",
+			// 	friendlyName: "image",
+			// 	type: "file",
+			// 	allowedFileTypes: ["png", "jpg", "webp"],
+			// },
+			// {
+			// 	name: "href",
+			// 	friendlyName: "link",
+			// 	type: "url",
+			// },
 		],
 	}
 );
@@ -1359,26 +1336,26 @@ Builder?.registerComponent(
 				defaultValue: "Load more works",
 				required: true,
 			},
-			{
-				name: "description",
-				type: "text",
-				defaultValue:
-					"You can find my source code at: https://github.com/BuilderIO/blog-example/blob/main/components/Card.js",
-				required: true,
-			},
-			{
-				name: "imgSrc",
-				defaultValue:
-					"https://cdn.builder.io/api/v1/image/assets%2Fccda6c7abf4c4b8195aa67d47de420dd%2F784e7fa828bd440391e222589df3968c",
-				friendlyName: "image",
-				type: "file",
-				allowedFileTypes: ["png", "jpg", "webp"],
-			},
-			{
-				name: "href",
-				friendlyName: "link",
-				type: "url",
-			},
+			// {
+			// 	name: "description",
+			// 	type: "text",
+			// 	defaultValue:
+			// 		"You can find my source code at: https://github.com/BuilderIO/blog-example/blob/main/components/Card.js",
+			// 	required: true,
+			// },
+			// {
+			// 	name: "imgSrc",
+			// 	defaultValue:
+			// 		"https://cdn.builder.io/api/v1/image/assets%2Fccda6c7abf4c4b8195aa67d47de420dd%2F784e7fa828bd440391e222589df3968c",
+			// 	friendlyName: "image",
+			// 	type: "file",
+			// 	allowedFileTypes: ["png", "jpg", "webp"],
+			// },
+			// {
+			// 	name: "href",
+			// 	friendlyName: "link",
+			// 	type: "url",
+			// },
 		],
 	}
 );
@@ -1401,26 +1378,26 @@ Builder?.registerComponent(
 				defaultValue: "Let's Talk Now",
 				required: true,
 			},
-			{
-				name: "description",
-				type: "text",
-				defaultValue:
-					"You can find my source code at: https://github.com/BuilderIO/blog-example/blob/main/components/Card.js",
-				required: true,
-			},
-			{
-				name: "imgSrc",
-				defaultValue:
-					"https://cdn.builder.io/api/v1/image/assets%2Fccda6c7abf4c4b8195aa67d47de420dd%2F784e7fa828bd440391e222589df3968c",
-				friendlyName: "image",
-				type: "file",
-				allowedFileTypes: ["png", "jpg", "webp"],
-			},
-			{
-				name: "href",
-				friendlyName: "link",
-				type: "url",
-			},
+			// {
+			// 	name: "description",
+			// 	type: "text",
+			// 	defaultValue:
+			// 		"You can find my source code at: https://github.com/BuilderIO/blog-example/blob/main/components/Card.js",
+			// 	required: true,
+			// },
+			// {
+			// 	name: "imgSrc",
+			// 	defaultValue:
+			// 		"https://cdn.builder.io/api/v1/image/assets%2Fccda6c7abf4c4b8195aa67d47de420dd%2F784e7fa828bd440391e222589df3968c",
+			// 	friendlyName: "image",
+			// 	type: "file",
+			// 	allowedFileTypes: ["png", "jpg", "webp"],
+			// },
+			// {
+			// 	name: "href",
+			// 	friendlyName: "link",
+			// 	type: "url",
+			// },
 		],
 	}
 );
@@ -1455,19 +1432,19 @@ Builder?.registerComponent(
 				defaultValue: "Explore works",
 				required: true,
 			},
-			{
-				name: "imgSrc",
-				defaultValue:
-					"https://cdn.builder.io/api/v1/image/assets%2Fccda6c7abf4c4b8195aa67d47de420dd%2F784e7fa828bd440391e222589df3968c",
-				friendlyName: "image",
-				type: "file",
-				allowedFileTypes: ["png", "jpg", "webp"],
-			},
-			{
-				name: "href",
-				friendlyName: "link",
-				type: "url",
-			},
+			// {
+			// 	name: "imgSrc",
+			// 	defaultValue:
+			// 		"https://cdn.builder.io/api/v1/image/assets%2Fccda6c7abf4c4b8195aa67d47de420dd%2F784e7fa828bd440391e222589df3968c",
+			// 	friendlyName: "image",
+			// 	type: "file",
+			// 	allowedFileTypes: ["png", "jpg", "webp"],
+			// },
+			// {
+			// 	name: "href",
+			// 	friendlyName: "link",
+			// 	type: "url",
+			// },
 		],
 	}
 );
@@ -1484,26 +1461,26 @@ Builder?.registerComponent(
 				defaultValue: "Load more works",
 				required: true,
 			},
-			{
-				name: "description",
-				type: "text",
-				defaultValue:
-					"You can find my source code at: https://github.com/BuilderIO/blog-example/blob/main/components/Card.js",
-				required: true,
-			},
-			{
-				name: "imgSrc",
-				defaultValue:
-					"https://cdn.builder.io/api/v1/image/assets%2Fccda6c7abf4c4b8195aa67d47de420dd%2F784e7fa828bd440391e222589df3968c",
-				friendlyName: "image",
-				type: "file",
-				allowedFileTypes: ["png", "jpg", "webp"],
-			},
-			{
-				name: "href",
-				friendlyName: "link",
-				type: "url",
-			},
+			// {
+			// 	name: "description",
+			// 	type: "text",
+			// 	defaultValue:
+			// 		"You can find my source code at: https://github.com/BuilderIO/blog-example/blob/main/components/Card.js",
+			// 	required: true,
+			// },
+			// {
+			// 	name: "imgSrc",
+			// 	defaultValue:
+			// 		"https://cdn.builder.io/api/v1/image/assets%2Fccda6c7abf4c4b8195aa67d47de420dd%2F784e7fa828bd440391e222589df3968c",
+			// 	friendlyName: "image",
+			// 	type: "file",
+			// 	allowedFileTypes: ["png", "jpg", "webp"],
+			// },
+			// {
+			// 	name: "href",
+			// 	friendlyName: "link",
+			// 	type: "url",
+			// },
 		],
 	}
 );
@@ -1526,19 +1503,19 @@ Builder?.registerComponent(
 				defaultValue: "Let's Talk Now",
 				required: true,
 			},
-			{
-				name: "imgSrc",
-				defaultValue:
-					"https://cdn.builder.io/api/v1/image/assets%2Fccda6c7abf4c4b8195aa67d47de420dd%2F784e7fa828bd440391e222589df3968c",
-				friendlyName: "image",
-				type: "file",
-				allowedFileTypes: ["png", "jpg", "webp"],
-			},
-			{
-				name: "href",
-				friendlyName: "link",
-				type: "url",
-			},
+			// {
+			// 	name: "imgSrc",
+			// 	defaultValue:
+			// 		"https://cdn.builder.io/api/v1/image/assets%2Fccda6c7abf4c4b8195aa67d47de420dd%2F784e7fa828bd440391e222589df3968c",
+			// 	friendlyName: "image",
+			// 	type: "file",
+			// 	allowedFileTypes: ["png", "jpg", "webp"],
+			// },
+			// {
+			// 	name: "href",
+			// 	friendlyName: "link",
+			// 	type: "url",
+			// },
 		],
 	}
 );
@@ -1567,19 +1544,19 @@ Builder?.registerComponent(
 				defaultValue: "Let's Discuss",
 				required: true,
 			},
-			{
-				name: "imgSrc",
-				defaultValue:
-					"https://cdn.builder.io/api/v1/image/assets%2Fccda6c7abf4c4b8195aa67d47de420dd%2F784e7fa828bd440391e222589df3968c",
-				friendlyName: "image",
-				type: "file",
-				allowedFileTypes: ["png", "jpg", "webp"],
-			},
-			{
-				name: "href",
-				friendlyName: "link",
-				type: "url",
-			},
+			// {
+			// 	name: "imgSrc",
+			// 	defaultValue:
+			// 		"https://cdn.builder.io/api/v1/image/assets%2Fccda6c7abf4c4b8195aa67d47de420dd%2F784e7fa828bd440391e222589df3968c",
+			// 	friendlyName: "image",
+			// 	type: "file",
+			// 	allowedFileTypes: ["png", "jpg", "webp"],
+			// },
+			// {
+			// 	name: "href",
+			// 	friendlyName: "link",
+			// 	type: "url",
+			// },
 		],
 	}
 );
@@ -1597,19 +1574,19 @@ Builder?.registerComponent(
 				required: true,
 			},
 
-			{
-				name: "imgSrc",
-				defaultValue:
-					"https://cdn.builder.io/api/v1/image/assets%2Fccda6c7abf4c4b8195aa67d47de420dd%2F784e7fa828bd440391e222589df3968c",
-				friendlyName: "image",
-				type: "file",
-				allowedFileTypes: ["png", "jpg", "webp"],
-			},
-			{
-				name: "href",
-				friendlyName: "link",
-				type: "url",
-			},
+			// {
+			// 	name: "imgSrc",
+			// 	defaultValue:
+			// 		"https://cdn.builder.io/api/v1/image/assets%2Fccda6c7abf4c4b8195aa67d47de420dd%2F784e7fa828bd440391e222589df3968c",
+			// 	friendlyName: "image",
+			// 	type: "file",
+			// 	allowedFileTypes: ["png", "jpg", "webp"],
+			// },
+			// {
+			// 	name: "href",
+			// 	friendlyName: "link",
+			// 	type: "url",
+			// },
 		],
 	}
 );
@@ -1638,19 +1615,19 @@ Builder?.registerComponent(
 				defaultValue: "Check my works",
 				required: true,
 			},
-			{
-				name: "imgSrc",
-				defaultValue:
-					"https://cdn.builder.io/api/v1/image/assets%2Fccda6c7abf4c4b8195aa67d47de420dd%2F784e7fa828bd440391e222589df3968c",
-				friendlyName: "image",
-				type: "file",
-				allowedFileTypes: ["png", "jpg", "webp"],
-			},
-			{
-				name: "href",
-				friendlyName: "link",
-				type: "url",
-			},
+			// {
+			// 	name: "imgSrc",
+			// 	defaultValue:
+			// 		"https://cdn.builder.io/api/v1/image/assets%2Fccda6c7abf4c4b8195aa67d47de420dd%2F784e7fa828bd440391e222589df3968c",
+			// 	friendlyName: "image",
+			// 	type: "file",
+			// 	allowedFileTypes: ["png", "jpg", "webp"],
+			// },
+			// {
+			// 	name: "href",
+			// 	friendlyName: "link",
+			// 	type: "url",
+			// },
 		],
 	}
 );
@@ -1667,19 +1644,19 @@ Builder?.registerComponent(
 				required: true,
 			},
 
-			{
-				name: "imgSrc",
-				defaultValue:
-					"https://cdn.builder.io/api/v1/image/assets%2Fccda6c7abf4c4b8195aa67d47de420dd%2F784e7fa828bd440391e222589df3968c",
-				friendlyName: "image",
-				type: "file",
-				allowedFileTypes: ["png", "jpg", "webp"],
-			},
-			{
-				name: "href",
-				friendlyName: "link",
-				type: "url",
-			},
+			// {
+			// 	name: "imgSrc",
+			// 	defaultValue:
+			// 		"https://cdn.builder.io/api/v1/image/assets%2Fccda6c7abf4c4b8195aa67d47de420dd%2F784e7fa828bd440391e222589df3968c",
+			// 	friendlyName: "image",
+			// 	type: "file",
+			// 	allowedFileTypes: ["png", "jpg", "webp"],
+			// },
+			// {
+			// 	name: "href",
+			// 	friendlyName: "link",
+			// 	type: "url",
+			// },
 		],
 	}
 );
@@ -1715,19 +1692,19 @@ Builder?.registerComponent(
 				defaultValue: "Explore works",
 				required: true,
 			},
-			{
-				name: "imgSrc",
-				defaultValue:
-					"https://cdn.builder.io/api/v1/image/assets%2Fccda6c7abf4c4b8195aa67d47de420dd%2F784e7fa828bd440391e222589df3968c",
-				friendlyName: "image",
-				type: "file",
-				allowedFileTypes: ["png", "jpg", "webp"],
-			},
-			{
-				name: "href",
-				friendlyName: "link",
-				type: "url",
-			},
+			// {
+			// 	name: "imgSrc",
+			// 	defaultValue:
+			// 		"https://cdn.builder.io/api/v1/image/assets%2Fccda6c7abf4c4b8195aa67d47de420dd%2F784e7fa828bd440391e222589df3968c",
+			// 	friendlyName: "image",
+			// 	type: "file",
+			// 	allowedFileTypes: ["png", "jpg", "webp"],
+			// },
+			// {
+			// 	name: "href",
+			// 	friendlyName: "link",
+			// 	type: "url",
+			// },
 		],
 	}
 );
@@ -1744,19 +1721,19 @@ Builder?.registerComponent(
 				required: true,
 			},
 
-			{
-				name: "imgSrc",
-				defaultValue:
-					"https://cdn.builder.io/api/v1/image/assets%2Fccda6c7abf4c4b8195aa67d47de420dd%2F784e7fa828bd440391e222589df3968c",
-				friendlyName: "image",
-				type: "file",
-				allowedFileTypes: ["png", "jpg", "webp"],
-			},
-			{
-				name: "href",
-				friendlyName: "link",
-				type: "url",
-			},
+			// {
+			// 	name: "imgSrc",
+			// 	defaultValue:
+			// 		"https://cdn.builder.io/api/v1/image/assets%2Fccda6c7abf4c4b8195aa67d47de420dd%2F784e7fa828bd440391e222589df3968c",
+			// 	friendlyName: "image",
+			// 	type: "file",
+			// 	allowedFileTypes: ["png", "jpg", "webp"],
+			// },
+			// {
+			// 	name: "href",
+			// 	friendlyName: "link",
+			// 	type: "url",
+			// },
 		],
 	}
 );
@@ -1787,19 +1764,19 @@ Builder?.registerComponent(
 				defaultValue: "Explore works",
 				required: true,
 			},
-			{
-				name: "imgSrc",
-				defaultValue:
-					"https://cdn.builder.io/api/v1/image/assets%2Fccda6c7abf4c4b8195aa67d47de420dd%2F784e7fa828bd440391e222589df3968c",
-				friendlyName: "image",
-				type: "file",
-				allowedFileTypes: ["png", "jpg", "webp"],
-			},
-			{
-				name: "href",
-				friendlyName: "link",
-				type: "url",
-			},
+			// {
+			// 	name: "imgSrc",
+			// 	defaultValue:
+			// 		"https://cdn.builder.io/api/v1/image/assets%2Fccda6c7abf4c4b8195aa67d47de420dd%2F784e7fa828bd440391e222589df3968c",
+			// 	friendlyName: "image",
+			// 	type: "file",
+			// 	allowedFileTypes: ["png", "jpg", "webp"],
+			// },
+			// {
+			// 	name: "href",
+			// 	friendlyName: "link",
+			// 	type: "url",
+			// },
 		],
 	}
 );
@@ -1817,19 +1794,19 @@ Builder?.registerComponent(
 				required: true,
 			},
 
-			{
-				name: "imgSrc",
-				defaultValue:
-					"https://cdn.builder.io/api/v1/image/assets%2Fccda6c7abf4c4b8195aa67d47de420dd%2F784e7fa828bd440391e222589df3968c",
-				friendlyName: "image",
-				type: "file",
-				allowedFileTypes: ["png", "jpg", "webp"],
-			},
-			{
-				name: "href",
-				friendlyName: "link",
-				type: "url",
-			},
+			// {
+			// 	name: "imgSrc",
+			// 	defaultValue:
+			// 		"https://cdn.builder.io/api/v1/image/assets%2Fccda6c7abf4c4b8195aa67d47de420dd%2F784e7fa828bd440391e222589df3968c",
+			// 	friendlyName: "image",
+			// 	type: "file",
+			// 	allowedFileTypes: ["png", "jpg", "webp"],
+			// },
+			// {
+			// 	name: "href",
+			// 	friendlyName: "link",
+			// 	type: "url",
+			// },
 		],
 	}
 );
@@ -1854,19 +1831,19 @@ Builder?.registerComponent(
 				defaultValue: "Explore works",
 				required: true,
 			},
-			{
-				name: "imgSrc",
-				defaultValue:
-					"https://cdn.builder.io/api/v1/image/assets%2Fccda6c7abf4c4b8195aa67d47de420dd%2F784e7fa828bd440391e222589df3968c",
-				friendlyName: "image",
-				type: "file",
-				allowedFileTypes: ["png", "jpg", "webp"],
-			},
-			{
-				name: "href",
-				friendlyName: "link",
-				type: "url",
-			},
+			// {
+			// 	name: "imgSrc",
+			// 	defaultValue:
+			// 		"https://cdn.builder.io/api/v1/image/assets%2Fccda6c7abf4c4b8195aa67d47de420dd%2F784e7fa828bd440391e222589df3968c",
+			// 	friendlyName: "image",
+			// 	type: "file",
+			// 	allowedFileTypes: ["png", "jpg", "webp"],
+			// },
+			// {
+			// 	name: "href",
+			// 	friendlyName: "link",
+			// 	type: "url",
+			// },
 		],
 	}
 );
@@ -1884,18 +1861,18 @@ Builder?.registerComponent(
 				required: true,
 			},
 
-			{
-				name: "imgSrc",
-				defaultValue: "../assets/image/jpg/portfolio-about-2.jpg",
-				friendlyName: "image",
-				type: "file",
-				allowedFileTypes: ["png", "jpg", "webp"],
-			},
-			{
-				name: "href",
-				friendlyName: "link",
-				type: "url",
-			},
+			// {
+			// 	name: "imgSrc",
+			// 	defaultValue: "../assets/image/jpg/portfolio-about-2.jpg",
+			// 	friendlyName: "image",
+			// 	type: "file",
+			// 	allowedFileTypes: ["png", "jpg", "webp"],
+			// },
+			// {
+			// 	name: "href",
+			// 	friendlyName: "link",
+			// 	type: "url",
+			// },
 		],
 	}
 );
@@ -1906,34 +1883,34 @@ Builder?.registerComponent(
 		name: "grid-3",
 		image:
 			"https://tabler-icons.io/static/tabler-icons/icons-png/grip-horizontal.png",
-		inputs: [
-			{
-				name: "title",
-				type: "string",
-				required: true,
-				defaultValue: "I am a React + Tailwind component!",
-			},
-			{
-				name: "description",
-				type: "text",
-				defaultValue:
-					"You can find my source code at: https://github.com/BuilderIO/blog-example/blob/main/components/Card.js",
-				required: true,
-			},
-			{
-				name: "imgSrc",
-				defaultValue:
-					"https://cdn.builder.io/api/v1/image/assets%2Fccda6c7abf4c4b8195aa67d47de420dd%2F784e7fa828bd440391e222589df3968c",
-				friendlyName: "image",
-				type: "file",
-				allowedFileTypes: ["png", "jpg", "webp"],
-			},
-			{
-				name: "href",
-				friendlyName: "link",
-				type: "url",
-			},
-		],
+		// inputs: [
+		// 	{
+		// 		name: "title",
+		// 		type: "string",
+		// 		required: true,
+		// 		defaultValue: "I am a React + Tailwind component!",
+		// 	},
+		// 	{
+		// 		name: "description",
+		// 		type: "text",
+		// 		defaultValue:
+		// 			"You can find my source code at: https://github.com/BuilderIO/blog-example/blob/main/components/Card.js",
+		// 		required: true,
+		// 	},
+		// 	{
+		// 		name: "imgSrc",
+		// 		defaultValue:
+		// 			"https://cdn.builder.io/api/v1/image/assets%2Fccda6c7abf4c4b8195aa67d47de420dd%2F784e7fa828bd440391e222589df3968c",
+		// 		friendlyName: "image",
+		// 		type: "file",
+		// 		allowedFileTypes: ["png", "jpg", "webp"],
+		// 	},
+		// 	{
+		// 		name: "href",
+		// 		friendlyName: "link",
+		// 		type: "url",
+		// 	},
+		// ],
 	}
 );
 Builder?.registerComponent(
@@ -1942,34 +1919,34 @@ Builder?.registerComponent(
 		name: "grid-2",
 		image:
 			"https://tabler-icons.io/static/tabler-icons/icons-png/grip-horizontal.png",
-		inputs: [
-			{
-				name: "title",
-				type: "string",
-				required: true,
-				defaultValue: "I am a React + Tailwind component!",
-			},
-			{
-				name: "description",
-				type: "text",
-				defaultValue:
-					"You can find my source code at: https://github.com/BuilderIO/blog-example/blob/main/components/Card.js",
-				required: true,
-			},
-			{
-				name: "imgSrc",
-				defaultValue:
-					"https://cdn.builder.io/api/v1/image/assets%2Fccda6c7abf4c4b8195aa67d47de420dd%2F784e7fa828bd440391e222589df3968c",
-				friendlyName: "image",
-				type: "file",
-				allowedFileTypes: ["png", "jpg", "webp"],
-			},
-			{
-				name: "href",
-				friendlyName: "link",
-				type: "url",
-			},
-		],
+		// inputs: [
+		// 	{
+		// 		name: "title",
+		// 		type: "string",
+		// 		required: true,
+		// 		defaultValue: "I am a React + Tailwind component!",
+		// 	},
+		// 	{
+		// 		name: "description",
+		// 		type: "text",
+		// 		defaultValue:
+		// 			"You can find my source code at: https://github.com/BuilderIO/blog-example/blob/main/components/Card.js",
+		// 		required: true,
+		// 	},
+		// 	{
+		// 		name: "imgSrc",
+		// 		defaultValue:
+		// 			"https://cdn.builder.io/api/v1/image/assets%2Fccda6c7abf4c4b8195aa67d47de420dd%2F784e7fa828bd440391e222589df3968c",
+		// 		friendlyName: "image",
+		// 		type: "file",
+		// 		allowedFileTypes: ["png", "jpg", "webp"],
+		// 	},
+		// 	{
+		// 		name: "href",
+		// 		friendlyName: "link",
+		// 		type: "url",
+		// 	},
+		// ],
 	}
 );
 Builder?.registerComponent(
@@ -1978,34 +1955,34 @@ Builder?.registerComponent(
 		name: "contact",
 		image:
 			"https://tabler-icons.io/static/tabler-icons/icons-png/address-book.png",
-		inputs: [
-			{
-				name: "title",
-				type: "string",
-				required: true,
-				defaultValue: "I am a React + Tailwind component!",
-			},
-			{
-				name: "description",
-				type: "text",
-				defaultValue:
-					"You can find my source code at: https://github.com/BuilderIO/blog-example/blob/main/components/Card.js",
-				required: true,
-			},
-			{
-				name: "imgSrc",
-				defaultValue:
-					"https://cdn.builder.io/api/v1/image/assets%2Fccda6c7abf4c4b8195aa67d47de420dd%2F784e7fa828bd440391e222589df3968c",
-				friendlyName: "image",
-				type: "file",
-				allowedFileTypes: ["png", "jpg", "webp"],
-			},
-			{
-				name: "href",
-				friendlyName: "link",
-				type: "url",
-			},
-		],
+		// inputs: [
+		// 	{
+		// 		name: "title",
+		// 		type: "string",
+		// 		required: true,
+		// 		defaultValue: "I am a React + Tailwind component!",
+		// 	},
+		// 	{
+		// 		name: "description",
+		// 		type: "text",
+		// 		defaultValue:
+		// 			"You can find my source code at: https://github.com/BuilderIO/blog-example/blob/main/components/Card.js",
+		// 		required: true,
+		// 	},
+		// 	{
+		// 		name: "imgSrc",
+		// 		defaultValue:
+		// 			"https://cdn.builder.io/api/v1/image/assets%2Fccda6c7abf4c4b8195aa67d47de420dd%2F784e7fa828bd440391e222589df3968c",
+		// 		friendlyName: "image",
+		// 		type: "file",
+		// 		allowedFileTypes: ["png", "jpg", "webp"],
+		// 	},
+		// 	{
+		// 		name: "href",
+		// 		friendlyName: "link",
+		// 		type: "url",
+		// 	},
+		// ],
 	}
 );
 Builder?.registerComponent(
