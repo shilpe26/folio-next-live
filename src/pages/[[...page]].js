@@ -61,7 +61,7 @@ Builder?.registerComponent(
 	dynamic(() => import("../sections/landing1/Hero.js")),
 	{
 		name: "landing1/Hero",
-		image: "https://tabler-icons.io/static/tabler-icons/icons-png/id-badge.png",
+		image: "https://tabler-icons.io/static/tabler-icons/icons-png/home.png",
 		inputs: [
 			{
 				name: "dynamicText",
@@ -101,7 +101,7 @@ Builder?.registerComponent(
 	dynamic(() => import("../sections/landing1/Works.js")),
 	{
 		name: "landing1/Works",
-		image: "https://tabler-icons.io/static/tabler-icons/icons-png/id-badge.png",
+		image: "https://tabler-icons.io/static/tabler-icons/icons-png/home.png",
 		inputs: [
 			{
 				name: "title",
@@ -136,7 +136,7 @@ Builder?.registerComponent(
 	dynamic(() => import("../sections/landing1/Contact.js")),
 	{
 		name: "landing1/Contact",
-		image: "https://tabler-icons.io/static/tabler-icons/icons-png/id-badge.png",
+		image: "https://tabler-icons.io/static/tabler-icons/icons-png/home.png",
 		inputs: [
 			{
 				name: "title",
@@ -176,7 +176,8 @@ Builder?.registerComponent(
 	dynamic(() => import("../sections/landing2/Hero.js")),
 	{
 		name: "landing2/Hero",
-		image: "https://tabler-icons.io/static/tabler-icons/icons-png/id-badge.png",
+		image:
+			"https://tabler-icons.io/static/tabler-icons/icons-png/home-check.png",
 		inputs: [
 			{
 				name: "title",
@@ -215,7 +216,8 @@ Builder?.registerComponent(
 	dynamic(() => import("../sections/landing2/Works.js")),
 	{
 		name: "landing2/Works",
-		image: "https://tabler-icons.io/static/tabler-icons/icons-png/id-badge.png",
+		image:
+			"https://tabler-icons.io/static/tabler-icons/icons-png/home-check.png",
 		inputs: [
 			{
 				name: "title",
@@ -256,7 +258,8 @@ Builder?.registerComponent(
 	dynamic(() => import("../sections/landing2/CTA.js")),
 	{
 		name: "landing2/CTA",
-		image: "https://tabler-icons.io/static/tabler-icons/icons-png/id-badge.png",
+		image:
+			"https://tabler-icons.io/static/tabler-icons/icons-png/home-check.png",
 		inputs: [
 			{
 				name: "title",
@@ -299,7 +302,7 @@ Builder?.registerComponent(
 	dynamic(() => import("../sections/landing3/Hero.js")),
 	{
 		name: "landing3/Hero",
-		image: "https://tabler-icons.io/static/tabler-icons/icons-png/id-badge.png",
+		image: "https://tabler-icons.io/static/tabler-icons/icons-png/home-eco.png",
 		inputs: [
 			{
 				name: "title",
@@ -339,7 +342,7 @@ Builder?.registerComponent(
 	dynamic(() => import("../sections/landing3/Works.js")),
 	{
 		name: "landing3/Works",
-		image: "https://tabler-icons.io/static/tabler-icons/icons-png/id-badge.png",
+		image: "https://tabler-icons.io/static/tabler-icons/icons-png/home-eco.png",
 		inputs: [
 			{
 				name: "title",
@@ -374,7 +377,7 @@ Builder?.registerComponent(
 	dynamic(() => import("../sections/landing3/Contact.js")),
 	{
 		name: "landing3/Contact",
-		image: "https://tabler-icons.io/static/tabler-icons/icons-png/id-badge.png",
+		image: "https://tabler-icons.io/static/tabler-icons/icons-png/home-eco.png",
 		inputs: [
 			{
 				name: "title",
@@ -416,7 +419,8 @@ Builder?.registerComponent(
 	dynamic(() => import("../sections/landing4/Hero.js")),
 	{
 		name: "landing4/Hero",
-		image: "https://tabler-icons.io/static/tabler-icons/icons-png/id-badge.png",
+		image:
+			"https://tabler-icons.io/static/tabler-icons/icons-png/home-heart.png",
 		inputs: [
 			{
 				name: "title",
@@ -463,7 +467,8 @@ Builder?.registerComponent(
 	dynamic(() => import("../sections/landing4/Works.js")),
 	{
 		name: "landing4/Works",
-		image: "https://tabler-icons.io/static/tabler-icons/icons-png/id-badge.png",
+		image:
+			"https://tabler-icons.io/static/tabler-icons/icons-png/home-heart.png",
 		inputs: [
 			{
 				name: "title",
@@ -504,7 +509,8 @@ Builder?.registerComponent(
 	dynamic(() => import("../sections/landing4/CTA.js")),
 	{
 		name: "landing4/CTA",
-		image: "https://tabler-icons.io/static/tabler-icons/icons-png/id-badge.png",
+		image:
+			"https://tabler-icons.io/static/tabler-icons/icons-png/home-heart.png",
 		inputs: [
 			{
 				name: "title",
@@ -545,7 +551,8 @@ Builder?.registerComponent(
 	dynamic(() => import("../sections/landing5/Hero.js")),
 	{
 		name: "landing5/Hero",
-		image: "https://tabler-icons.io/static/tabler-icons/icons-png/id-badge.png",
+		image:
+			"https://tabler-icons.io/static/tabler-icons/icons-png/home-search.png",
 		inputs: [
 			{
 				name: "title",
@@ -591,7 +598,8 @@ Builder?.registerComponent(
 	dynamic(() => import("../sections/landing5/Works.js")),
 	{
 		name: "landing5/Works",
-		image: "https://tabler-icons.io/static/tabler-icons/icons-png/id-badge.png",
+		image:
+			"https://tabler-icons.io/static/tabler-icons/icons-png/home-search.png",
 		inputs: [
 			{
 				name: "title",
@@ -632,7 +640,8 @@ Builder?.registerComponent(
 	dynamic(() => import("../sections/landing5/CTA.js")),
 	{
 		name: "landing5/CTA",
-		image: "https://tabler-icons.io/static/tabler-icons/icons-png/id-badge.png",
+		image:
+			"https://tabler-icons.io/static/tabler-icons/icons-png/home-search.png",
 		inputs: [
 			{
 				name: "title",
@@ -667,7 +676,8 @@ Builder?.registerComponent(
 	dynamic(() => import("../sections/landing6/Hero.js")),
 	{
 		name: "landing6/Hero",
-		image: "https://tabler-icons.io/static/tabler-icons/icons-png/id-badge.png",
+		image:
+			"https://tabler-icons.io/static/tabler-icons/icons-png/home-question.png",
 		inputs: [
 			{
 				name: "title",
@@ -713,7 +723,8 @@ Builder?.registerComponent(
 	dynamic(() => import("../sections/landing6/Works.js")),
 	{
 		name: "landing6/Works",
-		image: "https://tabler-icons.io/static/tabler-icons/icons-png/id-badge.png",
+		image:
+			"https://tabler-icons.io/static/tabler-icons/icons-png/home-question.png",
 		inputs: [
 			{
 				name: "title",
@@ -754,7 +765,8 @@ Builder?.registerComponent(
 	dynamic(() => import("../sections/landing6/Contact.js")),
 	{
 		name: "landing6/Contact",
-		image: "https://tabler-icons.io/static/tabler-icons/icons-png/id-badge.png",
+		image:
+			"https://tabler-icons.io/static/tabler-icons/icons-png/home-question.png",
 		inputs: [
 			{
 				name: "title",
@@ -796,7 +808,8 @@ Builder?.registerComponent(
 	dynamic(() => import("../sections/landing8/Hero.js")),
 	{
 		name: "landing8/Hero",
-		image: "https://tabler-icons.io/static/tabler-icons/icons-png/id-badge.png",
+		image:
+			"https://tabler-icons.io/static/tabler-icons/icons-png/home-edit.png",
 		inputs: [
 			{
 				name: "title",
@@ -836,7 +849,8 @@ Builder?.registerComponent(
 	dynamic(() => import("../sections/landing8/Works.js")),
 	{
 		name: "landing8/Works",
-		image: "https://tabler-icons.io/static/tabler-icons/icons-png/id-badge.png",
+		image:
+			"https://tabler-icons.io/static/tabler-icons/icons-png/home-edit.png",
 		inputs: [
 			{
 				name: "title",
@@ -877,7 +891,8 @@ Builder?.registerComponent(
 	dynamic(() => import("../sections/landing8/Contact.js")),
 	{
 		name: "landing8/Contact",
-		image: "https://tabler-icons.io/static/tabler-icons/icons-png/id-badge.png",
+		image:
+			"https://tabler-icons.io/static/tabler-icons/icons-png/home-edit.png",
 		inputs: [
 			{
 				name: "title1",
@@ -930,7 +945,7 @@ Builder?.registerComponent(
 	dynamic(() => import("../sections/masonry-2-column/Hero.js")),
 	{
 		name: "masonry-2-column/Hero",
-		image: "https://tabler-icons.io/static/tabler-icons/icons-png/id-badge.png",
+		image: "https://tabler-icons.io/static/tabler-icons/icons-png/template.png",
 		inputs: [
 			{
 				name: "title",
@@ -971,7 +986,7 @@ Builder?.registerComponent(
 	dynamic(() => import("../sections/masonry-2-column/Works.js")),
 	{
 		name: "masonry-2-column/Works",
-		image: "https://tabler-icons.io/static/tabler-icons/icons-png/id-badge.png",
+		image: "https://tabler-icons.io/static/tabler-icons/icons-png/template.png",
 		inputs: [
 			{
 				name: "buttonText",
@@ -1006,7 +1021,7 @@ Builder?.registerComponent(
 	dynamic(() => import("../sections/masonry-2-column/Contact.js")),
 	{
 		name: "masonry-2-column/Contact",
-		image: "https://tabler-icons.io/static/tabler-icons/icons-png/id-badge.png",
+		image: "https://tabler-icons.io/static/tabler-icons/icons-png/template.png",
 		inputs: [
 			{
 				name: "title",
@@ -1047,7 +1062,8 @@ Builder?.registerComponent(
 	dynamic(() => import("../sections/masonry-3-column/Hero.js")),
 	{
 		name: "masonry-3-column/Hero",
-		image: "https://tabler-icons.io/static/tabler-icons/icons-png/id-badge.png",
+		image:
+			"https://tabler-icons.io/static/tabler-icons/icons-png/layout-rows.png",
 		inputs: [
 			{
 				name: "title",
@@ -1086,7 +1102,8 @@ Builder?.registerComponent(
 	dynamic(() => import("../sections/masonry-3-column/Works.js")),
 	{
 		name: "masonry-3-column/Works",
-		image: "https://tabler-icons.io/static/tabler-icons/icons-png/id-badge.png",
+		image:
+			"https://tabler-icons.io/static/tabler-icons/icons-png/layout-rows.png",
 		inputs: [
 			{
 				name: "title",
@@ -1127,7 +1144,8 @@ Builder?.registerComponent(
 	dynamic(() => import("../sections/masonry-3-column/Contact.js")),
 	{
 		name: "masonry-3-column/Contact",
-		image: "https://tabler-icons.io/static/tabler-icons/icons-png/id-badge.png",
+		image:
+			"https://tabler-icons.io/static/tabler-icons/icons-png/layout-rows.png",
 		inputs: [
 			{
 				name: "title",
@@ -1168,7 +1186,7 @@ Builder?.registerComponent(
 	dynamic(() => import("../sections/masonry-3-column-fluid/Hero.js")),
 	{
 		name: "masonry-3-column-fluid/Hero",
-		image: "https://tabler-icons.io/static/tabler-icons/icons-png/id-badge.png",
+		image: "https://tabler-icons.io/static/tabler-icons/icons-png/triangle.png",
 		inputs: [
 			{
 				name: "title",
@@ -1215,7 +1233,7 @@ Builder?.registerComponent(
 	dynamic(() => import("../sections/masonry-3-column-fluid/Works.js")),
 	{
 		name: "masonry-3-column-fluid/Works",
-		image: "https://tabler-icons.io/static/tabler-icons/icons-png/id-badge.png",
+		image: "https://tabler-icons.io/static/tabler-icons/icons-png/triangle.png",
 		inputs: [
 			{
 				name: "title",
@@ -1256,7 +1274,7 @@ Builder?.registerComponent(
 	dynamic(() => import("../sections/masonry-3-column-fluid/Contact.js")),
 	{
 		name: "masonry-3-column-fluid/Contact",
-		image: "https://tabler-icons.io/static/tabler-icons/icons-png/id-badge.png",
+		image: "https://tabler-icons.io/static/tabler-icons/icons-png/triangle.png",
 		inputs: [
 			{
 				name: "title",
@@ -1297,7 +1315,8 @@ Builder?.registerComponent(
 	dynamic(() => import("../sections/masonry-4-column/Hero.js")),
 	{
 		name: "masonry-4-column/Hero",
-		image: "https://tabler-icons.io/static/tabler-icons/icons-png/id-badge.png",
+		image:
+			"https://tabler-icons.io/static/tabler-icons/icons-png/triangle-filled.png",
 		inputs: [
 			{
 				name: "title",
@@ -1331,7 +1350,8 @@ Builder?.registerComponent(
 	dynamic(() => import("../sections/masonry-4-column/Works.js")),
 	{
 		name: "masonry-4-column/Works",
-		image: "https://tabler-icons.io/static/tabler-icons/icons-png/id-badge.png",
+		image:
+			"https://tabler-icons.io/static/tabler-icons/icons-png/triangle-filled.png",
 		inputs: [
 			{
 				name: "buttonText",
@@ -1366,7 +1386,8 @@ Builder?.registerComponent(
 	dynamic(() => import("../sections/masonry-4-column/Contact.js")),
 	{
 		name: "masonry-4-column/Contact",
-		image: "https://tabler-icons.io/static/tabler-icons/icons-png/id-badge.png",
+		image:
+			"https://tabler-icons.io/static/tabler-icons/icons-png/triangle-filled.png",
 		inputs: [
 			{
 				name: "title",
@@ -1407,7 +1428,8 @@ Builder?.registerComponent(
 	dynamic(() => import("../sections/masonry-4-column-fluid/Hero.js")),
 	{
 		name: "masonry-4-column-fluid/Hero",
-		image: "https://tabler-icons.io/static/tabler-icons/icons-png/id-badge.png",
+		image:
+			"https://tabler-icons.io/static/tabler-icons/icons-png/brand-flipboard.png",
 		inputs: [
 			{
 				name: "title",
@@ -1453,7 +1475,8 @@ Builder?.registerComponent(
 	dynamic(() => import("../sections/masonry-4-column-fluid/Works.js")),
 	{
 		name: "masonry-4-column-fluid/Works",
-		image: "https://tabler-icons.io/static/tabler-icons/icons-png/id-badge.png",
+		image:
+			"https://tabler-icons.io/static/tabler-icons/icons-png/brand-flipboard.png",
 		inputs: [
 			{
 				name: "buttonText",
@@ -1488,7 +1511,8 @@ Builder?.registerComponent(
 	dynamic(() => import("../sections/masonry-4-column-fluid/Contact.js")),
 	{
 		name: "masonry-4-column-fluid/Contact",
-		image: "https://tabler-icons.io/static/tabler-icons/icons-png/id-badge.png",
+		image:
+			"https://tabler-icons.io/static/tabler-icons/icons-png/brand-flipboard.png",
 		inputs: [
 			{
 				name: "title",
@@ -1522,7 +1546,8 @@ Builder?.registerComponent(
 	dynamic(() => import("../sections/grid-2/Hero.js")),
 	{
 		name: "grid-2/Hero.js",
-		image: "https://tabler-icons.io/static/tabler-icons/icons-png/id-badge.png",
+		image:
+			"https://tabler-icons.io/static/tabler-icons/icons-png/grid-goldenratio.png",
 		inputs: [
 			{
 				name: "title",
@@ -1562,7 +1587,8 @@ Builder?.registerComponent(
 	dynamic(() => import("../sections/grid-2/Works.js")),
 	{
 		name: "grid-2/Works",
-		image: "https://tabler-icons.io/static/tabler-icons/icons-png/id-badge.png",
+		image:
+			"https://tabler-icons.io/static/tabler-icons/icons-png/grid-goldenratio.png",
 		inputs: [
 			{
 				name: "buttonText",
@@ -1592,7 +1618,7 @@ Builder?.registerComponent(
 	dynamic(() => import("../sections/grid-3/Hero.js")),
 	{
 		name: "grid-3/Hero.js",
-		image: "https://tabler-icons.io/static/tabler-icons/icons-png/id-badge.png",
+		image: "https://tabler-icons.io/static/tabler-icons/icons-png/grid-3x3.png",
 		inputs: [
 			{
 				name: "title",
@@ -1632,7 +1658,7 @@ Builder?.registerComponent(
 	dynamic(() => import("../sections/grid-3/Works.js")),
 	{
 		name: "grid-3/Works",
-		image: "https://tabler-icons.io/static/tabler-icons/icons-png/id-badge.png",
+		image: "https://tabler-icons.io/static/tabler-icons/icons-png/grid-3x3.png",
 		inputs: [
 			{
 				name: "buttonText",
@@ -1662,7 +1688,7 @@ Builder?.registerComponent(
 	dynamic(() => import("../sections/grid-3-fluid/Hero.js")),
 	{
 		name: "grid-3-fluid/Hero.js",
-		image: "https://tabler-icons.io/static/tabler-icons/icons-png/id-badge.png",
+		image: "https://tabler-icons.io/static/tabler-icons/icons-png/grid-4x4.png",
 		inputs: [
 			{
 				name: "title",
@@ -1709,7 +1735,7 @@ Builder?.registerComponent(
 	dynamic(() => import("../sections/grid-3-fluid/Works.js")),
 	{
 		name: "grid-3-fluid/Works",
-		image: "https://tabler-icons.io/static/tabler-icons/icons-png/id-badge.png",
+		image: "https://tabler-icons.io/static/tabler-icons/icons-png/grid-4x4.png",
 		inputs: [
 			{
 				name: "buttonText",
@@ -1739,7 +1765,8 @@ Builder?.registerComponent(
 	dynamic(() => import("../sections/grid-4/Hero.js")),
 	{
 		name: "grid-4/Hero.js",
-		image: "https://tabler-icons.io/static/tabler-icons/icons-png/id-badge.png",
+		image:
+			"https://tabler-icons.io/static/tabler-icons/icons-png/grid-dots.png",
 		inputs: [
 			{
 				name: "title",
@@ -1780,7 +1807,8 @@ Builder?.registerComponent(
 	dynamic(() => import("../sections/grid-4/Works.js")),
 	{
 		name: "grid-4/Works",
-		image: "https://tabler-icons.io/static/tabler-icons/icons-png/id-badge.png",
+		image:
+			"https://tabler-icons.io/static/tabler-icons/icons-png/grid-dots.png",
 		inputs: [
 			{
 				name: "buttonText",
@@ -1810,7 +1838,8 @@ Builder?.registerComponent(
 	dynamic(() => import("../sections/grid-4-fluid/Hero.js")),
 	{
 		name: "grid-4-fluid/Hero.js",
-		image: "https://tabler-icons.io/static/tabler-icons/icons-png/id-badge.png",
+		image:
+			"https://tabler-icons.io/static/tabler-icons/icons-png/layout-grid.png",
 		inputs: [
 			{
 				name: "title",
@@ -1845,7 +1874,8 @@ Builder?.registerComponent(
 	dynamic(() => import("../sections/grid-4-fluid/Works.js")),
 	{
 		name: "grid-4-fluid/Works",
-		image: "https://tabler-icons.io/static/tabler-icons/icons-png/id-badge.png",
+		image:
+			"https://tabler-icons.io/static/tabler-icons/icons-png/layout-grid.png",
 		inputs: [
 			{
 				name: "buttonText",
@@ -1874,7 +1904,8 @@ Builder?.registerComponent(
 	dynamic(() => import("../components/builder/grid-3.js")),
 	{
 		name: "grid-3",
-		image: "https://tabler-icons.io/static/tabler-icons/icons-png/id-badge.png",
+		image:
+			"https://tabler-icons.io/static/tabler-icons/icons-png/grip-horizontal.png",
 		inputs: [
 			{
 				name: "title",
@@ -1909,7 +1940,8 @@ Builder?.registerComponent(
 	dynamic(() => import("../components/builder/grid-2.js")),
 	{
 		name: "grid-2",
-		image: "https://tabler-icons.io/static/tabler-icons/icons-png/id-badge.png",
+		image:
+			"https://tabler-icons.io/static/tabler-icons/icons-png/grip-horizontal.png",
 		inputs: [
 			{
 				name: "title",
@@ -1944,7 +1976,8 @@ Builder?.registerComponent(
 	dynamic(() => import("../components/builder/contact.js")),
 	{
 		name: "contact",
-		image: "https://tabler-icons.io/static/tabler-icons/icons-png/id-badge.png",
+		image:
+			"https://tabler-icons.io/static/tabler-icons/icons-png/address-book.png",
 		inputs: [
 			{
 				name: "title",
@@ -1979,7 +2012,7 @@ Builder?.registerComponent(
 	dynamic(() => import("../components/builder/about.js")),
 	{
 		name: "about",
-		image: "https://tabler-icons.io/static/tabler-icons/icons-png/id-badge.png",
+		image: "https://tabler-icons.io/static/tabler-icons/icons-png/tilde.png",
 		inputs: [
 			{
 				name: "title",
@@ -2014,7 +2047,8 @@ Builder?.registerComponent(
 	dynamic(() => import("../components/builder/agency-1.js")),
 	{
 		name: "agency-1",
-		image: "https://tabler-icons.io/static/tabler-icons/icons-png/id-badge.png",
+		image:
+			"https://tabler-icons.io/static/tabler-icons/icons-png/components.png",
 		inputs: [
 			{
 				name: "title",
@@ -2049,7 +2083,8 @@ Builder?.registerComponent(
 	dynamic(() => import("../components/builder/agency-2.js")),
 	{
 		name: "agency-2",
-		image: "https://tabler-icons.io/static/tabler-icons/icons-png/id-badge.png",
+		image:
+			"https://tabler-icons.io/static/tabler-icons/icons-png/brand-amd.png",
 		inputs: [
 			{
 				name: "title",
@@ -2084,7 +2119,7 @@ Builder?.registerComponent(
 	dynamic(() => import("../components/builder/designer-2.js")),
 	{
 		name: "designer-2",
-		image: "https://tabler-icons.io/static/tabler-icons/icons-png/id-badge.png",
+		image: "https://tabler-icons.io/static/tabler-icons/icons-png/keyframe.png",
 		inputs: [
 			{
 				name: "title",
@@ -2119,7 +2154,7 @@ Builder?.registerComponent(
 	dynamic(() => import("../components/builder/devloper-2.js")),
 	{
 		name: "devloper-2",
-		image: "https://tabler-icons.io/static/tabler-icons/icons-png/id-badge.png",
+		image: "https://tabler-icons.io/static/tabler-icons/icons-png/api-app.png",
 		inputs: [
 			{
 				name: "title",
@@ -2154,7 +2189,8 @@ Builder?.registerComponent(
 	dynamic(() => import("../components/builder/devloper-1.js")),
 	{
 		name: "devloper-1",
-		image: "https://tabler-icons.io/static/tabler-icons/icons-png/id-badge.png",
+		image:
+			"https://tabler-icons.io/static/tabler-icons/icons-png/brand-kotlin.png",
 		inputs: [
 			{
 				name: "title",
@@ -2189,7 +2225,8 @@ Builder?.registerComponent(
 	dynamic(() => import("../components/builder/grid-3-fluid.js")),
 	{
 		name: "grid-3-fluid",
-		image: "https://tabler-icons.io/static/tabler-icons/icons-png/id-badge.png",
+		image:
+			"https://tabler-icons.io/static/tabler-icons/icons-png/grid-pattern.png",
 		inputs: [
 			{
 				name: "title",
@@ -2224,7 +2261,8 @@ Builder?.registerComponent(
 	dynamic(() => import("../components/builder/grid-4-fluid.js")),
 	{
 		name: "grid-4-fluid",
-		image: "https://tabler-icons.io/static/tabler-icons/icons-png/id-badge.png",
+		image:
+			"https://tabler-icons.io/static/tabler-icons/icons-png/chart-grid-dots-filled.png",
 		inputs: [
 			{
 				name: "title",
@@ -2259,7 +2297,8 @@ Builder?.registerComponent(
 	dynamic(() => import("../components/builder/grid-4.js")),
 	{
 		name: "grid-4",
-		image: "https://tabler-icons.io/static/tabler-icons/icons-png/id-badge.png",
+		image:
+			"https://tabler-icons.io/static/tabler-icons/icons-png/table-filled.png",
 		inputs: [
 			{
 				name: "title",
@@ -2294,7 +2333,8 @@ Builder?.registerComponent(
 	dynamic(() => import("../components/builder/masonry-2-column.js")),
 	{
 		name: "masonry-2-column",
-		image: "https://tabler-icons.io/static/tabler-icons/icons-png/id-badge.png",
+		image:
+			"https://tabler-icons.io/static/tabler-icons/icons-png/border-bottom.png",
 		inputs: [
 			{
 				name: "title",
@@ -2329,7 +2369,8 @@ Builder?.registerComponent(
 	dynamic(() => import("../components/builder/masonry-3-column-fluid.js")),
 	{
 		name: "masonry-3-column-fluid",
-		image: "https://tabler-icons.io/static/tabler-icons/icons-png/id-badge.png",
+		image:
+			"https://tabler-icons.io/static/tabler-icons/icons-png/device-tablet.png",
 		inputs: [
 			{
 				name: "title",
@@ -2364,7 +2405,8 @@ Builder?.registerComponent(
 	dynamic(() => import("../components/builder/masonry-3-column.js")),
 	{
 		name: "masonry-3-column",
-		image: "https://tabler-icons.io/static/tabler-icons/icons-png/id-badge.png",
+		image:
+			"https://tabler-icons.io/static/tabler-icons/icons-png/box-model.png",
 		inputs: [
 			{
 				name: "title",
@@ -2399,7 +2441,8 @@ Builder?.registerComponent(
 	dynamic(() => import("../components/builder/masonry-4-column-fluid.js")),
 	{
 		name: "masonry-4-column-fluid",
-		image: "https://tabler-icons.io/static/tabler-icons/icons-png/id-badge.png",
+		image:
+			"https://tabler-icons.io/static/tabler-icons/icons-png/brand-codesandbox.png",
 		inputs: [
 			{
 				name: "title",
@@ -2434,7 +2477,8 @@ Builder?.registerComponent(
 	dynamic(() => import("../components/builder/masonry-4-column.js")),
 	{
 		name: "masonry-4-column",
-		image: "https://tabler-icons.io/static/tabler-icons/icons-png/id-badge.png",
+		image:
+			"https://tabler-icons.io/static/tabler-icons/icons-png/brand-bulma.png",
 		inputs: [
 			{
 				name: "title",
@@ -2469,7 +2513,8 @@ Builder?.registerComponent(
 	dynamic(() => import("../components/builder/photography-1.js")),
 	{
 		name: "photography-1",
-		image: "https://tabler-icons.io/static/tabler-icons/icons-png/id-badge.png",
+		image:
+			"https://tabler-icons.io/static/tabler-icons/icons-png/keyframes-filled.png",
 		inputs: [
 			{
 				name: "title",
@@ -2504,7 +2549,8 @@ Builder?.registerComponent(
 	dynamic(() => import("../components/builder/photography-2.js")),
 	{
 		name: "photography-2",
-		image: "https://tabler-icons.io/static/tabler-icons/icons-png/id-badge.png",
+		image:
+			"https://tabler-icons.io/static/tabler-icons/icons-png/barrier-block.png",
 		inputs: [
 			{
 				name: "title",
@@ -2539,7 +2585,8 @@ Builder?.registerComponent(
 	dynamic(() => import("../components/builder/portfolio-details-2.js")),
 	{
 		name: "portfolio-details-2",
-		image: "https://tabler-icons.io/static/tabler-icons/icons-png/id-badge.png",
+		image:
+			"https://tabler-icons.io/static/tabler-icons/icons-png/radioactive-filled.png",
 		inputs: [
 			{
 				name: "title",
@@ -2574,7 +2621,7 @@ Builder?.registerComponent(
 	dynamic(() => import("../components/builder/portfolio-details.js")),
 	{
 		name: "portfolio-details",
-		image: "https://tabler-icons.io/static/tabler-icons/icons-png/id-badge.png",
+		image: "https://tabler-icons.io/static/tabler-icons/icons-png/ad-2.png",
 		inputs: [
 			{
 				name: "title",
