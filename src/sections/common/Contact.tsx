@@ -1,11 +1,11 @@
 import React from "react";
+import { Col, Container, Row } from "react-bootstrap";
 import styled from "styled-components";
-import { Container, Row, Col } from "react-bootstrap";
 
-import { Title, Section, Box, LinkContact } from "../../components/Core";
 import bgFooter from "../../assets/image/png/subscribe-pattern.png";
+import { Box, LinkContact, Section, Title } from "../../components/Core";
 
-const SectionStyled = styled(Section)`
+const SectionStyled = styled(Section)<{ pattern?: boolean }>`
   &.pattern::before {
     position: absolute;
     bottom: -150px;
@@ -18,20 +18,21 @@ const SectionStyled = styled(Section)`
   }
 `;
 
-const Contact = ({ pattern = true }) => {
+interface ContactProps {
+  pattern?: boolean;
+}
+
+const Contact: React.FC<ContactProps> = ({ pattern = true }) => {
   return (
     <>
       {/* <!-- Hero Area --> */}
-      <SectionStyled
-        className={`position-relative ${pattern ? "pattern" : ""}`}
-      >
+      <SectionStyled className={`position-relative ${pattern ? "pattern" : ""}`}>
         <Container>
           <Row className="justify-content-center align-items-center">
             <Col lg="11" xl="10" className="text-center">
               <Box>
                 <Title variant="secSm">
-                  I am taking new projects. Waiting to hearing about new
-                  projects, so if you'd like to chat please get in touch.
+                  I am taking new projects. Waiting to hear about new projects, so if you'd like to chat, please get in touch.
                 </Title>
 
                 <Box

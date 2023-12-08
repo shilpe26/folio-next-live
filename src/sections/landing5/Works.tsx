@@ -12,9 +12,9 @@ import {
 	Title,
 } from "../../components/Core";
 import RotateImg from "../../components/RotateImg";
-import { designWorks2 } from "../../data";
+import { agencyWorks1 } from "../../data";
 import { useWindowSize } from "../../hooks";
-import { breakpoints } from "../../utils";
+import { breakpoints } from "../../utils/index.tsx";
 
 const WorkCard = styled(Box)``;
 const WorkText = styled(Box)``;
@@ -41,33 +41,29 @@ const Works = ({ buttonText }) => {
 	const [items, setItems] = useState([]);
 
 	useEffect(() => {
-		setItems(designWorks2);
+		setItems(agencyWorks1);
 	}, []);
 
 	return (
 		<>
 			{/* <!-- Works Area --> */}
 			<Section className="position-relative">
-				<Container>
+				<Container fluid>
 					<Grid>
 						{items.map((item, index) => (
-							<Col
-								lg={item.halfWidth ? 6 : 4}
-								md="6"
-								sm="6"
-								key={index}
-								className="filtr-item"
-							>
+							<Col lg="4" md="6" key={index} className="filtr-item">
 								<WorkCard className="position-relative" mb="30px">
 									<RotateImg link={item.link} imgSrc={item.thumbnail} />
 									<Box pt="2.125rem">
 										<WorkText className="overflow-hidden text-center">
-											<Text variant="tag" mb="0.5rem">
+											<Text color="lightShade" variant="tag" mb="0.5rem">
 												{item.categories[0]}
 											</Text>
 											<Title variant="cardLg">
 												<Link href={item.link}>
-													<a>{item.brand} </a>
+													<a>
+														<Box color="light">{item.brand} </Box>
+													</a>
 												</Link>
 											</Title>
 										</WorkText>
@@ -77,7 +73,9 @@ const Works = ({ buttonText }) => {
 						))}
 					</Grid>
 					<Box pt="3rem" className="text-center">
-						<ButtonOutline>{buttonText}</ButtonOutline>
+						<ButtonOutline color="light" borderColor="lightShade">
+							{buttonText}
+						</ButtonOutline>
 					</Box>
 				</Container>
 			</Section>

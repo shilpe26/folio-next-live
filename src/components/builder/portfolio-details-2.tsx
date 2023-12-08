@@ -10,7 +10,7 @@ import imgS5 from "../../assets/image/jpg/details/details-14.jpg";
 import imgWorkCover from "../../assets/image/jpg/details/details-2.jpg";
 import imgS4 from "../../assets/image/jpg/details/details-9.jpg";
 import CTA from "../../sections/common/CTA";
-import { device } from "../../utils";
+import { device } from "../../utils/index.tsx";
 import { Box, Button, Section, Text, Title } from "../Core";
 import PageWrapper from "../PageWrapper";
 

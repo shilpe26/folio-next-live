@@ -1,11 +1,11 @@
-import React from "react";
 import { rgba } from "polished";
+import React from "react";
+import { Col, Container, Row } from "react-bootstrap";
 import styled from "styled-components";
-import { Container, Row, Col } from "react-bootstrap";
 
-import { Section, Title, Text, Span, Box } from "../../components/Core";
 import ContactForm from "../../components/ContactForm";
-import { device } from "../../utils";
+import { Box, Section, Span, Text, Title } from "../../components/Core";
+import { device } from "../../utils/index.tsx";
 
 const ContactCard = styled.div`
   border-radius: 10px;

@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import styled from "styled-components";
-import { Box } from "../../components/Core";
+import { Box } from "../Core";
 
 const BoxStyled = styled(Box)`
   transition: 0.4s;

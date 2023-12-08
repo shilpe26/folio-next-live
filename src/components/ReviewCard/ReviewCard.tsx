@@ -1,9 +1,9 @@
 import React from "react";
 
-import { Title, Box, Text } from "../../components/Core";
+import { Box, Text, Title } from "../Core";
 
-import img5Star from "../../assets/image/png/5star.png";
 import img4Star from "../../assets/image/png/4star.png";
+import img5Star from "../../assets/image/png/5star.png";
 
 import imgR1 from "../../assets/image/jpeg/reviewer1.jpg";
 

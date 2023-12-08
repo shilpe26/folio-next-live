@@ -13,7 +13,7 @@ import {
 
 // import imgL from "../../assets/image/png/portrait-2.png";
 import bgHeroPattern from "../../assets/image/webp/hero-pattern-2.webp";
-import { device } from "../../utils";
+import { device } from "../../utils/index.tsx";
 
 const SectionStyled = styled(Section)`
 	&::before {

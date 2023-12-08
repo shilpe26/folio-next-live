@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
-import { color, space, typography, shadow } from "styled-system";
-import { device } from "../../utils";
+import { color, shadow, space, typography } from "styled-system";
+import { device } from "../../utils/index.tsx";
 
 const SectionTitle = styled.h2`
   font-weight: 700;

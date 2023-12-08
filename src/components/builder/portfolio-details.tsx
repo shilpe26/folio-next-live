@@ -10,7 +10,7 @@ import imgS1 from "../../assets/image/jpg/details/details-6.jpg";
 import imgS6 from "../../assets/image/jpg/details/details-7.jpg";
 import imgS5 from "../../assets/image/jpg/details/details-8.jpg";
 import Contact from "../../sections/common/Contact";
-import { device } from "../../utils";
+import { device } from "../../utils/index.tsx";
 import { Box, Button, Section, Text, Title } from "../Core";
 import PageWrapper from "../PageWrapper";
 

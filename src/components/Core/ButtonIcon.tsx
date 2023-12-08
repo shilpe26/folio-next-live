@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Button } from "../Core";
+import { Box, Button } from ".";
 
 const ButtonIcon = ({
   variant = "success",
