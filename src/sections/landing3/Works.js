@@ -6,13 +6,65 @@ import { Box, ListNav, Section } from "../../components/Core";
 import WorkCard from "../../components/WorkCard";
 import { devWorks1 } from "../../data";
 
-const Works = ({ label1, label2, label3, label4 }) => {
+const Works = ({
+	label1,
+	label2,
+	label3,
+	label4,
+	imgSrc1,
+	imgSrc2,
+	imgSrc3,
+	imgSrc4,
+	imgSrc5,
+	imgSrc6,
+	imgSrc7,
+	imgSrc8,
+}) => {
 	const [items, setItems] = useState([]);
 	const [activeLink, setActiveLink] = useState("*");
 
 	useEffect(() => {
-		setItems(devWorks1);
-	}, []);
+		const newItems = [
+			{ thumbnail: imgSrc1, categories: ["web"], link: "/portfolio-details" },
+			{
+				thumbnail: imgSrc2,
+				categories: [`app`, `web`],
+				link: "/portfolio-details",
+			},
+			{
+				thumbnail: imgSrc3,
+				categories: [`web`, `ui-design`],
+				link: "/portfolio-details",
+			},
+			{
+				thumbnail: imgSrc4,
+				categories: [`app`, `ui-design`, `web`],
+				link: "/portfolio-details",
+			},
+			{
+				thumbnail: imgSrc5,
+				categories: [`app`, `ui-design`],
+				link: "/portfolio-details",
+			},
+			{
+				thumbnail: imgSrc6,
+				categories: [`ui-design`, `web`],
+				link: "/portfolio-details",
+			},
+			{
+				thumbnail: imgSrc7,
+				categories: [`app`, `ui-design`],
+				link: "/portfolio-details",
+			},
+			{
+				thumbnail: imgSrc8,
+				categories: [`web`, `ui-design`],
+				link: "/portfolio-details",
+			},
+		];
+
+		setItems(newItems);
+	}, [imgSrc1, imgSrc2, imgSrc3, imgSrc4, imgSrc5, imgSrc6, imgSrc7, imgSrc8]);
 
 	const filterBy = (cat) => {
 		if (cat === "*") {

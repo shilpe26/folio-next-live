@@ -6,13 +6,135 @@ import { Box, ButtonOutline, ListNav, Section } from "../../components/Core";
 import WorkCard from "../../components/WorkCard";
 import { works2 } from "../../data";
 
-const Works = ({ label1, label2, label3, label4, buttonText }) => {
+const Works = ({
+	label1,
+	label2,
+	label3,
+	label4,
+	buttonText,
+	imgSrc1,
+	imgSrc2,
+	imgSrc3,
+	imgSrc4,
+	imgSrc5,
+	imgSrc6,
+	imgSrc7,
+	imgSrc8,
+	imgSrc9,
+	imgSrc10,
+	imgSrc11,
+	imgSrc12,
+	imgSrc13,
+	imgSrc14,
+	imgSrc15,
+	imgSrc16,
+}) => {
 	const [items, setItems] = useState([]);
 	const [activeLink, setActiveLink] = useState("*");
 
 	useEffect(() => {
-		setItems(works2);
-	}, []);
+		const newItems = [
+			{
+				thumbnail: imgSrc1,
+				categories: [`branding`],
+				link: "/portfolio-details",
+			},
+			{
+				thumbnail: imgSrc2,
+				categories: [`photography`, `branding`],
+				link: "/portfolio-details",
+			},
+			{
+				thumbnail: imgSrc3,
+				categories: [`ux-design`, `marketing`],
+				link: "/portfolio-details",
+			},
+			{
+				thumbnail: imgSrc4,
+				categories: [`branding`],
+				link: "/portfolio-details",
+			},
+			{
+				thumbnail: imgSrc5,
+				categories: [`photography`, `ux-design`],
+				link: "/portfolio-details",
+			},
+			{
+				thumbnail: imgSrc6,
+				categories: [`marketing`, `branding`],
+				link: "/portfolio-details",
+			},
+			{
+				thumbnail: imgSrc7,
+				categories: [`photography`, `branding`],
+				link: "/portfolio-details",
+			},
+			{
+				thumbnail: imgSrc8,
+				categories: [`ux-design`],
+				link: "/portfolio-details",
+			},
+			{
+				thumbnail: imgSrc9,
+				categories: [`branding`, `ux-design`, `photography`],
+				link: "/portfolio-details",
+			},
+			{
+				thumbnail: imgSrc10,
+				categories: [`marketing`, `ux-design`],
+				link: "/portfolio-details",
+			},
+			{
+				thumbnail: imgSrc11,
+				categories: [`marketing`, `photography`],
+				link: "/portfolio-details",
+			},
+			{
+				thumbnail: imgSrc12,
+				categories: [`ux-design`, `photography`, `branding`],
+				link: "/portfolio-details",
+			},
+			{
+				thumbnail: imgSrc13,
+				categories: [`ux-design`],
+				link: "/portfolio-details",
+			},
+			{
+				thumbnail: imgSrc14,
+				categories: [`ux-design`],
+				link: "/portfolio-details",
+			},
+			{
+				thumbnail: imgSrc15,
+				categories: [`ux-design`],
+				link: "/portfolio-details",
+			},
+			{
+				thumbnail: imgSrc16,
+				categories: [`branding`, `photography`, `ux-design`],
+				link: "/portfolio-details",
+			},
+		];
+
+		setItems(newItems);
+	}, [
+		imgSrc1,
+		imgSrc2,
+		imgSrc3,
+		imgSrc4,
+		imgSrc5,
+		imgSrc6,
+		imgSrc7,
+		imgSrc8,
+		imgSrc9,
+		imgSrc10,
+		imgSrc11,
+		imgSrc12,
+		imgSrc13,
+		imgSrc14,
+		imgSrc15,
+		imgSrc16,
+	]);
 
 	const filterBy = (cat) => {
 		if (cat === "*") {
