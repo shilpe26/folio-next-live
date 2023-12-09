@@ -52,6 +52,7 @@ const Works = ({
 	imgSrc6,
 	imgSrc7,
 	imgSrc8,
+	imgTitle1,
 }) => {
 	const [items, setItems] = useState([]);
 	const [activeLink, setActiveLink] = useState("*");

@@ -38,13 +38,70 @@ const Grid = (props) => {
 	);
 };
 
-const Works = ({ label1, label2, label3, label4, buttonText }) => {
+const Works = ({
+	label1,
+	label2,
+	label3,
+	label4,
+	buttonText,
+	imgSrc1,
+	imgSrc2,
+	imgSrc3,
+	imgSrc4,
+	imgSrc5,
+	imgSrc6,
+	imgSrc7,
+	imgSrc8,
+}) => {
 	const [items, setItems] = useState([]);
 	const [activeLink, setActiveLink] = useState("*");
 
 	useEffect(() => {
-		setItems(gridWorks1);
-	}, []);
+		const newItems = [
+			{
+				thumbnail: imgSrc1,
+				categories: ["branding"],
+				link: "/portfolio-details",
+			},
+			{
+				thumbnail: imgSrc2,
+				categories: ["photography"],
+				link: "/portfolio-details",
+			},
+			{
+				thumbnail: imgSrc3,
+				categories: [, "ux-design", "branding"],
+				link: "/portfolio-details",
+			},
+			{
+				thumbnail: imgSrc4,
+				categories: [`photography`, `ux-design`, "branding"],
+				link: "/portfolio-details",
+			},
+			{
+				thumbnail: imgSrc5,
+				categories: [`photography`, `ux-design`],
+				link: "/portfolio-details",
+			},
+			{
+				thumbnail: imgSrc6,
+				categories: [`branding`, `ux-design`],
+				link: "/portfolio-details",
+			},
+			{
+				thumbnail: imgSrc7,
+				categories: [`photography`, `ux-design`],
+				link: "/portfolio-details",
+			},
+			{
+				thumbnail: imgSrc8,
+				categories: ["branding"],
+				link: "/portfolio-details",
+			},
+		];
+
+		setItems(newItems);
+	}, [imgSrc1, imgSrc2, imgSrc3, imgSrc4, imgSrc5, imgSrc6, imgSrc7, imgSrc8]);
 
 	const filterBy = (cat) => {
 		if (cat === "*") {
