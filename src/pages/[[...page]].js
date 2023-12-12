@@ -61,7 +61,7 @@ Builder?.registerComponent(
 	dynamic(() => import("../sections/landing1/Hero.js")),
 	{
 		name: "landing1/Hero",
-		image: "https://tabler-icons.io/static/tabler-icons/icons-png/home.png",
+		image: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='icon icon-tabler icon-tabler-home' width='24' height='24' viewBox='0 0 24 24' stroke-width='2' stroke='currentColor' fill='none' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath stroke='none' d='M0 0h24v24H0z' fill='none'/%3E%3Cpath d='M5 12l-2 0l9 -9l9 9l-2 0' /%3E%3Cpath d='M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7' /%3E%3Cpath d='M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6' /%3E%3C/svg%3E",
 		inputs: [
 			{
 				name: "dynamicText",
@@ -96,7 +96,7 @@ Builder?.registerComponent(
 	dynamic(() => import("../sections/landing1/Works.js")),
 	{
 		name: "landing1/Works",
-		image: "https://tabler-icons.io/static/tabler-icons/icons-png/home.png",
+		image: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='icon icon-tabler icon-tabler-home' width='24' height='24' viewBox='0 0 24 24' stroke-width='2' stroke='currentColor' fill='none' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath stroke='none' d='M0 0h24v24H0z' fill='none'/%3E%3Cpath d='M5 12l-2 0l9 -9l9 9l-2 0' /%3E%3Cpath d='M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7' /%3E%3Cpath d='M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6' /%3E%3C/svg%3E",
 		inputs: [
 			{
 				name: "label1",
@@ -381,7 +381,7 @@ Builder?.registerComponent(
 	dynamic(() => import("../sections/landing1/Contact.js")),
 	{
 		name: "landing1/Contact",
-		image: "https://tabler-icons.io/static/tabler-icons/icons-png/home.png",
+		image: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='icon icon-tabler icon-tabler-home' width='24' height='24' viewBox='0 0 24 24' stroke-width='2' stroke='currentColor' fill='none' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath stroke='none' d='M0 0h24v24H0z' fill='none'/%3E%3Cpath d='M5 12l-2 0l9 -9l9 9l-2 0' /%3E%3Cpath d='M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7' /%3E%3Cpath d='M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6' /%3E%3C/svg%3E",
 		inputs: [
 			{
 				name: "title",
@@ -409,7 +409,7 @@ Builder?.registerComponent(
 	{
 		name: "landing2/Hero",
 		image:
-			"https://tabler-icons.io/static/tabler-icons/icons-png/home-check.png",
+			"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='icon icon-tabler icon-tabler-home-check' width='24' height='24' viewBox='0 0 24 24' stroke-width='2' stroke='currentColor' fill='none' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath stroke='none' d='M0 0h24v24H0z' fill='none'/%3E%3Cpath d='M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2' /%3E%3Cpath d='M19 13.488v-1.488h2l-9 -9l-9 9h2v7a2 2 0 0 0 2 2h4.525' /%3E%3Cpath d='M15 19l2 2l4 -4' /%3E%3C/svg%3E",
 		inputs: [
 			{
 				name: "title",
@@ -444,7 +444,7 @@ Builder?.registerComponent(
 	{
 		name: "landing2/Works",
 		image:
-			"https://tabler-icons.io/static/tabler-icons/icons-png/home-check.png",
+			"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='icon icon-tabler icon-tabler-home-check' width='24' height='24' viewBox='0 0 24 24' stroke-width='2' stroke='currentColor' fill='none' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath stroke='none' d='M0 0h24v24H0z' fill='none'/%3E%3Cpath d='M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2' /%3E%3Cpath d='M19 13.488v-1.488h2l-9 -9l-9 9h2v7a2 2 0 0 0 2 2h4.525' /%3E%3Cpath d='M15 19l2 2l4 -4' /%3E%3C/svg%3E",
 		inputs: [
 			{
 				name: "buttonText",
@@ -460,7 +460,7 @@ Builder?.registerComponent(
 	{
 		name: "landing2/CTA",
 		image:
-			"https://tabler-icons.io/static/tabler-icons/icons-png/home-check.png",
+			"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='icon icon-tabler icon-tabler-home-check' width='24' height='24' viewBox='0 0 24 24' stroke-width='2' stroke='currentColor' fill='none' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath stroke='none' d='M0 0h24v24H0z' fill='none'/%3E%3Cpath d='M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2' /%3E%3Cpath d='M19 13.488v-1.488h2l-9 -9l-9 9h2v7a2 2 0 0 0 2 2h4.525' /%3E%3Cpath d='M15 19l2 2l4 -4' /%3E%3C/svg%3E",
 		inputs: [
 			{
 				name: "title",
@@ -503,7 +503,7 @@ Builder?.registerComponent(
 	dynamic(() => import("../sections/landing3/Hero.js")),
 	{
 		name: "landing3/Hero",
-		image: "https://tabler-icons.io/static/tabler-icons/icons-png/home-eco.png",
+		image: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='icon icon-tabler icon-tabler-home-eco' width='24' height='24' viewBox='0 0 24 24' stroke-width='2' stroke='currentColor' fill='none' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath stroke='none' d='M0 0h24v24H0z' fill='none'/%3E%3Cpath d='M20 11l-8 -8l-9 9h2v7a2 2 0 0 0 2 2h5' /%3E%3Cpath d='M9 21v-6a2 2 0 0 1 2 -2h2c.325 0 .631 .077 .902 .215' /%3E%3Cpath d='M16 22s0 -2 3 -4' /%3E%3Cpath d='M19 21a3 3 0 0 1 0 -6h3v3a3 3 0 0 1 -3 3z' /%3E%3C/svg%3E",
 		inputs: [
 			{
 				name: "title",
@@ -543,7 +543,7 @@ Builder?.registerComponent(
 	dynamic(() => import("../sections/landing3/Works.js")),
 	{
 		name: "landing3/Works",
-		image: "https://tabler-icons.io/static/tabler-icons/icons-png/home-eco.png",
+		image: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='icon icon-tabler icon-tabler-home-eco' width='24' height='24' viewBox='0 0 24 24' stroke-width='2' stroke='currentColor' fill='none' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath stroke='none' d='M0 0h24v24H0z' fill='none'/%3E%3Cpath d='M20 11l-8 -8l-9 9h2v7a2 2 0 0 0 2 2h5' /%3E%3Cpath d='M9 21v-6a2 2 0 0 1 2 -2h2c.325 0 .631 .077 .902 .215' /%3E%3Cpath d='M16 22s0 -2 3 -4' /%3E%3Cpath d='M19 21a3 3 0 0 1 0 -6h3v3a3 3 0 0 1 -3 3z' /%3E%3C/svg%3E",
 		inputs: [
 			{
 				name: "label1",
@@ -744,7 +744,7 @@ Builder?.registerComponent(
 	dynamic(() => import("../sections/landing3/Contact.js")),
 	{
 		name: "landing3/Contact",
-		image: "https://tabler-icons.io/static/tabler-icons/icons-png/home-eco.png",
+		image: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='icon icon-tabler icon-tabler-home-eco' width='24' height='24' viewBox='0 0 24 24' stroke-width='2' stroke='currentColor' fill='none' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath stroke='none' d='M0 0h24v24H0z' fill='none'/%3E%3Cpath d='M20 11l-8 -8l-9 9h2v7a2 2 0 0 0 2 2h5' /%3E%3Cpath d='M9 21v-6a2 2 0 0 1 2 -2h2c.325 0 .631 .077 .902 .215' /%3E%3Cpath d='M16 22s0 -2 3 -4' /%3E%3Cpath d='M19 21a3 3 0 0 1 0 -6h3v3a3 3 0 0 1 -3 3z' /%3E%3C/svg%3E",
 		inputs: [
 			{
 				name: "title",
@@ -787,7 +787,7 @@ Builder?.registerComponent(
 	{
 		name: "landing4/Hero",
 		image:
-			"https://tabler-icons.io/static/tabler-icons/icons-png/home-heart.png",
+			"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='icon icon-tabler icon-tabler-home-heart' width='24' height='24' viewBox='0 0 24 24' stroke-width='2' stroke='currentColor' fill='none' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath stroke='none' d='M0 0h24v24H0z' fill='none'/%3E%3Cpath d='M21 12l-9 -9l-9 9h2v7a2 2 0 0 0 2 2h6' /%3E%3Cpath d='M9 21v-6a2 2 0 0 1 2 -2h2c.39 0 .754 .112 1.061 .304' /%3E%3Cpath d='M19 21.5l2.518 -2.58a1.74 1.74 0 0 0 0 -2.413a1.627 1.627 0 0 0 -2.346 0l-.168 .172l-.168 -.172a1.627 1.627 0 0 0 -2.346 0a1.74 1.74 0 0 0 0 2.412l2.51 2.59z' /%3E%3C/svg%3E",
 		inputs: [
 			{
 				name: "title",
@@ -835,7 +835,7 @@ Builder?.registerComponent(
 	{
 		name: "landing4/Works",
 		image:
-			"https://tabler-icons.io/static/tabler-icons/icons-png/home-heart.png",
+			"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='icon icon-tabler icon-tabler-home-heart' width='24' height='24' viewBox='0 0 24 24' stroke-width='2' stroke='currentColor' fill='none' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath stroke='none' d='M0 0h24v24H0z' fill='none'/%3E%3Cpath d='M21 12l-9 -9l-9 9h2v7a2 2 0 0 0 2 2h6' /%3E%3Cpath d='M9 21v-6a2 2 0 0 1 2 -2h2c.39 0 .754 .112 1.061 .304' /%3E%3Cpath d='M19 21.5l2.518 -2.58a1.74 1.74 0 0 0 0 -2.413a1.627 1.627 0 0 0 -2.346 0l-.168 .172l-.168 -.172a1.627 1.627 0 0 0 -2.346 0a1.74 1.74 0 0 0 0 2.412l2.51 2.59z' /%3E%3C/svg%3E",
 		inputs: [
 			// {
 			// 	name: "title",
@@ -877,7 +877,7 @@ Builder?.registerComponent(
 	{
 		name: "landing4/CTA",
 		image:
-			"https://tabler-icons.io/static/tabler-icons/icons-png/home-heart.png",
+			"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='icon icon-tabler icon-tabler-home-heart' width='24' height='24' viewBox='0 0 24 24' stroke-width='2' stroke='currentColor' fill='none' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath stroke='none' d='M0 0h24v24H0z' fill='none'/%3E%3Cpath d='M21 12l-9 -9l-9 9h2v7a2 2 0 0 0 2 2h6' /%3E%3Cpath d='M9 21v-6a2 2 0 0 1 2 -2h2c.39 0 .754 .112 1.061 .304' /%3E%3Cpath d='M19 21.5l2.518 -2.58a1.74 1.74 0 0 0 0 -2.413a1.627 1.627 0 0 0 -2.346 0l-.168 .172l-.168 -.172a1.627 1.627 0 0 0 -2.346 0a1.74 1.74 0 0 0 0 2.412l2.51 2.59z' /%3E%3C/svg%3E",
 		inputs: [
 			{
 				name: "title",
@@ -919,7 +919,7 @@ Builder?.registerComponent(
 	{
 		name: "landing5/Hero",
 		image:
-			"https://tabler-icons.io/static/tabler-icons/icons-png/home-search.png",
+			"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='icon icon-tabler icon-tabler-home-search' width='24' height='24' viewBox='0 0 24 24' stroke-width='2' stroke='currentColor' fill='none' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath stroke='none' d='M0 0h24v24H0z' fill='none'/%3E%3Cpath d='M21 12l-9 -9l-9 9h2v7a2 2 0 0 0 2 2h4.7' /%3E%3Cpath d='M9 21v-6a2 2 0 0 1 2 -2h2' /%3E%3Cpath d='M18 18m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0' /%3E%3Cpath d='M20.2 20.2l1.8 1.8' /%3E%3C/svg%3E",
 		inputs: [
 			{
 				name: "title",
@@ -966,7 +966,7 @@ Builder?.registerComponent(
 	{
 		name: "landing5/Works",
 		image:
-			"https://tabler-icons.io/static/tabler-icons/icons-png/home-search.png",
+			"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='icon icon-tabler icon-tabler-home-search' width='24' height='24' viewBox='0 0 24 24' stroke-width='2' stroke='currentColor' fill='none' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath stroke='none' d='M0 0h24v24H0z' fill='none'/%3E%3Cpath d='M21 12l-9 -9l-9 9h2v7a2 2 0 0 0 2 2h4.7' /%3E%3Cpath d='M9 21v-6a2 2 0 0 1 2 -2h2' /%3E%3Cpath d='M18 18m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0' /%3E%3Cpath d='M20.2 20.2l1.8 1.8' /%3E%3C/svg%3E",
 		inputs: [
 			// {
 			// 	name: "title",
@@ -1008,7 +1008,7 @@ Builder?.registerComponent(
 	{
 		name: "landing5/CTA",
 		image:
-			"https://tabler-icons.io/static/tabler-icons/icons-png/home-search.png",
+			"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='icon icon-tabler icon-tabler-home-search' width='24' height='24' viewBox='0 0 24 24' stroke-width='2' stroke='currentColor' fill='none' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath stroke='none' d='M0 0h24v24H0z' fill='none'/%3E%3Cpath d='M21 12l-9 -9l-9 9h2v7a2 2 0 0 0 2 2h4.7' /%3E%3Cpath d='M9 21v-6a2 2 0 0 1 2 -2h2' /%3E%3Cpath d='M18 18m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0' /%3E%3Cpath d='M20.2 20.2l1.8 1.8' /%3E%3C/svg%3E",
 		inputs: [
 			{
 				name: "title",
@@ -1044,7 +1044,7 @@ Builder?.registerComponent(
 	{
 		name: "landing6/Hero",
 		image:
-			"https://tabler-icons.io/static/tabler-icons/icons-png/home-question.png",
+			"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='icon icon-tabler icon-tabler-home-question' width='24' height='24' viewBox='0 0 24 24' stroke-width='2' stroke='currentColor' fill='none' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath stroke='none' d='M0 0h24v24H0z' fill='none'/%3E%3Cpath d='M20.136 11.136l-8.136 -8.136l-9 9h2v7a2 2 0 0 0 2 2h7' /%3E%3Cpath d='M9 21v-6a2 2 0 0 1 2 -2h2c.467 0 .896 .16 1.236 .428' /%3E%3Cpath d='M19 22v.01' /%3E%3Cpath d='M19 19a2 2 0 0 0 .914 -3.782a1.98 1.98 0 0 0 -2.414 .483' /%3E%3C/svg%3E",
 		inputs: [
 			{
 				name: "title",
@@ -1091,7 +1091,7 @@ Builder?.registerComponent(
 	{
 		name: "landing6/Works",
 		image:
-			"https://tabler-icons.io/static/tabler-icons/icons-png/home-question.png",
+			"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='icon icon-tabler icon-tabler-home-question' width='24' height='24' viewBox='0 0 24 24' stroke-width='2' stroke='currentColor' fill='none' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath stroke='none' d='M0 0h24v24H0z' fill='none'/%3E%3Cpath d='M20.136 11.136l-8.136 -8.136l-9 9h2v7a2 2 0 0 0 2 2h7' /%3E%3Cpath d='M9 21v-6a2 2 0 0 1 2 -2h2c.467 0 .896 .16 1.236 .428' /%3E%3Cpath d='M19 22v.01' /%3E%3Cpath d='M19 19a2 2 0 0 0 .914 -3.782a1.98 1.98 0 0 0 -2.414 .483' /%3E%3C/svg%3E",
 
 		inputs: [
 			{
@@ -1384,7 +1384,7 @@ Builder?.registerComponent(
 	{
 		name: "landing6/Contact",
 		image:
-			"https://tabler-icons.io/static/tabler-icons/icons-png/home-question.png",
+			"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='icon icon-tabler icon-tabler-home-question' width='24' height='24' viewBox='0 0 24 24' stroke-width='2' stroke='currentColor' fill='none' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath stroke='none' d='M0 0h24v24H0z' fill='none'/%3E%3Cpath d='M20.136 11.136l-8.136 -8.136l-9 9h2v7a2 2 0 0 0 2 2h7' /%3E%3Cpath d='M9 21v-6a2 2 0 0 1 2 -2h2c.467 0 .896 .16 1.236 .428' /%3E%3Cpath d='M19 22v.01' /%3E%3Cpath d='M19 19a2 2 0 0 0 .914 -3.782a1.98 1.98 0 0 0 -2.414 .483' /%3E%3C/svg%3E",
 		inputs: [
 			{
 				name: "title",
@@ -1427,7 +1427,7 @@ Builder?.registerComponent(
 	{
 		name: "landing8/Hero",
 		image:
-			"https://tabler-icons.io/static/tabler-icons/icons-png/home-edit.png",
+			"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='icon icon-tabler icon-tabler-home-edit' width='24' height='24' viewBox='0 0 24 24' stroke-width='2' stroke='currentColor' fill='none' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath stroke='none' d='M0 0h24v24H0z' fill='none'/%3E%3Cpath d='M9 21v-6a2 2 0 0 1 2 -2h2c.645 0 1.218 .305 1.584 .78' /%3E%3Cpath d='M20 11l-8 -8l-9 9h2v7a2 2 0 0 0 2 2h4' /%3E%3Cpath d='M18.42 15.61a2.1 2.1 0 0 1 2.97 2.97l-3.39 3.42h-3v-3l3.42 -3.39z' /%3E%3C/svg%3E",
 		inputs: [
 			{
 				name: "title",
@@ -1468,7 +1468,7 @@ Builder?.registerComponent(
 	{
 		name: "landing8/Works",
 		image:
-			"https://tabler-icons.io/static/tabler-icons/icons-png/home-edit.png",
+			"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='icon icon-tabler icon-tabler-home-edit' width='24' height='24' viewBox='0 0 24 24' stroke-width='2' stroke='currentColor' fill='none' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath stroke='none' d='M0 0h24v24H0z' fill='none'/%3E%3Cpath d='M9 21v-6a2 2 0 0 1 2 -2h2c.645 0 1.218 .305 1.584 .78' /%3E%3Cpath d='M20 11l-8 -8l-9 9h2v7a2 2 0 0 0 2 2h4' /%3E%3Cpath d='M18.42 15.61a2.1 2.1 0 0 1 2.97 2.97l-3.39 3.42h-3v-3l3.42 -3.39z' /%3E%3C/svg%3E",
 		inputs: [
 			{
 				name: "label1",
@@ -1788,7 +1788,7 @@ Builder?.registerComponent(
 	{
 		name: "landing8/Contact",
 		image:
-			"https://tabler-icons.io/static/tabler-icons/icons-png/home-edit.png",
+			"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='icon icon-tabler icon-tabler-home-edit' width='24' height='24' viewBox='0 0 24 24' stroke-width='2' stroke='currentColor' fill='none' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath stroke='none' d='M0 0h24v24H0z' fill='none'/%3E%3Cpath d='M9 21v-6a2 2 0 0 1 2 -2h2c.645 0 1.218 .305 1.584 .78' /%3E%3Cpath d='M20 11l-8 -8l-9 9h2v7a2 2 0 0 0 2 2h4' /%3E%3Cpath d='M18.42 15.61a2.1 2.1 0 0 1 2.97 2.97l-3.39 3.42h-3v-3l3.42 -3.39z' /%3E%3C/svg%3E",
 		inputs: [
 			{
 				name: "title1",
@@ -1814,26 +1814,7 @@ Builder?.registerComponent(
 				friendlyName: "link",
 				type: "url",
 			},
-			// {
-			// 	name: "description",
-			// 	type: "text",
-			// 	defaultValue:
-			// 		"You can find my source code at: https://github.com/BuilderIO/blog-example/blob/main/components/Card.js",
-			// 	required: true,
-			// },
-			// {
-			// 	name: "imgSrc",
-			// 	defaultValue:
-			// 		"https://cdn.builder.io/api/v1/image/assets%2Fccda6c7abf4c4b8195aa67d47de420dd%2F784e7fa828bd440391e222589df3968c",
-			// 	friendlyName: "image",
-			// 	type: "file",
-			// 	allowedFileTypes: ["png", "jpg", "webp"],
-			// },
-			// {
-			// 	name: "href",
-			// 	friendlyName: "link",
-			// 	type: "url",
-			// },
+		
 		],
 	}
 );
@@ -1841,7 +1822,7 @@ Builder?.registerComponent(
 	dynamic(() => import("../sections/masonry-2-column/Hero.js")),
 	{
 		name: "masonry-2-column/Hero",
-		image: "https://tabler-icons.io/static/tabler-icons/icons-png/template.png",
+		image: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='icon icon-tabler icon-tabler-template' width='24' height='24' viewBox='0 0 24 24' stroke-width='2' stroke='currentColor' fill='none' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath stroke='none' d='M0 0h24v24H0z' fill='none'/%3E%3Cpath d='M4 4m0 1a1 1 0 0 1 1 -1h14a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-14a1 1 0 0 1 -1 -1z' /%3E%3Cpath d='M4 12m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v6a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z' /%3E%3Cpath d='M14 12l6 0' /%3E%3Cpath d='M14 16l6 0' /%3E%3Cpath d='M14 20l6 0' /%3E%3C/svg%3E",
 		inputs: [
 			{
 				name: "title",
@@ -1882,7 +1863,7 @@ Builder?.registerComponent(
 	dynamic(() => import("../sections/masonry-2-column/Works.js")),
 	{
 		name: "masonry-2-column/Works",
-		image: "https://tabler-icons.io/static/tabler-icons/icons-png/template.png",
+		image: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='icon icon-tabler icon-tabler-template' width='24' height='24' viewBox='0 0 24 24' stroke-width='2' stroke='currentColor' fill='none' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath stroke='none' d='M0 0h24v24H0z' fill='none'/%3E%3Cpath d='M4 4m0 1a1 1 0 0 1 1 -1h14a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-14a1 1 0 0 1 -1 -1z' /%3E%3Cpath d='M4 12m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v6a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z' /%3E%3Cpath d='M14 12l6 0' /%3E%3Cpath d='M14 16l6 0' /%3E%3Cpath d='M14 20l6 0' /%3E%3C/svg%3E",
 		inputs: [
 			{
 				name: "label1",
@@ -2079,7 +2060,7 @@ Builder?.registerComponent(
 	dynamic(() => import("../sections/masonry-2-column/Contact.js")),
 	{
 		name: "masonry-2-column/Contact",
-		image: "https://tabler-icons.io/static/tabler-icons/icons-png/template.png",
+		image: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='icon icon-tabler icon-tabler-template' width='24' height='24' viewBox='0 0 24 24' stroke-width='2' stroke='currentColor' fill='none' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath stroke='none' d='M0 0h24v24H0z' fill='none'/%3E%3Cpath d='M4 4m0 1a1 1 0 0 1 1 -1h14a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-14a1 1 0 0 1 -1 -1z' /%3E%3Cpath d='M4 12m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v6a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z' /%3E%3Cpath d='M14 12l6 0' /%3E%3Cpath d='M14 16l6 0' /%3E%3Cpath d='M14 20l6 0' /%3E%3C/svg%3E",
 		inputs: [
 			{
 				name: "title",
@@ -2093,26 +2074,7 @@ Builder?.registerComponent(
 				defaultValue: "Let's Talk Now",
 				required: true,
 			},
-			// {
-			// 	name: "description",
-			// 	type: "text",
-			// 	defaultValue:
-			// 		"You can find my source code at: https://github.com/BuilderIO/blog-example/blob/main/components/Card.js",
-			// 	required: true,
-			// },
-			// {
-			// 	name: "imgSrc",
-			// 	defaultValue:
-			// 		"https://cdn.builder.io/api/v1/image/assets%2Fccda6c7abf4c4b8195aa67d47de420dd%2F784e7fa828bd440391e222589df3968c",
-			// 	friendlyName: "image",
-			// 	type: "file",
-			// 	allowedFileTypes: ["png", "jpg", "webp"],
-			// },
-			// {
-			// 	name: "href",
-			// 	friendlyName: "link",
-			// 	type: "url",
-			// },
+			
 		],
 	}
 );
@@ -2121,7 +2083,7 @@ Builder?.registerComponent(
 	{
 		name: "masonry-3-column/Hero",
 		image:
-			"https://tabler-icons.io/static/tabler-icons/icons-png/layout-rows.png",
+			"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='icon icon-tabler icon-tabler-layout-rows' width='24' height='24' viewBox='0 0 24 24' stroke-width='2' stroke='currentColor' fill='none' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath stroke='none' d='M0 0h24v24H0z' fill='none'/%3E%3Cpath d='M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z' /%3E%3Cpath d='M4 12l16 0' /%3E%3C/svg%3E",
 		inputs: [
 			{
 				name: "title",
@@ -2161,7 +2123,7 @@ Builder?.registerComponent(
 	{
 		name: "masonry-3-column/Works",
 		image:
-			"https://tabler-icons.io/static/tabler-icons/icons-png/layout-rows.png",
+			"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='icon icon-tabler icon-tabler-layout-rows' width='24' height='24' viewBox='0 0 24 24' stroke-width='2' stroke='currentColor' fill='none' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath stroke='none' d='M0 0h24v24H0z' fill='none'/%3E%3Cpath d='M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z' /%3E%3Cpath d='M4 12l16 0' /%3E%3C/svg%3E",
 		inputs: [
 			{
 				name: "label1",
@@ -2371,7 +2333,7 @@ Builder?.registerComponent(
 	{
 		name: "masonry-3-column/Contact",
 		image:
-			"https://tabler-icons.io/static/tabler-icons/icons-png/layout-rows.png",
+			"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='icon icon-tabler icon-tabler-layout-rows' width='24' height='24' viewBox='0 0 24 24' stroke-width='2' stroke='currentColor' fill='none' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath stroke='none' d='M0 0h24v24H0z' fill='none'/%3E%3Cpath d='M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z' /%3E%3Cpath d='M4 12l16 0' /%3E%3C/svg%3E",
 		inputs: [
 			{
 				name: "title",
@@ -2385,26 +2347,7 @@ Builder?.registerComponent(
 				defaultValue: "Let's Talk Now",
 				required: true,
 			},
-			// {
-			// 	name: "description",
-			// 	type: "text",
-			// 	defaultValue:
-			// 		"You can find my source code at: https://github.com/BuilderIO/blog-example/blob/main/components/Card.js",
-			// 	required: true,
-			// },
-			// {
-			// 	name: "imgSrc",
-			// 	defaultValue:
-			// 		"https://cdn.builder.io/api/v1/image/assets%2Fccda6c7abf4c4b8195aa67d47de420dd%2F784e7fa828bd440391e222589df3968c",
-			// 	friendlyName: "image",
-			// 	type: "file",
-			// 	allowedFileTypes: ["png", "jpg", "webp"],
-			// },
-			// {
-			// 	name: "href",
-			// 	friendlyName: "link",
-			// 	type: "url",
-			// },
+		
 		],
 	}
 );
@@ -2412,7 +2355,7 @@ Builder?.registerComponent(
 	dynamic(() => import("../sections/masonry-3-column-fluid/Hero.js")),
 	{
 		name: "masonry-3-column-fluid/Hero",
-		image: "https://tabler-icons.io/static/tabler-icons/icons-png/triangle.png",
+		image: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='icon icon-tabler icon-tabler-triangle' width='24' height='24' viewBox='0 0 24 24' stroke-width='2' stroke='currentColor' fill='none' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath stroke='none' d='M0 0h24v24H0z' fill='none'/%3E%3Cpath d='M10.363 3.591l-8.106 13.534a1.914 1.914 0 0 0 1.636 2.871h16.214a1.914 1.914 0 0 0 1.636 -2.87l-8.106 -13.536a1.914 1.914 0 0 0 -3.274 0z' /%3E%3C/svg%3E",
 		inputs: [
 			{
 				name: "title",
@@ -2459,7 +2402,7 @@ Builder?.registerComponent(
 	dynamic(() => import("../sections/masonry-3-column-fluid/Works.js")),
 	{
 		name: "masonry-3-column-fluid/Works",
-		image: "https://tabler-icons.io/static/tabler-icons/icons-png/triangle.png",
+		image: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='icon icon-tabler icon-tabler-triangle' width='24' height='24' viewBox='0 0 24 24' stroke-width='2' stroke='currentColor' fill='none' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath stroke='none' d='M0 0h24v24H0z' fill='none'/%3E%3Cpath d='M10.363 3.591l-8.106 13.534a1.914 1.914 0 0 0 1.636 2.871h16.214a1.914 1.914 0 0 0 1.636 -2.87l-8.106 -13.536a1.914 1.914 0 0 0 -3.274 0z' /%3E%3C/svg%3E",
 		inputs: [
 			{
 				name: "label1",
@@ -2655,7 +2598,7 @@ Builder?.registerComponent(
 	dynamic(() => import("../sections/masonry-3-column-fluid/Contact.js")),
 	{
 		name: "masonry-3-column-fluid/Contact",
-		image: "https://tabler-icons.io/static/tabler-icons/icons-png/triangle.png",
+		image: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='icon icon-tabler icon-tabler-triangle' width='24' height='24' viewBox='0 0 24 24' stroke-width='2' stroke='currentColor' fill='none' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath stroke='none' d='M0 0h24v24H0z' fill='none'/%3E%3Cpath d='M10.363 3.591l-8.106 13.534a1.914 1.914 0 0 0 1.636 2.871h16.214a1.914 1.914 0 0 0 1.636 -2.87l-8.106 -13.536a1.914 1.914 0 0 0 -3.274 0z' /%3E%3C/svg%3E",
 		inputs: [
 			{
 				name: "title",
@@ -2669,26 +2612,7 @@ Builder?.registerComponent(
 				defaultValue: "Let's Talk Now",
 				required: true,
 			},
-			// {
-			// 	name: "description",
-			// 	type: "text",
-			// 	defaultValue:
-			// 		"You can find my source code at: https://github.com/BuilderIO/blog-example/blob/main/components/Card.js",
-			// 	required: true,
-			// },
-			// {
-			// 	name: "imgSrc",
-			// 	defaultValue:
-			// 		"https://cdn.builder.io/api/v1/image/assets%2Fccda6c7abf4c4b8195aa67d47de420dd%2F784e7fa828bd440391e222589df3968c",
-			// 	friendlyName: "image",
-			// 	type: "file",
-			// 	allowedFileTypes: ["png", "jpg", "webp"],
-			// },
-			// {
-			// 	name: "href",
-			// 	friendlyName: "link",
-			// 	type: "url",
-			// },
+			
 		],
 	}
 );
@@ -2697,7 +2621,7 @@ Builder?.registerComponent(
 	{
 		name: "masonry-4-column/Hero",
 		image:
-			"https://tabler-icons.io/static/tabler-icons/icons-png/triangle-filled.png",
+			"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='icon icon-tabler icon-tabler-triangle-filled' width='24' height='24' viewBox='0 0 24 24' stroke-width='2' stroke='currentColor' fill='none' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath stroke='none' d='M0 0h24v24H0z' fill='none'/%3E%3Cpath d='M12 1.67a2.914 2.914 0 0 0 -2.492 1.403l-8.11 13.537a2.914 2.914 0 0 0 2.484 4.385h16.225a2.914 2.914 0 0 0 2.503 -4.371l-8.116 -13.546a2.917 2.917 0 0 0 -2.494 -1.408z' stroke-width='0' fill='currentColor' /%3E%3C/svg%3E",
 		inputs: [
 			{
 				name: "title",
@@ -2732,7 +2656,7 @@ Builder?.registerComponent(
 	{
 		name: "masonry-4-column/Works",
 		image:
-			"https://tabler-icons.io/static/tabler-icons/icons-png/triangle-filled.png",
+			"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='icon icon-tabler icon-tabler-triangle-filled' width='24' height='24' viewBox='0 0 24 24' stroke-width='2' stroke='currentColor' fill='none' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath stroke='none' d='M0 0h24v24H0z' fill='none'/%3E%3Cpath d='M12 1.67a2.914 2.914 0 0 0 -2.492 1.403l-8.11 13.537a2.914 2.914 0 0 0 2.484 4.385h16.225a2.914 2.914 0 0 0 2.503 -4.371l-8.116 -13.546a2.917 2.917 0 0 0 -2.494 -1.408z' stroke-width='0' fill='currentColor' /%3E%3C/svg%3E",
 		inputs: [
 			{
 				name: "label1",
@@ -2949,7 +2873,7 @@ Builder?.registerComponent(
 	{
 		name: "masonry-4-column/Contact",
 		image:
-			"https://tabler-icons.io/static/tabler-icons/icons-png/triangle-filled.png",
+			"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='icon icon-tabler icon-tabler-triangle-filled' width='24' height='24' viewBox='0 0 24 24' stroke-width='2' stroke='currentColor' fill='none' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath stroke='none' d='M0 0h24v24H0z' fill='none'/%3E%3Cpath d='M12 1.67a2.914 2.914 0 0 0 -2.492 1.403l-8.11 13.537a2.914 2.914 0 0 0 2.484 4.385h16.225a2.914 2.914 0 0 0 2.503 -4.371l-8.116 -13.546a2.917 2.917 0 0 0 -2.494 -1.408z' stroke-width='0' fill='currentColor' /%3E%3C/svg%3E",
 		inputs: [
 			{
 				name: "title",
@@ -2963,26 +2887,7 @@ Builder?.registerComponent(
 				defaultValue: "Let's Talk Now",
 				required: true,
 			},
-			// {
-			// 	name: "description",
-			// 	type: "text",
-			// 	defaultValue:
-			// 		"You can find my source code at: https://github.com/BuilderIO/blog-example/blob/main/components/Card.js",
-			// 	required: true,
-			// },
-			// {
-			// 	name: "imgSrc",
-			// 	defaultValue:
-			// 		"https://cdn.builder.io/api/v1/image/assets%2Fccda6c7abf4c4b8195aa67d47de420dd%2F784e7fa828bd440391e222589df3968c",
-			// 	friendlyName: "image",
-			// 	type: "file",
-			// 	allowedFileTypes: ["png", "jpg", "webp"],
-			// },
-			// {
-			// 	name: "href",
-			// 	friendlyName: "link",
-			// 	type: "url",
-			// },
+			
 		],
 	}
 );
@@ -2991,7 +2896,7 @@ Builder?.registerComponent(
 	{
 		name: "masonry-4-column-fluid/Hero",
 		image:
-			"https://tabler-icons.io/static/tabler-icons/icons-png/brand-flipboard.png",
+			"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='icon icon-tabler icon-tabler-brand-flipboard' width='24' height='24' viewBox='0 0 24 24' stroke-width='2' stroke='currentColor' fill='none' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath stroke='none' d='M0 0h24v24H0z' fill='none'/%3E%3Cpath d='M3.973 3h16.054c.537 0 .973 .436 .973 .973v4.052a.973 .973 0 0 1 -.973 .973h-5.025v4.831c0 .648 -.525 1.173 -1.173 1.173h-4.829v5.025a.973 .973 0 0 1 -.974 .973h-4.053a.973 .973 0 0 1 -.973 -.973v-16.054c0 -.537 .436 -.973 .973 -.973z' /%3E%3C/svg%3E",
 		inputs: [
 			{
 				name: "title",
@@ -3038,7 +2943,7 @@ Builder?.registerComponent(
 	{
 		name: "masonry-4-column-fluid/Works",
 		image:
-			"https://tabler-icons.io/static/tabler-icons/icons-png/brand-flipboard.png",
+			"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='icon icon-tabler icon-tabler-brand-flipboard' width='24' height='24' viewBox='0 0 24 24' stroke-width='2' stroke='currentColor' fill='none' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath stroke='none' d='M0 0h24v24H0z' fill='none'/%3E%3Cpath d='M3.973 3h16.054c.537 0 .973 .436 .973 .973v4.052a.973 .973 0 0 1 -.973 .973h-5.025v4.831c0 .648 -.525 1.173 -1.173 1.173h-4.829v5.025a.973 .973 0 0 1 -.974 .973h-4.053a.973 .973 0 0 1 -.973 -.973v-16.054c0 -.537 .436 -.973 .973 -.973z' /%3E%3C/svg%3E",
 		inputs: [
 			{
 				name: "label1",
@@ -3255,7 +3160,7 @@ Builder?.registerComponent(
 	{
 		name: "masonry-4-column-fluid/Contact",
 		image:
-			"https://tabler-icons.io/static/tabler-icons/icons-png/brand-flipboard.png",
+			"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='icon icon-tabler icon-tabler-brand-flipboard' width='24' height='24' viewBox='0 0 24 24' stroke-width='2' stroke='currentColor' fill='none' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath stroke='none' d='M0 0h24v24H0z' fill='none'/%3E%3Cpath d='M3.973 3h16.054c.537 0 .973 .436 .973 .973v4.052a.973 .973 0 0 1 -.973 .973h-5.025v4.831c0 .648 -.525 1.173 -1.173 1.173h-4.829v5.025a.973 .973 0 0 1 -.974 .973h-4.053a.973 .973 0 0 1 -.973 -.973v-16.054c0 -.537 .436 -.973 .973 -.973z' /%3E%3C/svg%3E",
 		inputs: [
 			{
 				name: "title",
@@ -3269,19 +3174,7 @@ Builder?.registerComponent(
 				defaultValue: "Let's Talk Now",
 				required: true,
 			},
-			// {
-			// 	name: "imgSrc",
-			// 	defaultValue:
-			// 		"https://cdn.builder.io/api/v1/image/assets%2Fccda6c7abf4c4b8195aa67d47de420dd%2F784e7fa828bd440391e222589df3968c",
-			// 	friendlyName: "image",
-			// 	type: "file",
-			// 	allowedFileTypes: ["png", "jpg", "webp"],
-			// },
-			// {
-			// 	name: "href",
-			// 	friendlyName: "link",
-			// 	type: "url",
-			// },
+		
 		],
 	}
 );
@@ -3290,7 +3183,7 @@ Builder?.registerComponent(
 	{
 		name: "grid-2/Hero.js",
 		image:
-			"https://tabler-icons.io/static/tabler-icons/icons-png/grid-goldenratio.png",
+			"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='icon icon-tabler icon-tabler-grid-goldenratio' width='24' height='24' viewBox='0 0 24 24' stroke-width='2' stroke='currentColor' fill='none' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath stroke='none' d='M0 0h24v24H0z' fill='none'/%3E%3Cpath d='M3 10h18' /%3E%3Cpath d='M3 14h18' /%3E%3Cpath d='M10 3v18' /%3E%3Cpath d='M14 3v18' /%3E%3C/svg%3E",
 		inputs: [
 			{
 				name: "title",
@@ -3310,19 +3203,7 @@ Builder?.registerComponent(
 				defaultValue: "Let's Discuss",
 				required: true,
 			},
-			// {
-			// 	name: "imgSrc",
-			// 	defaultValue:
-			// 		"https://cdn.builder.io/api/v1/image/assets%2Fccda6c7abf4c4b8195aa67d47de420dd%2F784e7fa828bd440391e222589df3968c",
-			// 	friendlyName: "image",
-			// 	type: "file",
-			// 	allowedFileTypes: ["png", "jpg", "webp"],
-			// },
-			// {
-			// 	name: "href",
-			// 	friendlyName: "link",
-			// 	type: "url",
-			// },
+			
 		],
 	}
 );
@@ -3331,7 +3212,7 @@ Builder?.registerComponent(
 	{
 		name: "grid-2/Works",
 		image:
-			"https://tabler-icons.io/static/tabler-icons/icons-png/grid-goldenratio.png",
+			"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='icon icon-tabler icon-tabler-grid-goldenratio' width='24' height='24' viewBox='0 0 24 24' stroke-width='2' stroke='currentColor' fill='none' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath stroke='none' d='M0 0h24v24H0z' fill='none'/%3E%3Cpath d='M3 10h18' /%3E%3Cpath d='M3 14h18' /%3E%3Cpath d='M10 3v18' /%3E%3Cpath d='M14 3v18' /%3E%3C/svg%3E",
 		inputs: [
 			{
 				name: "label1",
@@ -3508,19 +3389,6 @@ Builder?.registerComponent(
 				required: true,
 			},
 
-			// {
-			// 	name: "imgSrc",
-			// 	defaultValue:
-			// 		"https://cdn.builder.io/api/v1/image/assets%2Fccda6c7abf4c4b8195aa67d47de420dd%2F784e7fa828bd440391e222589df3968c",
-			// 	friendlyName: "image",
-			// 	type: "file",
-			// 	allowedFileTypes: ["png", "jpg", "webp"],
-			// },
-			// {
-			// 	name: "href",
-			// 	friendlyName: "link",
-			// 	type: "url",
-			// },
 		],
 	}
 );
@@ -3529,7 +3397,7 @@ Builder?.registerComponent(
 	dynamic(() => import("../sections/grid-3/Hero.js")),
 	{
 		name: "grid-3/Hero.js",
-		image: "https://tabler-icons.io/static/tabler-icons/icons-png/grid-3x3.png",
+		image: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='icon icon-tabler icon-tabler-grid-3x3' width='24' height='24' viewBox='0 0 24 24' stroke-width='2' stroke='currentColor' fill='none' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath stroke='none' d='M0 0h24v24H0z' fill='none'/%3E%3Cpath d='M3 8h18' /%3E%3Cpath d='M3 16h18' /%3E%3Cpath d='M8 3v18' /%3E%3Cpath d='M16 3v18' /%3E%3C/svg%3E",
 		inputs: [
 			{
 				name: "title",
@@ -3569,7 +3437,7 @@ Builder?.registerComponent(
 	dynamic(() => import("../sections/grid-3/Works.js")),
 	{
 		name: "grid-3/Works",
-		image: "https://tabler-icons.io/static/tabler-icons/icons-png/grid-3x3.png",
+		image: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='icon icon-tabler icon-tabler-grid-3x3' width='24' height='24' viewBox='0 0 24 24' stroke-width='2' stroke='currentColor' fill='none' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath stroke='none' d='M0 0h24v24H0z' fill='none'/%3E%3Cpath d='M3 8h18' /%3E%3Cpath d='M3 16h18' /%3E%3Cpath d='M8 3v18' /%3E%3Cpath d='M16 3v18' /%3E%3C/svg%3E",
 		inputs: [
 			{
 				name: "label1",
@@ -3766,7 +3634,7 @@ Builder?.registerComponent(
 	dynamic(() => import("../sections/grid-3-fluid/Hero.js")),
 	{
 		name: "grid-3-fluid/Hero.js",
-		image: "https://tabler-icons.io/static/tabler-icons/icons-png/grid-4x4.png",
+		image: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='icon icon-tabler icon-tabler-grid-4x4' width='24' height='24' viewBox='0 0 24 24' stroke-width='2' stroke='currentColor' fill='none' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath stroke='none' d='M0 0h24v24H0z' fill='none'/%3E%3Cpath d='M3 6h18' /%3E%3Cpath d='M3 12h18' /%3E%3Cpath d='M3 18h18' /%3E%3Cpath d='M6 3v18' /%3E%3Cpath d='M12 3v18' /%3E%3Cpath d='M18 3v18' /%3E%3C/svg%3E",
 		inputs: [
 			{
 				name: "title",
@@ -3813,7 +3681,7 @@ Builder?.registerComponent(
 	dynamic(() => import("../sections/grid-3-fluid/Works.js")),
 	{
 		name: "grid-3-fluid/Works",
-		image: "https://tabler-icons.io/static/tabler-icons/icons-png/grid-4x4.png",
+		image: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='icon icon-tabler icon-tabler-grid-4x4' width='24' height='24' viewBox='0 0 24 24' stroke-width='2' stroke='currentColor' fill='none' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath stroke='none' d='M0 0h24v24H0z' fill='none'/%3E%3Cpath d='M3 6h18' /%3E%3Cpath d='M3 12h18' /%3E%3Cpath d='M3 18h18' /%3E%3Cpath d='M6 3v18' /%3E%3Cpath d='M12 3v18' /%3E%3Cpath d='M18 3v18' /%3E%3C/svg%3E",
 		inputs: [
 			{
 				name: "label1",
@@ -4011,7 +3879,7 @@ Builder?.registerComponent(
 	{
 		name: "grid-4/Hero.js",
 		image:
-			"https://tabler-icons.io/static/tabler-icons/icons-png/grid-dots.png",
+			"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='icon icon-tabler icon-tabler-grid-dots' width='24' height='24' viewBox='0 0 24 24' stroke-width='2' stroke='currentColor' fill='none' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath stroke='none' d='M0 0h24v24H0z' fill='none'/%3E%3Cpath d='M5 5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0' /%3E%3Cpath d='M12 5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0' /%3E%3Cpath d='M19 5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0' /%3E%3Cpath d='M5 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0' /%3E%3Cpath d='M12 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0' /%3E%3Cpath d='M19 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0' /%3E%3Cpath d='M5 19m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0' /%3E%3Cpath d='M12 19m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0' /%3E%3Cpath d='M19 19m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0' /%3E%3C/svg%3E",
 		inputs: [
 			{
 				name: "title",
@@ -4032,19 +3900,7 @@ Builder?.registerComponent(
 				defaultValue: "Explore works",
 				required: true,
 			},
-			// {
-			// 	name: "imgSrc",
-			// 	defaultValue:
-			// 		"https://cdn.builder.io/api/v1/image/assets%2Fccda6c7abf4c4b8195aa67d47de420dd%2F784e7fa828bd440391e222589df3968c",
-			// 	friendlyName: "image",
-			// 	type: "file",
-			// 	allowedFileTypes: ["png", "jpg", "webp"],
-			// },
-			// {
-			// 	name: "href",
-			// 	friendlyName: "link",
-			// 	type: "url",
-			// },
+			
 		],
 	}
 );
@@ -4053,7 +3909,7 @@ Builder?.registerComponent(
 	{
 		name: "grid-4/Works",
 		image:
-			"https://tabler-icons.io/static/tabler-icons/icons-png/grid-dots.png",
+			"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='icon icon-tabler icon-tabler-grid-dots' width='24' height='24' viewBox='0 0 24 24' stroke-width='2' stroke='currentColor' fill='none' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath stroke='none' d='M0 0h24v24H0z' fill='none'/%3E%3Cpath d='M5 5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0' /%3E%3Cpath d='M12 5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0' /%3E%3Cpath d='M19 5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0' /%3E%3Cpath d='M5 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0' /%3E%3Cpath d='M12 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0' /%3E%3Cpath d='M19 12m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0' /%3E%3Cpath d='M5 19m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0' /%3E%3Cpath d='M12 19m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0' /%3E%3Cpath d='M19 19m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0' /%3E%3C/svg%3E",
 		inputs: [
 			{
 				name: "label1",
@@ -4251,7 +4107,7 @@ Builder?.registerComponent(
 	{
 		name: "grid-4-fluid/Hero.js",
 		image:
-			"https://tabler-icons.io/static/tabler-icons/icons-png/layout-grid.png",
+			"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='icon icon-tabler icon-tabler-layout-grid' width='24' height='24' viewBox='0 0 24 24' stroke-width='2' stroke='currentColor' fill='none' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath stroke='none' d='M0 0h24v24H0z' fill='none'/%3E%3Cpath d='M4 4m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z' /%3E%3Cpath d='M14 4m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z' /%3E%3Cpath d='M4 14m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z' /%3E%3Cpath d='M14 14m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z' /%3E%3C/svg%3E",
 		inputs: [
 			{
 				name: "title",
@@ -4287,7 +4143,7 @@ Builder?.registerComponent(
 	{
 		name: "grid-4-fluid/Works",
 		image:
-			"https://tabler-icons.io/static/tabler-icons/icons-png/layout-grid.png",
+			"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='icon icon-tabler icon-tabler-layout-grid' width='24' height='24' viewBox='0 0 24 24' stroke-width='2' stroke='currentColor' fill='none' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath stroke='none' d='M0 0h24v24H0z' fill='none'/%3E%3Cpath d='M4 4m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z' /%3E%3Cpath d='M14 4m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z' /%3E%3Cpath d='M4 14m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z' /%3E%3Cpath d='M14 14m0 1a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z' /%3E%3C/svg%3E",
 		inputs: [
 			{
 				name: "label1",
@@ -4484,7 +4340,7 @@ Builder?.registerComponent(
 	{
 		name: "grid-3",
 		image:
-			"https://tabler-icons.io/static/tabler-icons/icons-png/grip-horizontal.png",
+			"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='icon icon-tabler icon-tabler-grip-horizontal' width='24' height='24' viewBox='0 0 24 24' stroke-width='2' stroke='currentColor' fill='none' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath stroke='none' d='M0 0h24v24H0z' fill='none'/%3E%3Cpath d='M5 9m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0' /%3E%3Cpath d='M5 15m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0' /%3E%3Cpath d='M12 9m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0' /%3E%3Cpath d='M12 15m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0' /%3E%3Cpath d='M19 9m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0' /%3E%3Cpath d='M19 15m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0' /%3E%3C/svg%3E",
 		// inputs: [
 		// 	{
 		// 		name: "title",
@@ -4520,35 +4376,8 @@ Builder?.registerComponent(
 	{
 		name: "grid-2",
 		image:
-			"https://tabler-icons.io/static/tabler-icons/icons-png/grip-horizontal.png",
-		// inputs: [
-		// 	{
-		// 		name: "title",
-		// 		type: "string",
-		// 		required: true,
-		// 		defaultValue: "I am a React + Tailwind component!",
-		// 	},
-		// 	{
-		// 		name: "description",
-		// 		type: "text",
-		// 		defaultValue:
-		// 			"You can find my source code at: https://github.com/BuilderIO/blog-example/blob/main/components/Card.js",
-		// 		required: true,
-		// 	},
-		// 	{
-		// 		name: "imgSrc",
-		// 		defaultValue:
-		// 			"https://cdn.builder.io/api/v1/image/assets%2Fccda6c7abf4c4b8195aa67d47de420dd%2F784e7fa828bd440391e222589df3968c",
-		// 		friendlyName: "image",
-		// 		type: "file",
-		// 		allowedFileTypes: ["png", "jpg", "webp"],
-		// 	},
-		// 	{
-		// 		name: "href",
-		// 		friendlyName: "link",
-		// 		type: "url",
-		// 	},
-		// ],
+			"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='icon icon-tabler icon-tabler-grip-horizontal' width='24' height='24' viewBox='0 0 24 24' stroke-width='2' stroke='currentColor' fill='none' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath stroke='none' d='M0 0h24v24H0z' fill='none'/%3E%3Cpath d='M5 9m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0' /%3E%3Cpath d='M5 15m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0' /%3E%3Cpath d='M12 9m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0' /%3E%3Cpath d='M12 15m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0' /%3E%3Cpath d='M19 9m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0' /%3E%3Cpath d='M19 15m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0' /%3E%3C/svg%3E",
+		
 	}
 );
 Builder?.registerComponent(
@@ -4556,42 +4385,15 @@ Builder?.registerComponent(
 	{
 		name: "contact",
 		image:
-			"https://tabler-icons.io/static/tabler-icons/icons-png/address-book.png",
-		// inputs: [
-		// 	{
-		// 		name: "title",
-		// 		type: "string",
-		// 		required: true,
-		// 		defaultValue: "I am a React + Tailwind component!",
-		// 	},
-		// 	{
-		// 		name: "description",
-		// 		type: "text",
-		// 		defaultValue:
-		// 			"You can find my source code at: https://github.com/BuilderIO/blog-example/blob/main/components/Card.js",
-		// 		required: true,
-		// 	},
-		// 	{
-		// 		name: "imgSrc",
-		// 		defaultValue:
-		// 			"https://cdn.builder.io/api/v1/image/assets%2Fccda6c7abf4c4b8195aa67d47de420dd%2F784e7fa828bd440391e222589df3968c",
-		// 		friendlyName: "image",
-		// 		type: "file",
-		// 		allowedFileTypes: ["png", "jpg", "webp"],
-		// 	},
-		// 	{
-		// 		name: "href",
-		// 		friendlyName: "link",
-		// 		type: "url",
-		// 	},
-		// ],
+			"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='icon icon-tabler icon-tabler-grip-horizontal' width='24' height='24' viewBox='0 0 24 24' stroke-width='2' stroke='currentColor' fill='none' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath stroke='none' d='M0 0h24v24H0z' fill='none'/%3E%3Cpath d='M5 9m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0' /%3E%3Cpath d='M5 15m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0' /%3E%3Cpath d='M12 9m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0' /%3E%3Cpath d='M12 15m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0' /%3E%3Cpath d='M19 9m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0' /%3E%3Cpath d='M19 15m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0' /%3E%3C/svg%3E",
+		
 	}
 );
 Builder?.registerComponent(
 	dynamic(() => import("../components/builder/about.js")),
 	{
 		name: "about",
-		image: "https://tabler-icons.io/static/tabler-icons/icons-png/tilde.png",
+		image: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='icon icon-tabler icon-tabler-tilde' width='24' height='24' viewBox='0 0 24 24' stroke-width='2' stroke='currentColor' fill='none' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath stroke='none' d='M0 0h24v24H0z' fill='none'/%3E%3Cpath d='M4 12c0 -1.657 1.592 -3 3.556 -3c1.963 0 3.11 1.5 4.444 3c1.333 1.5 2.48 3 4.444 3s3.556 -1.343 3.556 -3' /%3E%3C/svg%3E",
 		inputs: [
 			{
 				name: "title",
@@ -4627,7 +4429,7 @@ Builder?.registerComponent(
 	{
 		name: "agency-1",
 		image:
-			"https://tabler-icons.io/static/tabler-icons/icons-png/components.png",
+			"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='icon icon-tabler icon-tabler-components' width='24' height='24' viewBox='0 0 24 24' stroke-width='2' stroke='currentColor' fill='none' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath stroke='none' d='M0 0h24v24H0z' fill='none'/%3E%3Cpath d='M3 12l3 3l3 -3l-3 -3z' /%3E%3Cpath d='M15 12l3 3l3 -3l-3 -3z' /%3E%3Cpath d='M9 6l3 3l3 -3l-3 -3z' /%3E%3Cpath d='M9 18l3 3l3 -3l-3 -3z' /%3E%3C/svg%3E",
 		inputs: [
 			{
 				name: "title",
@@ -4663,7 +4465,7 @@ Builder?.registerComponent(
 	{
 		name: "agency-2",
 		image:
-			"https://tabler-icons.io/static/tabler-icons/icons-png/brand-amd.png",
+			"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='icon icon-tabler icon-tabler-components' width='24' height='24' viewBox='0 0 24 24' stroke-width='2' stroke='currentColor' fill='none' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath stroke='none' d='M0 0h24v24H0z' fill='none'/%3E%3Cpath d='M3 12l3 3l3 -3l-3 -3z' /%3E%3Cpath d='M15 12l3 3l3 -3l-3 -3z' /%3E%3Cpath d='M9 6l3 3l3 -3l-3 -3z' /%3E%3Cpath d='M9 18l3 3l3 -3l-3 -3z' /%3E%3C/svg%3E",
 		inputs: [
 			{
 				name: "title",
@@ -4698,7 +4500,7 @@ Builder?.registerComponent(
 	dynamic(() => import("../components/builder/designer-2.js")),
 	{
 		name: "designer-2",
-		image: "https://tabler-icons.io/static/tabler-icons/icons-png/keyframe.png",
+		image: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='icon icon-tabler icon-tabler-keyframe' width='24' height='24' viewBox='0 0 24 24' stroke-width='2' stroke='currentColor' fill='none' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath stroke='none' d='M0 0h24v24H0z' fill='none'/%3E%3Cpath d='M13.225 18.412a1.595 1.595 0 0 1 -1.225 .588c-.468 0 -.914 -.214 -1.225 -.588l-4.361 -5.248a1.844 1.844 0 0 1 0 -2.328l4.361 -5.248a1.595 1.595 0 0 1 1.225 -.588c.468 0 .914 .214 1.225 .588l4.361 5.248a1.844 1.844 0 0 1 0 2.328l-4.361 5.248z' /%3E%3C/svg%3E",
 		inputs: [
 			{
 				name: "title",
@@ -4733,7 +4535,7 @@ Builder?.registerComponent(
 	dynamic(() => import("../components/builder/devloper-2.js")),
 	{
 		name: "devloper-2",
-		image: "https://tabler-icons.io/static/tabler-icons/icons-png/api-app.png",
+		image: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='icon icon-tabler icon-tabler-keyframe' width='24' height='24' viewBox='0 0 24 24' stroke-width='2' stroke='currentColor' fill='none' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath stroke='none' d='M0 0h24v24H0z' fill='none'/%3E%3Cpath d='M13.225 18.412a1.595 1.595 0 0 1 -1.225 .588c-.468 0 -.914 -.214 -1.225 -.588l-4.361 -5.248a1.844 1.844 0 0 1 0 -2.328l4.361 -5.248a1.595 1.595 0 0 1 1.225 -.588c.468 0 .914 .214 1.225 .588l4.361 5.248a1.844 1.844 0 0 1 0 2.328l-4.361 5.248z' /%3E%3C/svg%3E",
 		inputs: [
 			{
 				name: "title",
@@ -4769,7 +4571,7 @@ Builder?.registerComponent(
 	{
 		name: "devloper-1",
 		image:
-			"https://tabler-icons.io/static/tabler-icons/icons-png/brand-kotlin.png",
+			"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='icon icon-tabler icon-tabler-keyframe' width='24' height='24' viewBox='0 0 24 24' stroke-width='2' stroke='currentColor' fill='none' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath stroke='none' d='M0 0h24v24H0z' fill='none'/%3E%3Cpath d='M13.225 18.412a1.595 1.595 0 0 1 -1.225 .588c-.468 0 -.914 -.214 -1.225 -.588l-4.361 -5.248a1.844 1.844 0 0 1 0 -2.328l4.361 -5.248a1.595 1.595 0 0 1 1.225 -.588c.468 0 .914 .214 1.225 .588l4.361 5.248a1.844 1.844 0 0 1 0 2.328l-4.361 5.248z' /%3E%3C/svg%3E",
 		inputs: [
 			{
 				name: "title",
@@ -4805,7 +4607,7 @@ Builder?.registerComponent(
 	{
 		name: "grid-3-fluid",
 		image:
-			"https://tabler-icons.io/static/tabler-icons/icons-png/grid-pattern.png",
+			"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='icon icon-tabler icon-tabler-keyframe' width='24' height='24' viewBox='0 0 24 24' stroke-width='2' stroke='currentColor' fill='none' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath stroke='none' d='M0 0h24v24H0z' fill='none'/%3E%3Cpath d='M13.225 18.412a1.595 1.595 0 0 1 -1.225 .588c-.468 0 -.914 -.214 -1.225 -.588l-4.361 -5.248a1.844 1.844 0 0 1 0 -2.328l4.361 -5.248a1.595 1.595 0 0 1 1.225 -.588c.468 0 .914 .214 1.225 .588l4.361 5.248a1.844 1.844 0 0 1 0 2.328l-4.361 5.248z' /%3E%3C/svg%3E",
 		inputs: [
 			{
 				name: "title",
@@ -4841,7 +4643,7 @@ Builder?.registerComponent(
 	{
 		name: "grid-4-fluid",
 		image:
-			"https://tabler-icons.io/static/tabler-icons/icons-png/chart-grid-dots-filled.png",
+			"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='icon icon-tabler icon-tabler-keyframe' width='24' height='24' viewBox='0 0 24 24' stroke-width='2' stroke='currentColor' fill='none' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath stroke='none' d='M0 0h24v24H0z' fill='none'/%3E%3Cpath d='M13.225 18.412a1.595 1.595 0 0 1 -1.225 .588c-.468 0 -.914 -.214 -1.225 -.588l-4.361 -5.248a1.844 1.844 0 0 1 0 -2.328l4.361 -5.248a1.595 1.595 0 0 1 1.225 -.588c.468 0 .914 .214 1.225 .588l4.361 5.248a1.844 1.844 0 0 1 0 2.328l-4.361 5.248z' /%3E%3C/svg%3E",
 		inputs: [
 			{
 				name: "title",
@@ -4877,7 +4679,7 @@ Builder?.registerComponent(
 	{
 		name: "grid-4",
 		image:
-			"https://tabler-icons.io/static/tabler-icons/icons-png/table-filled.png",
+			"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='icon icon-tabler icon-tabler-keyframe' width='24' height='24' viewBox='0 0 24 24' stroke-width='2' stroke='currentColor' fill='none' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath stroke='none' d='M0 0h24v24H0z' fill='none'/%3E%3Cpath d='M13.225 18.412a1.595 1.595 0 0 1 -1.225 .588c-.468 0 -.914 -.214 -1.225 -.588l-4.361 -5.248a1.844 1.844 0 0 1 0 -2.328l4.361 -5.248a1.595 1.595 0 0 1 1.225 -.588c.468 0 .914 .214 1.225 .588l4.361 5.248a1.844 1.844 0 0 1 0 2.328l-4.361 5.248z' /%3E%3C/svg%3E",
 		inputs: [
 			{
 				name: "title",
@@ -4913,7 +4715,7 @@ Builder?.registerComponent(
 	{
 		name: "masonry-2-column",
 		image:
-			"https://tabler-icons.io/static/tabler-icons/icons-png/border-bottom.png",
+			"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='icon icon-tabler icon-tabler-keyframe' width='24' height='24' viewBox='0 0 24 24' stroke-width='2' stroke='currentColor' fill='none' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath stroke='none' d='M0 0h24v24H0z' fill='none'/%3E%3Cpath d='M13.225 18.412a1.595 1.595 0 0 1 -1.225 .588c-.468 0 -.914 -.214 -1.225 -.588l-4.361 -5.248a1.844 1.844 0 0 1 0 -2.328l4.361 -5.248a1.595 1.595 0 0 1 1.225 -.588c.468 0 .914 .214 1.225 .588l4.361 5.248a1.844 1.844 0 0 1 0 2.328l-4.361 5.248z' /%3E%3C/svg%3E",
 		inputs: [
 			{
 				name: "title",
@@ -4949,7 +4751,7 @@ Builder?.registerComponent(
 	{
 		name: "masonry-3-column-fluid",
 		image:
-			"https://tabler-icons.io/static/tabler-icons/icons-png/device-tablet.png",
+			"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='icon icon-tabler icon-tabler-keyframe' width='24' height='24' viewBox='0 0 24 24' stroke-width='2' stroke='currentColor' fill='none' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath stroke='none' d='M0 0h24v24H0z' fill='none'/%3E%3Cpath d='M13.225 18.412a1.595 1.595 0 0 1 -1.225 .588c-.468 0 -.914 -.214 -1.225 -.588l-4.361 -5.248a1.844 1.844 0 0 1 0 -2.328l4.361 -5.248a1.595 1.595 0 0 1 1.225 -.588c.468 0 .914 .214 1.225 .588l4.361 5.248a1.844 1.844 0 0 1 0 2.328l-4.361 5.248z' /%3E%3C/svg%3E",
 		inputs: [
 			{
 				name: "title",
@@ -4985,7 +4787,7 @@ Builder?.registerComponent(
 	{
 		name: "masonry-3-column",
 		image:
-			"https://tabler-icons.io/static/tabler-icons/icons-png/box-model.png",
+			"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='icon icon-tabler icon-tabler-keyframe' width='24' height='24' viewBox='0 0 24 24' stroke-width='2' stroke='currentColor' fill='none' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath stroke='none' d='M0 0h24v24H0z' fill='none'/%3E%3Cpath d='M13.225 18.412a1.595 1.595 0 0 1 -1.225 .588c-.468 0 -.914 -.214 -1.225 -.588l-4.361 -5.248a1.844 1.844 0 0 1 0 -2.328l4.361 -5.248a1.595 1.595 0 0 1 1.225 -.588c.468 0 .914 .214 1.225 .588l4.361 5.248a1.844 1.844 0 0 1 0 2.328l-4.361 5.248z' /%3E%3C/svg%3E",
 		inputs: [
 			{
 				name: "title",
@@ -5021,7 +4823,7 @@ Builder?.registerComponent(
 	{
 		name: "masonry-4-column-fluid",
 		image:
-			"https://tabler-icons.io/static/tabler-icons/icons-png/brand-codesandbox.png",
+			"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='icon icon-tabler icon-tabler-keyframe' width='24' height='24' viewBox='0 0 24 24' stroke-width='2' stroke='currentColor' fill='none' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath stroke='none' d='M0 0h24v24H0z' fill='none'/%3E%3Cpath d='M13.225 18.412a1.595 1.595 0 0 1 -1.225 .588c-.468 0 -.914 -.214 -1.225 -.588l-4.361 -5.248a1.844 1.844 0 0 1 0 -2.328l4.361 -5.248a1.595 1.595 0 0 1 1.225 -.588c.468 0 .914 .214 1.225 .588l4.361 5.248a1.844 1.844 0 0 1 0 2.328l-4.361 5.248z' /%3E%3C/svg%3E",
 		inputs: [
 			{
 				name: "title",
@@ -5057,7 +4859,7 @@ Builder?.registerComponent(
 	{
 		name: "masonry-4-column",
 		image:
-			"https://tabler-icons.io/static/tabler-icons/icons-png/brand-bulma.png",
+			"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='icon icon-tabler icon-tabler-keyframe' width='24' height='24' viewBox='0 0 24 24' stroke-width='2' stroke='currentColor' fill='none' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath stroke='none' d='M0 0h24v24H0z' fill='none'/%3E%3Cpath d='M13.225 18.412a1.595 1.595 0 0 1 -1.225 .588c-.468 0 -.914 -.214 -1.225 -.588l-4.361 -5.248a1.844 1.844 0 0 1 0 -2.328l4.361 -5.248a1.595 1.595 0 0 1 1.225 -.588c.468 0 .914 .214 1.225 .588l4.361 5.248a1.844 1.844 0 0 1 0 2.328l-4.361 5.248z' /%3E%3C/svg%3E",
 		inputs: [
 			{
 				name: "title",
@@ -5093,7 +4895,7 @@ Builder?.registerComponent(
 	{
 		name: "photography-1",
 		image:
-			"https://tabler-icons.io/static/tabler-icons/icons-png/keyframes-filled.png",
+			"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='icon icon-tabler icon-tabler-keyframe' width='24' height='24' viewBox='0 0 24 24' stroke-width='2' stroke='currentColor' fill='none' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath stroke='none' d='M0 0h24v24H0z' fill='none'/%3E%3Cpath d='M13.225 18.412a1.595 1.595 0 0 1 -1.225 .588c-.468 0 -.914 -.214 -1.225 -.588l-4.361 -5.248a1.844 1.844 0 0 1 0 -2.328l4.361 -5.248a1.595 1.595 0 0 1 1.225 -.588c.468 0 .914 .214 1.225 .588l4.361 5.248a1.844 1.844 0 0 1 0 2.328l-4.361 5.248z' /%3E%3C/svg%3E",
 		inputs: [
 			{
 				name: "title",
@@ -5129,7 +4931,7 @@ Builder?.registerComponent(
 	{
 		name: "photography-2",
 		image:
-			"https://tabler-icons.io/static/tabler-icons/icons-png/barrier-block.png",
+			"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='icon icon-tabler icon-tabler-keyframe' width='24' height='24' viewBox='0 0 24 24' stroke-width='2' stroke='currentColor' fill='none' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath stroke='none' d='M0 0h24v24H0z' fill='none'/%3E%3Cpath d='M13.225 18.412a1.595 1.595 0 0 1 -1.225 .588c-.468 0 -.914 -.214 -1.225 -.588l-4.361 -5.248a1.844 1.844 0 0 1 0 -2.328l4.361 -5.248a1.595 1.595 0 0 1 1.225 -.588c.468 0 .914 .214 1.225 .588l4.361 5.248a1.844 1.844 0 0 1 0 2.328l-4.361 5.248z' /%3E%3C/svg%3E",
 		inputs: [
 			{
 				name: "title",
@@ -5165,7 +4967,7 @@ Builder?.registerComponent(
 	{
 		name: "portfolio-details-2",
 		image:
-			"https://tabler-icons.io/static/tabler-icons/icons-png/radioactive-filled.png",
+			"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='icon icon-tabler icon-tabler-keyframe' width='24' height='24' viewBox='0 0 24 24' stroke-width='2' stroke='currentColor' fill='none' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath stroke='none' d='M0 0h24v24H0z' fill='none'/%3E%3Cpath d='M13.225 18.412a1.595 1.595 0 0 1 -1.225 .588c-.468 0 -.914 -.214 -1.225 -.588l-4.361 -5.248a1.844 1.844 0 0 1 0 -2.328l4.361 -5.248a1.595 1.595 0 0 1 1.225 -.588c.468 0 .914 .214 1.225 .588l4.361 5.248a1.844 1.844 0 0 1 0 2.328l-4.361 5.248z' /%3E%3C/svg%3E",
 		inputs: [
 			{
 				name: "title",
@@ -5200,7 +5002,7 @@ Builder?.registerComponent(
 	dynamic(() => import("../components/builder/portfolio-details.js")),
 	{
 		name: "portfolio-details",
-		image: "https://tabler-icons.io/static/tabler-icons/icons-png/ad-2.png",
+		image: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='icon icon-tabler icon-tabler-keyframe' width='24' height='24' viewBox='0 0 24 24' stroke-width='2' stroke='currentColor' fill='none' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath stroke='none' d='M0 0h24v24H0z' fill='none'/%3E%3Cpath d='M13.225 18.412a1.595 1.595 0 0 1 -1.225 .588c-.468 0 -.914 -.214 -1.225 -.588l-4.361 -5.248a1.844 1.844 0 0 1 0 -2.328l4.361 -5.248a1.595 1.595 0 0 1 1.225 -.588c.468 0 .914 .214 1.225 .588l4.361 5.248a1.844 1.844 0 0 1 0 2.328l-4.361 5.248z' /%3E%3C/svg%3E",
 		inputs: [
 			{
 				name: "title",
